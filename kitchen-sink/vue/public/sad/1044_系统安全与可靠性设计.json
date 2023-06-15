@@ -1,0 +1,2737 @@
+{
+    "msg": "成功",
+    "status": 0,
+    "data": {
+        "data": {
+            "question": [
+                {
+                    "index": 1,
+                    "belong_page": 1,
+                    "question_id": 4635,
+                    "question_title": "<p>随着业务的增长，信息系统的访问量和数据流量快速增加，采用负载均衡（Load&nbsp;Balance）方法可避免由此导致的系统性能下降甚至崩溃。以下关于负载均衡的叙述中，错误的是（）。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 4635,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p>考核负载均衡方面的知识。</p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " 负载均衡通常由服务器端安装的附加软件来实现 ",
+                        " 负载均衡并不会增加系统的吞吐量 ",
+                        " 负载均衡可在不同地理位置、不同网络结构的服务器群之间进行 ",
+                        " 负载均衡可使用户只通过一个IP地址或域名就能访问相应的服务器 "
+                    ]
+                },
+                {
+                    "index": 2,
+                    "belong_page": 1,
+                    "question_id": 43853,
+                    "question_title": "<p><br/></p><p><br/></p><p>信息系统访问控制机制中，&nbsp;（2） 是指对所有主体和客体都分配安全标签用来标识所属的安全级别，然后在访问控制执行时对主体和客体的安全级别进行比较，确定本次访问是否合法性的技术或方法。</p><p><br/></p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 43853,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p><br/></p><p><br/></p><p>访问控制授权方案有：</p><p>（1）自主访问控制（Discretionary Access Control，DAC），由客体的属主对自己的客体进行管理，由属主自己决定是否将自己的客体访问权或部分访问权授予其他主体，这种控制方式是自主的。也就是说，在自主访问控制下，用户可以按自己的意愿，有选择地与其他用户共享他的文件。</p><p>（2）强制访问控制（Mandatory Access Control——MAC），用于将系统中的信息分密级和类进行管理，以保证每个用户只能访问到那些被标明可以由他访问的信息的一种访问约束机制。通俗的来说，在强制访问控制下，用户（或其他主体）与文件（或其他客体）都被标记了固定的安全属性（如安全级、访问权限等），在每次访问发生时，系统检测安全属性以便确定一个用户是否有权访问该文件。</p><p>（3）基于角色的访问控制（<a href=\"http://baike.baidu.com/view/73432.htm\">RBAC</a>），基于角色的访问控制中，角色由应用系统的管理员定义。而且授权规定是强加给用户的，用户只能被动接受，不能自主地决定，这是一种非自主型访问控制。其基本思想是，对系统操作的各种权限不是直接授予具体的用户，而是在用户集合与权限集合之间建立一个角色集合。每一种角色对应一组相应的权限。一旦用户被分配了适当的角色后，该用户就拥有此角色的所有操作权限。</p><p><br/></p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " 自主访问控制&nbsp;&nbsp;&nbsp; ",
+                        " 强制访问控制 ",
+                        " 基于角色的访问控制&nbsp;&nbsp;&nbsp;&nbsp; ",
+                        " 基于组的访问控制 "
+                    ]
+                },
+                {
+                    "index": 3,
+                    "belong_page": 1,
+                    "question_id": 43855,
+                    "question_title": "<p><br/></p><p><br/></p><p>网络入侵检测系统和防火墙是两种典型的信息系统安全防御技术，下面关于入侵检测系统和防火墙的说法正确的是&nbsp;（4） 。</p><p><br/></p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 43855,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p><br/></p><p><br/></p><p>打个比喻：假如防火墙是一幢大厦的门锁，那么入侵检测系统就是这幢大厦里的监视系统。一旦小偷进入了大厦，或内部人员有越界行为，只有实时监视系统才能发现情况并发出警告，所以A是错误的，应该为入侵检测系统是防火墙之后的又一道防线，入侵检测系统可以发现防火墙没有发现的入侵行为。</p><p>选项C弄反了，防火墙可以允许内部的一些主机被外部访问，入侵检测系统则没有这些功能，只是监视和分析用户和系统活动。</p><p>选项D的错误很明显，防火墙和入侵检测系统都是一个独立的系统。</p><p><br/></p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " 防火墙是入侵检测系统之后的又一道防线，防火墙可以及时发现入侵检测系统没有发现的入侵行为 ",
+                        " 入侵检测系统通常是一个旁路监听设备，没有也不需要跨接在任何链路上，无须网络流量流经它便可以工作 ",
+                        " 入侵检测系统可以允许内部的一些主机被外部访问，而防火墙没有这些功能，只是监视和分析系统的活动 ",
+                        " 防火墙必须和安全审计系统联合使用才能达到应用目的，而入侵检测系统是一个独立的系统，不需要依赖防火墙和安全审计系统 "
+                    ]
+                },
+                {
+                    "index": 4,
+                    "belong_page": 1,
+                    "question_id": 43857,
+                    "question_title": "<p>下列不属于主动型攻击的是（ ）。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 43857,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p>略<br/></p>",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        " 网络监听&nbsp; ",
+                        " 拒绝服务 ",
+                        " 散播病毒 ",
+                        " 重放攻击 "
+                    ]
+                },
+                {
+                    "index": 5,
+                    "belong_page": 1,
+                    "question_id": 43858,
+                    "question_title": "<p><br/></p><p>下列不属于被动型攻击的是（ ）<br/></p><p><br/></p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 43858,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p><br/></p><p>被动攻击即窃听,是对系统的保密性进行攻击,如搭线窃听、对文件或程序的非法复制等,以获取他人的信息。被动攻击又分为两类:一类是获取消息的内容,很容易理解;另一类是进行业务流分析,假如通过某种手段,比如加密,使得敌手无法从截获的消息得到消息的真实内容,然而敌手却有可能获得消息的格式、确定通信双方的位置和身份以及通信的次数和消息的长度,这些信息对通信双方来说可能是敏感的,例如公司间的合作关系可能是保密的、电子函件用户可能不想让他人知道自己正在和谁通信、电子现金的支付者可能不想让别人知道自己正在消费、Web浏览器用户也可能不愿意让别人知道自己正在浏览哪一站点。<br/>&nbsp;&nbsp;&nbsp;被动攻击因不对消息做任何修改,因而是难以检测的,所以抗击这种攻击的重点在于预防而非检测。<br/><br/><br/>&nbsp;&nbsp;&nbsp;主动攻击包括对数据流的篡改或产生某些假的数据流。主动攻击又可分为以下3类:<br/>①中断&nbsp;是对系统的可用性进行攻击。如破坏计算机硬件、网络或文件管理系统。<br/>②篡改&nbsp;是对系统的完整性进行攻击。如修改数据文件中的数据、替换某一程序使其执行不同的功能、修改网络中传送的消息内容等。<br/>③伪造&nbsp;是对系统的真实性进行攻击。如在网络中插入伪造的消息或在文件中插入伪造的记录。<img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/20210824/1629773469955469.png\" title=\"1629773469955469.png\" alt=\"1.png\"/></p><img style=\"max-width:100%;height:auto\"  src=\"https://static1.51ctocdn.cn/edu/exam/ueditor1.4.3/themes/default/images/spacer.gif\"/>",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        " 非法登录 ",
+                        " 信息截取 ",
+                        " 网络监听&nbsp; ",
+                        " 数据篡改 "
+                    ]
+                },
+                {
+                    "index": 6,
+                    "belong_page": 1,
+                    "question_id": 43940,
+                    "question_title": "<p><br/></p><p>计算机系统的&nbsp;（1）&nbsp;可以用MTBF/（1+MTBF）来度量，其中MTBF为平均失效间隔时间。</p><p><br/></p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 43940,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p><br/></p><p>MTBF：称为平均故障间隔时间，用于衡量产品可靠性的一个指标。</p><p>可靠性：在规定的时间内，产品保持正常功能的一种能力。</p><p><br/></p>",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        " 可靠性&nbsp; ",
+                        " 可用性&nbsp;&nbsp;&nbsp; ",
+                        " 可维护性&nbsp; ",
+                        " 健壮性 "
+                    ]
+                },
+                {
+                    "index": 7,
+                    "belong_page": 1,
+                    "question_id": 43946,
+                    "question_title": "<p><span style=\"font-size: 10.5pt; font-family: 楷体_GB2312;\">以下不属于软件容错技术的是</span><span style=\"text-decoration-line: underline;\"><span style=\"font-family: 楷体_GB2312; font-size: 10.5pt;\">（</span></span><span style=\"text-decoration-line: underline;\"><span style=\"font-family: 楷体_GB2312; font-size: 10.5pt;\">5</span></span><span style=\"text-decoration-line: underline;\"><span style=\"font-family: 楷体_GB2312; font-size: 10.5pt;\">）</span></span><span style=\"font-size: 10.5pt; font-family: 楷体_GB2312;\">。</span><br/></p><p class=\"15\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:Calibri;mso-fareast-font-family:楷体_GB2312;mso-bidi-font-family:&#39;Times New Roman&#39;;color:#000000;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p><br/></p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 43946,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p><br/></p><p>容错是指系统在运行过程中发生一定的硬件故障或软件错误时，仍能保持正常工作而不影响正确结果的一种性能或措施。</p><p>容错技术主要是采用冗余方法来消除故障的影响。冗余是指在正常系统运行所需的基础上加上一定数量的资源，包括信息、时间、硬件和软件。主要的冗余技术有结构冗余（硬件冗余和软件冗余）、信息兀余、时间冗余和冗余附加4种。</p><p>结构冗余是常用的冗余技术，按其工作方式，可分为静态冗余、动态冗余和混合冗余三种。静态冗余又称为屏蔽冗余或被动冗余，常用的有三模冗余和多模冗余。动态冗余又称为主动冗余，它是通过故障检测、故障定位及故障恢复等手段达到容错的目的。其主要方式是多重模块待机储备，当系统检测到某工作模块出现错误时，就用一个备用的模块来顶替它并重新运行。各备用模块在其待机时，可与主模块一样工作，也可不工作。前者叫做热备份系统（双重系统），后者叫做冷备份系统（双工系统、双份系统）。混合冗余技术是将静态冗余和动态冗余结合起来。</p><p>除冗余技术之外，软件容错技术还可采用N版本程序设计、恢复块方法和防卫式程序设计等。</p><p>N版本程序设计是一种静态的故障屏蔽技术，采用前向恢复的策略；N版本程序的设计思想是用N个具有相同功能的程序同时执行一项计算，结果通过多数表决来选择。</p><p>恢复块方法是一种动态的故障屏蔽技术，采用后向恢复策略；恢复块方法提供具有相同功能的主块和几个后备块，一个块就是一个执行完整的程序段，主块首先投入运行，结束后进行验证测试，如果没有通过验证测试，系统经现场恢复后由后备块1运行。后备块1运行结束后也进行验证测试，如果没有通过验证测试，系统经现场恢复后由后备块2运行。重复这一过程，可以重复到耗尽所有的后备块，或者某个程序故障行为超出了预料，从而导致不可恢复的后果。</p><p>防卫式程序设计是一种不采用任何传统的容错技术就能实现软件容错的方法，对于程序中存在的错误和不一致性，防卫式程序设计的基本思想是通过在程序中包含错误检查代码和错误恢复代码，使得一旦发生错误，程序就能撤销错误状态，恢复到一个己知的正确状态中去。</p>",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        " 热备份或冷备份系统 ",
+                        " 纠错码 ",
+                        " 三模冗余 ",
+                        " 程序走查 "
+                    ]
+                },
+                {
+                    "index": 8,
+                    "belong_page": 1,
+                    "question_id": 43949,
+                    "question_title": "<p><br/></p><p>请根据恢复块方法工作原理完成下图，在图中(1)～(4)中填入恰当的内容。并比较恢复块方法与N版本程序设计方法，将比较结果(5)～(8)填入下表中。 （请作答（1）空）<br/></p><p><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/201808/c8759fa72ee60bd0cf6355e85eb272b043abc7.png\"/></p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 43949,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p>略<br/></p>",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        " 主块&nbsp; ",
+                        " 验证测试&nbsp; ",
+                        " 输出正确结果 ",
+                        " 异常处理 "
+                    ]
+                },
+                {
+                    "index": 9,
+                    "belong_page": 1,
+                    "question_id": 43950,
+                    "question_title": "<p><br/></p><p>请根据恢复块方法工作原理完成下图，在图中(1)～(4)中填入恰当的内容。并比较恢复块方法与N版本程序设计方法，将比较结果(5)～(8)填入下表中。 （请作答第二个空）<br/></p><p><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/201808/35b421365937155c932636115f7c3bb0bad679.png\"/></p><p><br/></p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 43950,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p>略<br/></p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " 主块&nbsp; ",
+                        " 验证测试&nbsp; ",
+                        " 输出正确结果 ",
+                        " 异常处理 "
+                    ]
+                },
+                {
+                    "index": 10,
+                    "belong_page": 1,
+                    "question_id": 43951,
+                    "question_title": "<p>请根据恢复块方法工作原理完成下图，在图中(1)～(4)中填入恰当的内容。并比较恢复块方法与N版本程序设计方法，将比较结果(5)～(8)填入下表中。 （请作答第三个空）<br/></p><p><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/201808/5367f9f51b22ddadf4979221a3419a8e7fe563.png\"/></p><p><br/></p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 43951,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p>略<br/></p>",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        " 主块 ",
+                        " 验证测试&nbsp; ",
+                        " 输出正确结果&nbsp; ",
+                        " 异常处理 "
+                    ]
+                },
+                {
+                    "index": 11,
+                    "belong_page": 1,
+                    "question_id": 43952,
+                    "question_title": "<p>请根据恢复块方法工作原理完成下图，在图中(1)～(4)中填入恰当的内容。并比较恢复块方法与N版本程序设计方法，将比较结果(5)～(8)填入下表中。 （请作答第四个空）<br/></p><p><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/201808/d60592698e2b9d2927079625bb21c3816ba770.png\"/></p><p><br/></p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 43952,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p>略<br/></p>",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        " 主块&nbsp; ",
+                        " 验证测试&nbsp; ",
+                        " 输出正确结果&nbsp;&nbsp; ",
+                        " 异常处理 "
+                    ]
+                },
+                {
+                    "index": 12,
+                    "belong_page": 1,
+                    "question_id": 43953,
+                    "question_title": "<p>请根据恢复块方法工作原理完成下图，在图中(1)～(4)中填入恰当的内容。并比较恢复块方法与N版本程序设计方法，将比较结果(5)～(8)填入下表中。 （请作答第五个空）<br/></p><p><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/201808/413e5e4198227de78be79155a13220afa5e1b4.png\"/></p><p><br/></p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 43953,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p>略<br/></p>",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        " 表决 ",
+                        " 反向恢复&nbsp; ",
+                        " 差&nbsp;&nbsp; ",
+                        " 好 "
+                    ]
+                },
+                {
+                    "index": 13,
+                    "belong_page": 1,
+                    "question_id": 43954,
+                    "question_title": "<p>请根据恢复块方法工作原理完成下图，在图中(1)～(4)中填入恰当的内容。并比较恢复块方法与N版本程序设计方法，将比较结果(5)～(8)填入下表中。（请作答第六个空）&nbsp;<br/></p><p><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/201808/2625eca248dc0e84e570071a2d0a395d255cff.png\"/></p><p><br/></p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 43954,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p>略<br/></p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " 表决&nbsp; ",
+                        " 反向恢复&nbsp; ",
+                        " 差&nbsp; ",
+                        " 好 "
+                    ]
+                },
+                {
+                    "index": 14,
+                    "belong_page": 1,
+                    "question_id": 43955,
+                    "question_title": "<p>请根据恢复块方法工作原理完成下图，在图中(1)～(4)中填入恰当的内容。并比较恢复块方法与N版本程序设计方法，将比较结果(5)～(8)填入下表中。（请作答第七个空）<br/></p><p><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/201808/a8852f45827b9b1eed99565bd1c1acd2650057.png\"/></p><p><br/></p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 43955,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p>略<br/></p>",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        " 表决&nbsp; ",
+                        " 反向恢复 ",
+                        " 差&nbsp; ",
+                        " 好 "
+                    ]
+                },
+                {
+                    "index": 15,
+                    "belong_page": 1,
+                    "question_id": 43957,
+                    "question_title": "<p>请根据恢复块方法工作原理完成下图，在图中(1)～(4)中填入恰当的内容。并比较恢复块方法与N版本程序设计方法，将比较结果(5)～(8)填入下表中。（请作答第八个空）<br/></p><p><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/201808/742b4854845f931b5db65672ba1811e1907f64.png\"/></p><p><br/></p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 43957,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p>略<br/></p>",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        " 表决 ",
+                        " 反向恢复 ",
+                        " 差&nbsp; ",
+                        " 好 "
+                    ]
+                },
+                {
+                    "index": 16,
+                    "belong_page": 1,
+                    "question_id": 43958,
+                    "question_title": "<p><br/></p><p class=\"MsoNormal\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&#39;Times New Roman&#39;;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\">防卫式程序设计不包括（</span> <span style=\"font-family:宋体\">）</span></span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&#39;Times New Roman&#39;;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p><br/></p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 43958,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p>略<br/></p>",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        " 错误检测 ",
+                        " 破坏估计 ",
+                        " 错误调整 ",
+                        " 错误恢复 "
+                    ]
+                },
+                {
+                    "index": 17,
+                    "belong_page": 1,
+                    "question_id": 43959,
+                    "question_title": "<p><br/></p><p><br/></p><p class=\"MsoNormal\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&#39;Times New Roman&#39;;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\">对于双机容错技术的表述不恰当的是（</span> <span style=\"font-family:宋体\">）</span></span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&#39;Times New Roman&#39;;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p><br/></p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 43959,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p>略<br/></p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " 双机互备模式的主要缺点是对服务器的性能要求比较高 ",
+                        " 双机互备模式会造成资源浪费 ",
+                        " 双机双工模式是集群技术的一种 ",
+                        " 双机热备模式中的备用系统长期处于后备的状态 "
+                    ]
+                },
+                {
+                    "index": 18,
+                    "belong_page": 1,
+                    "question_id": 46971,
+                    "question_title": "<p>某公司欲开发一个在线交易网站，在架构设计阶段，公司的架构师识别出 3 个核心质量属性场景。&quot;在线交易主站宕机后，能够在 3 秒内自动切换至备用站点并恢复正常运行&quot;主要与（）质量属 性相关；</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 46971,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p>对于题干描述：“用户的交易请求需要在3秒内得到响应”，主要与性能这一质量属性相关，实现该属性的常见架构策略包括：增加计算资源、减少计算开销、引入并发机制、采用资源调度等。“在线交易主站宕机后，需要在3秒内恢复正常运行”主要与可用性质量属性相关，通常可采用心跳、Ping/Echo、主动冗余、被动冗余、选举等架构策略实现该属性。</p>",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        " 可测试性 ",
+                        " 易用性 ",
+                        " 可用性 ",
+                        " 互操作性 "
+                    ]
+                },
+                {
+                    "index": 19,
+                    "belong_page": 1,
+                    "question_id": 46986,
+                    "question_title": "<p>假设某证券公司的股票交易系统中有正在运行的事务，此时，若要转储该交易系统数据库中的全部数据，则应采用（）方式。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 46986,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p>从题目中“系统中有正在运行的事务”了解到应采用动态方式，从题目中“全部数据”了解到应是全局转储，所以应采用：动态全局转储。</p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " 静态全局转储 ",
+                        " 动态全局转储&nbsp;&nbsp;&nbsp;&nbsp; ",
+                        " 静态增量转储 ",
+                        " 动态增量转储  <br/> "
+                    ]
+                },
+                {
+                    "index": 20,
+                    "belong_page": 1,
+                    "question_id": 49910,
+                    "question_title": "<p>假设某证券公司的股票交易系统中有正在运行的事务，此时，若要转储该交易系统数据库中的全部数据，则应采用（ &nbsp;）方式。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 49910,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p>从题目中&quot;系统中有正在运行的事务&quot;了解到应采用动态方式，从题目中&quot;全部数据&quot;了解到应是全局转储，所以应采用：动态全局转储。</p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " 静态全局转储 ",
+                        " 动态全局转储 ",
+                        " 静态增量转储 ",
+                        " 动态增量转储 "
+                    ]
+                },
+                {
+                    "index": 21,
+                    "belong_page": 1,
+                    "question_id": 49915,
+                    "question_title": "<p>（ ）不是对Web服务器进行性能评估的主要指标。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 49915,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p>在WEB服务器的测试中，反映其性能的指标主要有：最大并发连接数、响应延迟和吞吐量。</p>",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        " 丢包率 ",
+                        " 最大并发连接数 ",
+                        " 响应延迟 ",
+                        " 吞吐量 "
+                    ]
+                },
+                {
+                    "index": 22,
+                    "belong_page": 1,
+                    "question_id": 49963,
+                    "question_title": "<p>下列攻击方式中，流量分析属于（ &nbsp;）方式。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 49963,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p>在被动攻击(passive attack)中，攻击者的目的只是获取信息，这就意味着攻击者不会篡改信息或危害系统。系统可以不中断其正常运行。常见的被动攻击包括：窃听和流量分析。</p>",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        " 被动攻击 ",
+                        " 主动攻击 ",
+                        " 物理攻击 ",
+                        " 分发攻击 "
+                    ]
+                },
+                {
+                    "index": 23,
+                    "belong_page": 1,
+                    "question_id": 54289,
+                    "question_title": "<p>随着业务的增长，信息系统的访问量和数据流量快速增加，采用负载均衡（Load Balance）方法可避免由此导致的系统性能下降甚至崩溃。以下关于负载均衡的叙述中，错误的是（ &nbsp;）。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 54289,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p>负载均衡（LoadBalance）建立在现有网络结构之上，它提供了一种廉价、有效、透明的方法，来扩展网络设备和服务器的带宽、增加吞吐量、加强网络数据处理能力、提高网络的灵活性和可用性。<br/>负载均衡有两方面的含义：首先，大量的并发访问或数据流量分担到多台节点设备上分别处理，减少用户等待响应的时间；其次，单个重负载的运算分担到多台节点设备上做并行处理，每个节点设备处理结束后，将结果汇总，返回给用户，系统处理能力得到大幅度提高。</p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " 负载均衡通常由服务器端安装的附加软件来实现 ",
+                        " 负载均衡并不会增加系统的吞吐量 ",
+                        " 负载均衡可在不同地理位置、不同网络结构的服务器群之间进行 ",
+                        " 负载均衡可使用户只通过一个IP地址或域名就能访问相应的服务器 "
+                    ]
+                },
+                {
+                    "index": 24,
+                    "belong_page": 1,
+                    "question_id": 54341,
+                    "question_title": "<p>计算机系统的可用性可从多个方面来评测，但不包括（ &nbsp;）。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 54341,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p>通常，计算机系统的可用性可从故障率（failure rate）、健壮性（robustness）和可恢复性（recoverability）三个方面来进行评测。<br/>故障率是指在给定的时间里，系统故障和维护事件出现的次数。<br/>健壮性是指系统检测和处理故障的能力，以及系统在各种故障情况下仍然具有的工作能力。<br/>可恢复性是指系统从故障状态恢复到正常状态的能力。<br/>计算机应用系统的可移植性对推广应用来说是重要的，但对于使用单一系统的多数用户而言，可用性指标主要包括故障率、健壮性和可恢复性。</p>",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        " 故障率 ",
+                        " 健壮性 ",
+                        " 可移植性 ",
+                        " 可恢复性 "
+                    ]
+                },
+                {
+                    "index": 25,
+                    "belong_page": 1,
+                    "question_id": 54344,
+                    "question_title": "<p>以下关于网络攻击的叙述中，错误的是 （ &nbsp;）。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 54344,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p>本题考查网络安全方面网络攻击相关的基础知识。<br/>网络攻击手段多种多样，常见的形式包括口令入侵、放置特洛伊木马程序、DoS攻击、端口扫描、网络监听、欺骗攻击、电子邮件攻击等。<br/>钓鱼网站属于欺骗攻击中的Web欺骗，Web欺骗允许攻击者创造整个WWW世界的影像拷贝。影像Web的入口进入到攻击者的Web服务器，经过攻击者机器的过滤作用，允许攻击者监控受攻击者的任何活动，包括账户和口令。<br/>电子邮件攻击主要表现为向目标信箱发送电子邮件炸弹。所谓的邮件炸弹实质上就是发送地址不详且容量庞大的邮件垃圾。而多个邮箱群发同一封电子邮件不一定是攻击行为。所以答案是B。</p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " 钓鱼网站通过窃取用户的账号、密码来进行网络攻击 ",
+                        " 向多个邮箱群发同一封电子邮件是一种网络攻击行为 ",
+                        " 采用DoS攻击使计算机或网络无法提供正常的服务 ",
+                        " 利用Sniffer可以发起网络监听攻击 "
+                    ]
+                },
+                {
+                    "index": 26,
+                    "belong_page": 1,
+                    "question_id": 63681,
+                    "question_title": "<p>某公司欲开发一个人员管理系统，在架构设计阶段，公司的架构师识别出3个核心质量属性场景。其中“管理系统遭遇断电后，能够在15秒内自动切换至备用系统并恢复正常运行”主要与（　）质量属性相关，通常可采用（　）架构策略实现该属性；“系统正常运行时，人员信息查询请求应该在2秒内返回结果”主要与（　）质量属性相关，通常可采用（请作答此空）架构策略实现该属性；“系统需要对用户的操作情况进行记录，并对所有针对系统的恶意操作行为进行报警和记录”主要与（　）质量属性相关，通常可采用（　）架构策略实现该属性。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 63681,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p>略</p>",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        " 记录/回放 ",
+                        " 操作串行化 ",
+                        " 心跳 ",
+                        " 资源调度 "
+                    ]
+                },
+                {
+                    "index": 27,
+                    "belong_page": 1,
+                    "question_id": 151220,
+                    "question_title": "<p>关于集中式负载均衡的特点不正确的是（ ）</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 151220,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p>与分布式负载均衡方式相比，集中式负载均衡实现简单，但也存在以下缺点：</p><p>（1）系统的可扩展性不强，均衡器需要记录所有计算机的负载信息。</p><p>（2）安全性较差，如果均衡器所在的计算机瘫痪，则会导致整个集群系统的瘫痪。</p><p>（3）实现不够灵活，负载均衡器很难根据不同场景的特性配置不同的均衡策略。</p>",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        " 系统的可扩展性不强，均衡器需要记录所有计算机的负载信息。 ",
+                        " 安全性较差，如果均衡器所在的计算机瘫痪，则会导致整个集群系统的瘫痪。 ",
+                        " 与分布式负载均衡方式相比，实现简单。 ",
+                        " 实现灵活，负载均衡器可以根据不同场景的特性配置不同的均衡策略。 "
+                    ]
+                },
+                {
+                    "index": 28,
+                    "belong_page": 1,
+                    "question_id": 151221,
+                    "question_title": "（ ）是一种静态的故障屏蔽技术，采用前向恢复的策略；N版本程序的设计思想是用N个具有相同功能的程序同时执行一项计算，结果通过多数表决来选择。",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 151221,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "N版本程序的设计思想是用N个具有相同功能的程序同时执行一项计算，结果通过多数表决来选择。其中N个版本的程序必须由不同的人（小组）独立设计，使用不同的方法、不同的设计语言、不同的开发环境和工具来实现，目的是减少N个版本的程序在表决点上相关错误的概率。",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        " N版本程序设计 ",
+                        " M模冗余 ",
+                        " 恢复块方法 ",
+                        " 防卫式程序设计等 "
+                    ]
+                },
+                {
+                    "index": 29,
+                    "belong_page": 1,
+                    "question_id": 151248,
+                    "question_title": "数字签名首先需要生成消息摘要，然后发送方用自己的私钥对报文摘要进行加密， 接收方用发送方的公钥验证真伪。生成消息摘要的目的是（请作答此空），对摘要进行加密的目的是（ &nbsp;）。",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 151248,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p>报文摘要用于对发送的报文生成一个非常小的摘要信息。这个摘要信息保证原报文的完整性，即原报文只要有一位被改变，则摘要信息就会不匹配。</p><p>用私钥对摘要做加密，不仅保证了摘要的私密性，还可以防止抵赖。因为只有匹配的公钥能够解开。也就是说，如果用某人的公钥能够解开报文，说明就是某人做的。</p>",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        " 防止窃听 ",
+                        " 防止抵赖 ",
+                        " 防止篡改 ",
+                        " 防止重放 "
+                    ]
+                },
+                {
+                    "index": 30,
+                    "belong_page": 1,
+                    "question_id": 151249,
+                    "question_title": "数字签名首先需要生成消息摘要，然后发送方用自己的私钥对报文摘要进行加密， 接收方用发送方的公钥验证真伪。生成消息摘要的目的是（ ），对摘要进行加密的目的是（请作答此空）。",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 151249,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p>报文摘要用于对发送的报文生成一个非常小的摘要信息。这个摘要信息保证原报文的完整性，即原报文只要有一位被改变，则摘要信息就会不匹配。</p><p>用私钥对摘要做加密，不仅保证了摘要的私密性，还可以防止抵赖。因为只有匹配的公钥能够解开。也就是说，如果用某人的公钥能够解开报文，说明就是某人做的。</p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " 防止窃听 ",
+                        " 防止抵赖 ",
+                        " 防止篡改 ",
+                        " 防止重放 "
+                    ]
+                },
+                {
+                    "index": 31,
+                    "belong_page": 1,
+                    "question_id": 151250,
+                    "question_title": "<p>系统的（ ）性能指标有系统的可靠性、系统的吞吐率（量)、系统响应时间、 系统资源利用率、可移植性。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 151250,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p>操作系统的系统的性能指标有系统的可靠性、系统的吞吐率（量)、系统响应时间、 系统资源利用率、可移植性。</p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " 计算机 ",
+                        " 操作系统 ",
+                        " 数据库 ",
+                        " web服务器 "
+                    ]
+                },
+                {
+                    "index": 32,
+                    "belong_page": 1,
+                    "question_id": 151251,
+                    "question_title": "<p>假如有 4 块 80T 的硬盘，采用 RAID6 组建磁盘阵列的容量是（ ）。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 151251,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p>RAID6的容量是(N-2)*最低容量 = (4-2)*80T = 160T。</p>",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        " 40T ",
+                        " 80T ",
+                        " 160T ",
+                        " 240T "
+                    ]
+                },
+                {
+                    "index": 33,
+                    "belong_page": 1,
+                    "question_id": 159193,
+                    "question_title": "常用对称加密算法不包括（ ）。",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 159193,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "本题考查常用加密算法的基本概念。常用加密算法根据加密解密原理分为对称密钥体制和非对称密钥体制,对称密钥体制加密解密采用同一个密钥。非对称密钥体制采用私钥加密,公钥解密。DES、RC-5、IDEA均属于对称密钥体制,RSA属于非对称密钥体制。所以答案为D。",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        " DES ",
+                        " RC-5 ",
+                        " IDEA ",
+                        " RSA "
+                    ]
+                },
+                {
+                    "index": 34,
+                    "belong_page": 1,
+                    "question_id": 159194,
+                    "question_title": "数字签名的功能不包括（ ）。",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 159194,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p>本题考查数字签名的概念。数字签名 (Digtal Signature)技术是不对称密算法的典型应用：</p><p>数据源发送方使用自己的私钥对数据校验和其他与数据内容有关的变量进行加密处理,完成对数据的合法“签名”,数据接收方则利用对方的公钥来解读收到的“数字签名”,并将解读结果用于对数据完整性的检验,以确认签名的合法性。</p><p>数字签名主要的功能是：保证信息传输的完整性、发送者的身份认证、防止交易中的抵赖发生。</p><p>数字签名无法实现接收方身份确认,所以答案为C。</p>",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        " 防止发送方和接收方的抵赖行为 ",
+                        " 发送方身份确认 ",
+                        " 接收方身份确认 ",
+                        " 保证数据的完整性 "
+                    ]
+                },
+                {
+                    "index": 35,
+                    "belong_page": 1,
+                    "question_id": 159196,
+                    "question_title": "<p>下列安全协议中，（ ）能保证交易双方无法抵赖。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 159196,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p>本题考查SET协议的基本概念。SET(Secure Electronic Transaction)协议,全称为安全电子交易协议,主要目的是保证用户、商家和银行之间通过信用卡支付的交易过程中的支付信息的机密、支付过程的完整、商户及持卡人的合法身份确认。</p><p>HTTPS是安全HTTP协议,PGP和MOSS都是安全电子邮件协议。</p>",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        " SET ",
+                        " HTTPS ",
+                        " PGP ",
+                        " MOSS "
+                    ]
+                },
+                {
+                    "index": 36,
+                    "belong_page": 1,
+                    "question_id": 208410,
+                    "question_title": "峰值MIPS(每秒百万次指令数)用来描述计算机的定点运算速度，通过对计算机指令集中基本指令的执行速度计算得到。假设某计算机中基本指令的执行需要5个机器周期，每个机器周期为3微秒，则该计算机的定点运算速度为（ ）MIPS。",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 208410,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "峰值MIPS是衡量CPU速度的一个指标。根据题干描述，假设某计算机中基本指令的执行需要5个机器周期，每个机器周期为3微秒，则该计算机每完成一个基本指令需要5×3=15微秒，根据峰值MIPS的定义，其定点运算速度为1/15=0.067MIPS，特别需要注意单位“微秒”和“百万指令数”，在计算过程中恰好抵消。",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        " 8 ",
+                        " 15 ",
+                        " 0.125 ",
+                        " 0.067 "
+                    ]
+                },
+                {
+                    "index": 37,
+                    "belong_page": 1,
+                    "question_id": 208457,
+                    "question_title": "下图所示PKI系统结构中，负责生成和签署数字证书的是（请作答此空），负责验证用户身份的是（ ）。<br/><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/20191227/1577450414296166.jpg\" title=\"1577450414296166.jpg\" alt=\"1.jpg\"/>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 208457,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "在PKI系统体系中，证书机构CA负责生成和签署数字证书，注册机构RA负责验证申请数字证书用户的身份。",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        " 证书机构CA ",
+                        " 注册机构RA ",
+                        " 证书发布系统 ",
+                        " PKI策略 "
+                    ]
+                },
+                {
+                    "index": 38,
+                    "belong_page": 1,
+                    "question_id": 208458,
+                    "question_title": "下图所示PKI系统结构中，负责生成和签署数字证书的是（ ），负责验证用户身份的是（请作答此空）。<br/><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/20191227/1577450449522720.jpg\" title=\"1577450449522720.jpg\" alt=\"1.jpg\"/>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 208458,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "在PKI系统体系中，证书机构CA负责生成和签署数字证书，注册机构RA负责验证申请数字证书用户的身份。",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " 证书机构CA ",
+                        " 注册机构RA ",
+                        " 证书发布系统 ",
+                        " PKI策略 "
+                    ]
+                },
+                {
+                    "index": 39,
+                    "belong_page": 1,
+                    "question_id": 208479,
+                    "question_title": "<p>看门狗(Watch Dog)是嵌入式系统中一种常用的保证系统可靠性的技术，（ ）会产生看门狗中断。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 208479,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>看门狗(Watch Dog)是一个独立的定时器电路，有一个定时器控制寄存器，可以设定时间(开狗)，到达时间后要置位(喂狗)，如果没有的话，就认为是程序跑飞，就会发出RESET指令。当系统工作正常时，CPU将每隔一定时间输出一个脉冲给看门狗，即“喂狗”，若程序运行出现问题或硬件出现故障时而无法按时“喂狗”时，看门狗电路将迫使系统自动复位而重新运行程序。</p>",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        " 软件喂狗 ",
+                        " 处理器温度过高 ",
+                        " 外部中断 ",
+                        " 看门狗定时器超时 "
+                    ]
+                },
+                {
+                    "index": 40,
+                    "belong_page": 1,
+                    "question_id": 208532,
+                    "question_title": "以下关于第三方认证服务的叙述中，正确的是（ ）。",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 208532,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>本试题考查认证服务。</p><p>Kerberos可以防止偷听和重放攻击，保护数据的完整性。Kerberos的安全机制如下。</p><p>AS(Authentication Servet)：认证服务器，是为用户发放TGT的服务器。</p><p>TGS(Ticket Granting Server)：票证授予服务器，负责发放访问应用服务器时需要的票证。认证服务器和票据授予服务器组成密钥分发中心(Key DistributionCenter，KDC)。</p><p>V：用户请求访问的应用服务器。</p><p>TGT(Ticket Granting Ticket)：用户向TGS证明自己身份的初始票据，即KTGS(A，KS)。</p><p>公钥基础结构(Public Key Infrastructure，PKI)是运用公钥的概念和技术来提供安全服务的、普遍适用的网络安全基础设施，包括由PKI策略、软硬件系统、认证中心、注册机构(Registration Authority，RA)、证书签发系统和PKI应用等构成的安全体系。</p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " Kerberos认证服务中保存数字证书的服务器叫CA ",
+                        " 第三方认证服务的两种体制分别是Kerberos和PKI ",
+                        " PKI体制中保存数字证书的服务器叫KDC ",
+                        " Kerbel-os的中文全称是“公钥基础设施” "
+                    ]
+                },
+                {
+                    "index": 41,
+                    "belong_page": 1,
+                    "question_id": 208533,
+                    "question_title": "采用Kerberos系统进行认证时，可以在报文中加入（ ）来防止重放攻击。",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 208533,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "本试题考查Kerberos系统认证。时间戳可用来进行防重放攻击。",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " 会话密钥 ",
+                        " 时间戳 ",
+                        " 用户ID ",
+                        " 私有密钥 "
+                    ]
+                },
+                {
+                    "index": 42,
+                    "belong_page": 1,
+                    "question_id": 281202,
+                    "question_title": "<p>下列关于软件可靠性的叙述，不正确的是______。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 281202,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>软件可靠性是软件系统在规定的时间内及规定的环境条件下，完成规定功能的能力，也就是软件无故障运行的概率。这里的故障是软件行为与需求的不符，故障有等级之分。软件可靠性可以通过历史数据和开发数据直接测量和估算出来。在软件开发中，排除一个故障可能会引入其他的错误，而这些错误会导致其他的故障，因此，在修改错误以后，还需要进行回归测试。</p>",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        " 由于影响软件可靠性的因素很复杂，软件可靠性不能通过历史数据和开发数据直接测量和估算出来 ",
+                        " 软件可靠性是指在特定环境和特定时间内，计算机程序无故障运行的概率 ",
+                        " 在软件可靠性的讨论中，故障指软件行为与需求的不符，故障有等级之分 ",
+                        " 排除一个故障可能会引入其他的错误，而这些错误会导致其他的故障 "
+                    ]
+                },
+                {
+                    "index": 43,
+                    "belong_page": 1,
+                    "question_id": 281351,
+                    "question_title": "<p>三个可靠度R均为0.8的部件串联构成一个系统，如下图所示：</p><p><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/20200912/1599885328285456.jpg\" title=\"1599885328285456.jpg\" alt=\"1.jpg\"/></p><p>则该系统的可靠度为（ ）。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 281351,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>本题中由三个部件串联构成系统，三个部件中任何一个部件失效就足以使系统失效。串联系统的可靠度RS=R×R×R=0.8×0.8×0.8=0.512。</p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " 0.240 ",
+                        " 0.512 ",
+                        " 0.800 ",
+                        " 0.992 "
+                    ]
+                },
+                {
+                    "index": 44,
+                    "belong_page": 1,
+                    "question_id": 281637,
+                    "question_title": "为了优化系统的性能，有时需要对系统进行调整。对于不同的系统，其调整参数也不尽相同。例如，对于数据库系统，主要包括CPU/内存使用状况、 （1） 、进程/线程使用状态、日志文件大小等。对于应用系统，主要包括应用系统的可用性、响应时间、 （2） 、特定应用资源占用等。",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 281636,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "1",
+                    "analyze": "为了优化系统性能，有时需要对系统进行调整。对于数据库系统，性能调整主要包括CPU／内存使用状况、优化数据库设计、优化数据库管理以及进程/线程状态、硬盘剩余空间、日志文件大小等；对于应用系统，性能调整主要包括应用系统的可用性、响应时间、并发用户数以及特定应用的系统资源占用等。",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        "数据丢包率",
+                        "端口吞吐量",
+                        "数据处理速率",
+                        "查询语句性能"
+                    ]
+                },
+                {
+                    "index": 45,
+                    "belong_page": 1,
+                    "question_id": 281638,
+                    "question_title": "为了优化系统的性能，有时需要对系统进行调整。对于不同的系统，其调整参数也不尽相同。例如，对于数据库系统，主要包括CPU/内存使用状况、 （1） 、进程/线程使用状态、日志文件大小等。对于应用系统，主要包括应用系统的可用性、响应时间、 （2） 、特定应用资源占用等。",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 281636,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "2",
+                    "analyze": "为了优化系统性能，有时需要对系统进行调整。对于数据库系统，性能调整主要包括CPU／内存使用状况、优化数据库设计、优化数据库管理以及进程/线程状态、硬盘剩余空间、日志文件大小等；对于应用系统，性能调整主要包括应用系统的可用性、响应时间、并发用户数以及特定应用的系统资源占用等。",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        "并发用户数",
+                        "支持协议和标准",
+                        "最大连接数",
+                        "时延抖动"
+                    ]
+                },
+                {
+                    "index": 46,
+                    "belong_page": 1,
+                    "question_id": 281640,
+                    "question_title": "<p>对计算机评价的主要性能指标有时钟频率、 （ ） 、运算精度和内存容量等。对数据库管理系统评价的主要性能指标有 （ ） 、数据库所允许的索引数量和最大并发实物处理能力等。</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 281639,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "1",
+                    "analyze": "<p>性能指标，是软、硬件的性能指标的集成。在硬件中，包括计算机、各种通信交换设备、各类网络设备等；在软件中，包括：操作系统、协议以及应用程序等。</p><p>对计算机评价的主要性能指标有：时钟频率（主频）；运算速度；运算精度；内存的存储容量；存储器的存取周期；数据处理速率PDR（processing data rate）；吞吐率；各种响应时间；各种利用率；RASIS特性（即：可靠性Reliability、可用性Availability、可维护性、完整性和安全性；平均故障响应时间；兼容性；可扩充性；性能价格比。</p><p>衡量数据库管理系统的主要性能指标包括数据库本身和管理系统两部分，有：数据库的大小、数据库中表的数量、单个表的大小、表中允许的记录（行）数量、单个记录（行）的大小、表上所允许的索引数量、数据库所允许的索引数量、最大并发事务处理能力、负载均衡能力、最大连接数等等。</p>",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        "丢包率",
+                        "端口吞吐量",
+                        "可移植性",
+                        "数据处理速率"
+                    ]
+                },
+                {
+                    "index": 47,
+                    "belong_page": 1,
+                    "question_id": 281641,
+                    "question_title": "<p>对计算机评价的主要性能指标有时钟频率、 （ ） 、运算精度和内存容量等。对数据库管理系统评价的主要性能指标有 （ ） 、数据库所允许的索引数量和最大并发实物处理能力等。</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 281639,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "2",
+                    "analyze": "<p>性能指标，是软、硬件的性能指标的集成。在硬件中，包括计算机、各种通信交换设备、各类网络设备等；在软件中，包括：操作系统、协议以及应用程序等。</p><p>对计算机评价的主要性能指标有：时钟频率（主频）；运算速度；运算精度；内存的存储容量；存储器的存取周期；数据处理速率PDR（processing data rate）；吞吐率；各种响应时间；各种利用率；RASIS特性（即：可靠性Reliability、可用性Availability、可维护性、完整性和安全性；平均故障响应时间；兼容性；可扩充性；性能价格比。</p><p>衡量数据库管理系统的主要性能指标包括数据库本身和管理系统两部分，有：数据库的大小、数据库中表的数量、单个表的大小、表中允许的记录（行）数量、单个记录（行）的大小、表上所允许的索引数量、数据库所允许的索引数量、最大并发事务处理能力、负载均衡能力、最大连接数等等。</p>",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        "MIPS",
+                        "支持协议和标准",
+                        "最大连接数",
+                        "时延抖动"
+                    ]
+                },
+                {
+                    "index": 48,
+                    "belong_page": 1,
+                    "question_id": 281643,
+                    "question_title": "把应用程序中应用最频繁的那部分核心程序作为评价计算机性能的标准程序，称为 （5）程序。 （6）不是对Web服务器进行性能评估的主要指标。",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 281642,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "1",
+                    "analyze": "把应用程序中应用最频繁的那部分核心程序作为评价计算机性能的标准程序，称为基准测试程序。作为承载Web应用的Web服务器，对其进行性能评估时，主要关注最大并发连接数、响应延迟、吞吐量等指标。相对来说，对个别数据的丢包率并不是很关心。",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        "仿真测试",
+                        "核心测试",
+                        "基准测试",
+                        "标准测试"
+                    ]
+                },
+                {
+                    "index": 49,
+                    "belong_page": 1,
+                    "question_id": 281644,
+                    "question_title": "把应用程序中应用最频繁的那部分核心程序作为评价计算机性能的标准程序，称为 （5）程序。 （6）不是对Web服务器进行性能评估的主要指标。",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 281642,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "2",
+                    "analyze": "把应用程序中应用最频繁的那部分核心程序作为评价计算机性能的标准程序，称为基准测试程序。作为承载Web应用的Web服务器，对其进行性能评估时，主要关注最大并发连接数、响应延迟、吞吐量等指标。相对来说，对个别数据的丢包率并不是很关心。",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        "丢包率",
+                        "最大并发连接数",
+                        "响应延迟",
+                        "吞吐量"
+                    ]
+                },
+                {
+                    "index": 50,
+                    "belong_page": 1,
+                    "question_id": 281645,
+                    "question_title": "某系统由下图所示的冗余部件构成。若每个部件的千小时可靠度都为 R ，则该系 统的千小时可靠度为（7）。<br/><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/20200914/1600076859179248.jpg\" title=\"1600076859179248.jpg\" alt=\"1.jpg\"/>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 281645,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>串联系统可靠性公式为：R=R1×R2×...×Rn</p><p>并联系统可靠性公式为：R=1-（1-R1）×（1-R2）×...×（1-Rn）<span style=\"font-size: 16px;\"></span></p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        "(1-R3)(1-R2)",
+                        "&nbsp;(1-(1-R)3)(1-(1-R)2)",
+                        "(1-R3)+(1-R2)",
+                        "(1-(1-R)3)+(1-(1-R)2)"
+                    ]
+                },
+                {
+                    "index": 51,
+                    "belong_page": 1,
+                    "question_id": 281646,
+                    "question_title": "以下不属于软件容错技术的是（ ）。",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 281646,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>容错是指系统在运行过程中发生一定的硬件故障或软件错误时，仍能保持正常工作而不影响正确结果的一种性能或措施。</p><p>容错技术主要是采用冗余方法来消除故障的影响。冗余是指在正常系统运行所需的基础上加上一定数量的资源，包括信息、时间、硬件和软件。主要的冗余技术有结构冗余（硬件冗余和软件冗余）、信息兀余、时间冗余和冗余附加4种。</p><p>结构冗余是常用的冗余技术，按其工作方式，可分为静态冗余、动态冗余和混合冗余三种。静态冗余又称为屏蔽冗余或被动冗余，常用的有三模冗余和多模冗余。动态冗余又称为主动冗余，它是通过故障检测、故障定位及故障恢复等手段达到容错的目的。其主要方式是多重模块待机储备，当系统检测到某工作模块出现错误时，就用一个备用的模块来顶替它并重新运行。各备用模块在其待机时，可与主模块一样工作，也可不工作。前者叫做热备份系统（双重系统），后者叫做冷备份系统（双工系统、双份系统）。混合冗余技术是将静态冗余和动态冗余结合起来。</p><p>除冗余技术之外，软件容错技术还可采用N版本程序设计、恢复块方法和防卫式程序设计等。</p><p>N版本程序设计是一种静态的故障屏蔽技术，采用前向恢复的策略；N版本程序的设计思想是用N个具有相同功能的程序同时执行一项计算，结果通过多数表决来选择。</p><p>恢复块方法是一种动态的故障屏蔽技术，采用后向恢复策略；恢复块方法提供具有相同功能的主块和几个后备块，一个块就是一个执行完整的程序段，主块首先投入运行，结束后进行验证测试，如果没有通过验证测试，系统经现场恢复后由后备块1运行。后备块1运行结束后也进行验证测试，如果没有通过验证测试，系统经现场恢复后由后备块2运行。重复这一过程，可以重复到耗尽所有的后备块，或者某个程序故障行为超出了预料，从而导致不可恢复的后果。</p><p>防卫式程序设计是一种不采用任何传统的容错技术就能实现软件容错的方法，对于程序中存在的错误和不一致性，防卫式程序设计的基本思想是通过在程序中包含错误检查代码和错误恢复代码，使得一旦发生错误，程序就能撤销错误状态，恢复到一个己知的正确状态中去。</p>",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        "热备份或冷备份系统",
+                        "纠错码",
+                        "三模冗余",
+                        "程序走查"
+                    ]
+                },
+                {
+                    "index": 52,
+                    "belong_page": 1,
+                    "question_id": 281647,
+                    "question_title": "峰值MIPS(每秒百万次指令数)用来描述计算机的定点运算速度，通过对计算机指令集中基本指令的执行速度计算得到。假设某计算机中基本指令的执行需要5个机器周期，每个机器周期为3微秒，则该计算机的定点运算速度为（） MIPS。",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 281647,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "峰值MIPS是衡量CPU速度的一个指标。根据题干描述，假设某计算机中基本指令的执行需要5个机器周期，每个机器周期为3微秒，则该计算机每完成一个基本指令需要5×3=15微秒，根据峰值MIPS的定义，其定点运算速度为1/15=0.067MIPS，特别需要注意单位“微秒”和“百万指令数”，在计算过程中恰好抵消。",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        "8",
+                        "15",
+                        "0.125",
+                        "0.067"
+                    ]
+                },
+                {
+                    "index": 53,
+                    "belong_page": 1,
+                    "question_id": 281648,
+                    "question_title": "某台计算机的CPU主频为1.8GHz，如果2个时钟周期组成1个机器周期，平均3个机器周期可完成1条指令，则该计算机的指令平均执行速度为( ) MIPS。",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 281648,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "计算机的CPU主频为l.8GHz，2个时钟周期组成1个机器周期，平均3个机器周期可完成1条指令，则执行一条指令需要2×3=6个时钟周期，CPU的主频为1.8GHz，因此执行速度为1800/6=300MIPS。",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        "300",
+                        "600",
+                        "900",
+                        "1800"
+                    ]
+                },
+                {
+                    "index": 54,
+                    "belong_page": 1,
+                    "question_id": 284703,
+                    "question_title": "<p>三个可靠度R均为0.8的部件串联构成一个系统，如下图所示：</p><p><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/20201014/1602644692742661.jpg\" title=\"1602644692742661.jpg\" alt=\"1.jpg\"/></p><p>则该系统的可靠度为（52）。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 284703,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>本题中由三个部件串联构成系统，三个部件中任何一个部件失效就足以使系统失效。串联系统的可靠度RS=R×R×R=0.8×0.8×0.8=0.512。</p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " 0.240 ",
+                        " 0.512 ",
+                        " 0.800 ",
+                        " 0.992 "
+                    ]
+                },
+                {
+                    "index": 55,
+                    "belong_page": 1,
+                    "question_id": 284704,
+                    "question_title": "<p>下列关于软件可靠性的叙述，不正确的是（53）。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 284704,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>软件可靠性是软件系统在规定的时间内及规定的环境条件下，完成规定功能的能力，也就是软件无故障运行的概率。这里的故障是软件行为与需求的不符，故障有等级之分。软件可靠性可以通过历史数据和开发数据直接测量和估算出来。在软件开发中，排除一个故障可能会引入其他的错误，而这些错误会导致其他的故障，因此，在修改错误以后，还需要进行回归测试。</p>",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        " 由于影响软件可靠性的因素很复杂，软件可靠性不能通过历史数据和开发数据直接测量和估算出来 ",
+                        " 软件可靠性是指在特定环境和特定时间内，计算机程序无故障运行的概率 ",
+                        " 在软件可靠性的讨论中，故障指软件行为与需求的不符，故障有等级之分 ",
+                        " 排除一个故障可能会引入其他的错误，而这些错误会导致其他的故障 "
+                    ]
+                },
+                {
+                    "index": 56,
+                    "belong_page": 1,
+                    "question_id": 310831,
+                    "question_title": "SQL是一种数据库结构化查询语言，SQL注入攻击的首要目标是 （5） 。",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 310831,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "所谓SQL注入，就是通过把SQL命令插入到Web表单递交或输入域名或页面请求的查询字符串，最终达到欺骗服务器执行恶意的SQL命令，目标就是为了获得数据库的权限，从而非法获得数据。",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        "破坏Web服务",
+                        "窃取用户口令等机密信息",
+                        "攻击用户浏览器，以获得访问权限",
+                        "获得数据库的权限"
+                    ]
+                },
+                {
+                    "index": 57,
+                    "belong_page": 1,
+                    "question_id": 310835,
+                    "question_title": "<p>下列安全协议中，（9）能保证交易双方无法抵赖。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 310835,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>本题考查SET协议的基本概念。SET(Secure Electronic Transaction)协议,全称为安全电子交易协议,主要目的是保证用户、商家和银行之间通过信用卡支付的交易过程中的支付信息的机密、支付过程的完整、商户及持卡人的合法身份确认。</p><p>HTTPS是安全HTTP协议,PGP和MOSS都是安全电子邮件协议。</p>",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        " SET ",
+                        " HTTPS ",
+                        " PGP ",
+                        " MOSS "
+                    ]
+                },
+                {
+                    "index": 58,
+                    "belong_page": 1,
+                    "question_id": 312917,
+                    "question_title": "下列关于软件可靠性的叙述，不正确的是____。",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 312917,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "软件可靠性是软件系统在规定的时间内及规定的环境条件下，完成规定功能的能力，也就是软件无故障运行的概率。这里的故障是软件行为与需求的不符，故障有等级之分。软件可靠性可以通过历史数据和开发数据直接测量和估算出来。在软件开发中，排除一个故障可能会引入其他的错误，而这些错误会导致其他的故障，因此，在修改错误以后，还需要进行回归测试。",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        "由于影响软件可靠性的因素很复杂，软件可靠性不能通过历史数据和开发数据直接测量和估算出来",
+                        "软件可靠性是指在特定环境和特定时间内，计算机程序无故障运行的概率",
+                        "在软件可靠性的讨论中，故障指软件行为与需求的不符，故障有等级之分",
+                        "排除一个故障可能会引入其他的错误，而这些错误会导致其他的故障"
+                    ]
+                },
+                {
+                    "index": 59,
+                    "belong_page": 1,
+                    "question_id": 315944,
+                    "question_title": "<p>信息系统面临多种类型的网络安全威胁。其中，信息泄露是指信息被泄露或透露给某个非授权的实体；(39) 是指数据被非授权地进行增删、修改或破坏而受到损失；(40) 是指对信息或其他资源的合法访问被无条件地阻止；(41)&nbsp;是指通过对系统进行长期监听，利用统计分析方法对诸如通信频度、通信的信息流向、通信总量的变化等参数进行研究，从而发现有价值的信息和规律。</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 315943,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "1",
+                    "analyze": "<p>信息的完整性是指信息在传输、交换、存储和处理过程中，保持信息不被破坏或修改、不丢失和信息未经授权不能改变的特性，也是最基本的安全特征。</p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        "非法使用",
+                        "破环信息的完整性",
+                        "授权侵犯",
+                        "计算机病毒"
+                    ]
+                },
+                {
+                    "index": 60,
+                    "belong_page": 1,
+                    "question_id": 315945,
+                    "question_title": "<p>信息系统面临多种类型的网络安全威胁。其中，信息泄露是指信息被泄露或透露给某个非授权的实体；(39) 是指数据被非授权地进行增删、修改或破坏而受到损失；(40) 是指对信息或其他资源的合法访问被无条件地阻止；(41)&nbsp;是指通过对系统进行长期监听，利用统计分析方法对诸如通信频度、通信的信息流向、通信总量的变化等参数进行研究，从而发现有价值的信息和规律。</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 315943,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "2",
+                    "analyze": "<p>拒绝服务攻击由攻击者向服务器发送大量垃圾信息或干扰信息的方式，导致服务器无法向正常用户提供服务。</p><p>陷阱门是编程人员在进行程序设计时建立的，在程序正常运行时，通过某些按键和参数可以绕过正常的安全检查和错误跟踪检查。</p><p>旁路攻击会绕过对加密算法的繁琐分析，利用密码算法的硬件实现的运算中泄露的信息，如执行时间、功耗、电磁辐射等，结合统计理论快速的破解密码系统。</p><p>欺诈者采用某种手段欺骗合法的用户或系统自愿地放弃敏感信息等</p>",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        "拒绝服务",
+                        "陷阱门",
+                        "旁路控制",
+                        "业务欺骗"
+                    ]
+                },
+                {
+                    "index": 61,
+                    "belong_page": 1,
+                    "question_id": 315946,
+                    "question_title": "<p>信息系统面临多种类型的网络安全威胁。其中，信息泄露是指信息被泄露或透露给某个非授权的实体；(39) 是指数据被非授权地进行增删、修改或破坏而受到损失；(40) 是指对信息或其他资源的合法访问被无条件地阻止；(41)&nbsp;是指通过对系统进行长期监听，利用统计分析方法对诸如通信频度、通信的信息流向、通信总量的变化等参数进行研究，从而发现有价值的信息和规律。</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 315943,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "3",
+                    "analyze": "<p>欺诈者采用某种手段欺骗合法的用户或系统自愿地放弃敏感信息等。</p>",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        "特洛伊木马",
+                        "业务欺骗",
+                        "物理侵入",
+                        "业务流分析"
+                    ]
+                },
+                {
+                    "index": 62,
+                    "belong_page": 1,
+                    "question_id": 315968,
+                    "question_title": "<p>安全性是根据系统可能受到的安全威胁的类型来分类的。其中，(56) 保证信息不泄露给未授权的用户、实体或过程; (57) 保证信息的完整和准确，防止信息被篡改。</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 315967,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "1",
+                    "analyze": "<p>1、保密性。也称机密性，是不将有用信息泄漏给非授权用户的特性。可以通过信息加密、身份认证、访问控制、安全通信协议等技术实现，信息加密是防止信息非法泄露的最基本手段，主要强调有用信息只被授权对象使用的特征。</p><p>2、完整性。是指信息在传输、交换、存储和处理过程中，保持信息不被破坏或修改、不丢失和信息未经授权不能改变的特性，也是最基本的安全特征。</p><p>3、可用性。</p><p>也称有效性，指信息资源可被授权实体按要求访问、正常使用或在非正常情况下能恢复使用的特性（系统面向用户服务的安全特性）。在系统运行时正确存取所需信息，当系统遭受意外攻击或破坏时，可以迅速恢复并能投入使用。是衡量网络信息系统面向用户的一种安全性能，以保障为用户提供服务。</p><p>4、可控性。指网络系统和信息在传输范围和存放空间内的可控程度。是对网络系统和信息传输的控制能力特性。</p><p>5、不可否认性。又称拒绝否认性、抗抵赖性，指网络通信双方在信息交互过程中，确信参与者本身和所提供的信息真实同一性，即所有参与者不可否认或抵赖本人的真实身份，以及提供信息的原样性和完成的操作与承诺。</p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        "可控性",
+                        "机密性",
+                        "安全审计",
+                        "健壮性"
+                    ]
+                },
+                {
+                    "index": 63,
+                    "belong_page": 1,
+                    "question_id": 315969,
+                    "question_title": "<p>安全性是根据系统可能受到的安全威胁的类型来分类的。其中，(56) 保证信息不泄露给未授权的用户、实体或过程; (57) 保证信息的完整和准确，防止信息被篡改。</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 315967,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "2",
+                    "analyze": "<p>1、保密性。也称机密性，是不将有用信息泄漏给非授权用户的特性。可以通过信息加密、身份认证、访问控制、安全通信协议等技术实现，信息加密是防止信息非法泄露的最基本手段，主要强调有用信息只被授权对象使用的特征。</p><p>2、完整性。是指信息在传输、交换、存储和处理过程中，保持信息不被破坏或修改、不丢失和信息未经授权不能改变的特性，也是最基本的安全特征。</p><p>3、可用性。</p><p>也称有效性，指信息资源可被授权实体按要求访问、正常使用或在非正常情况下能恢复使用的特性（系统面向用户服务的安全特性）。在系统运行时正确存取所需信息，当系统遭受意外攻击或破坏时，可以迅速恢复并能投入使用。是衡量网络信息系统面向用户的一种安全性能，以保障为用户提供服务。</p><p>4、可控性。指网络系统和信息在传输范围和存放空间内的可控程度。是对网络系统和信息传输的控制能力特性。</p><p>5、不可否认性。又称拒绝否认性、抗抵赖性，指网络通信双方在信息交互过程中，确信参与者本身和所提供的信息真实同一性，即所有参与者不可否认或抵赖本人的真实身份，以及提供信息的原样性和完成的操作与承诺。</p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        "可控性",
+                        "完整性",
+                        "不可否认性",
+                        "安全审计"
+                    ]
+                },
+                {
+                    "index": 64,
+                    "belong_page": 1,
+                    "question_id": 315983,
+                    "question_title": "<p>某Web 网站向 CA申请了数字证书。用户登录过程中可通过验证（67）确认该数字证书的有效性，以（68）。</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 315982,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "1",
+                    "analyze": "<p>用户可以使用 CA 的公钥对证书上的签名进行验证，一旦验证通过，该证书就被认为是有效的，从而该验证网站的真伪。</p>",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        "CA的签名",
+                        "网站的签名",
+                        "会话密钥",
+                        "DES密码"
+                    ]
+                },
+                {
+                    "index": 65,
+                    "belong_page": 1,
+                    "question_id": 315984,
+                    "question_title": "<p>某Web 网站向 CA申请了数字证书。用户登录过程中可通过验证（67）确认该数字证书的有效性，以（68）。</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 315982,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "2",
+                    "analyze": "<p>用户可以使用 CA 的公钥对证书上的签名进行验证，一旦验证通过，该证书就被认为是有效的，从而该验证网站的真伪。</p>",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        "向网站确认自己的身份",
+                        "获取访问网站的权限",
+                        "和网站进行双向认证",
+                        "验证该网站的真伪"
+                    ]
+                },
+                {
+                    "index": 66,
+                    "belong_page": 1,
+                    "question_id": 348924,
+                    "question_title": "<p><br/></p><p><br/></p><p style=\"text-align: left;\">EJB是企业级Java构件，用于开发和部署多层结构的、分布式的、\n面向对象的Java应用系统。其中，（&nbsp; ）负责完成服务端与客户\n端的交互；（&nbsp; ）用于数据持久化来简化数据库开发工作；\n（&nbsp; ）主要用来处理并发和异步访问操作。</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 348923,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "1",
+                    "analyze": "EJB分为会话Bean、实体Bean和消息驱动Bean。\n①会话Bean：用于实现业务逻辑，它可以是有状态的，也可以是无\n状态的。每当客户端请求时，容器就会选择一个会话Bean来为客户\n端服务。会话Bean可以直接访问数据库，但更多时候，它会通过实\n体Bean实现数据访问。<br/>②实体Bean：用于实现O/R映射，负责将数据库中的表记录映射为\n内存中的实体对象，事实上，创建一个实体Bean对象相当于新建一\n条记录，删除一个实体Bean会同时从数据库中删除对应记录，修改\n一个实体Bean时，容器会自动将实体Bean的状态和数据库同步<br/>③消息驱动Bean是EJB3.0中引入的新的企业Bean，它基于JMS消息，\n只能接收客户端发送的JMS消息然后处理。消息驱动Bean实际上是\n一个异步的无状态会话Bean，客户端调用消息驱动Bean后无需等待，\n立刻返回，消息驱动Bean将异步处理客户请求。这适合于需要异步\n处理请求的场合，比如订单处理，这样就能避免客户端长时间的等待\n一个方法调用直到返回结果",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        "会话型构件&nbsp;",
+                        "实体型构件&nbsp;",
+                        "COM构件&nbsp;",
+                        "消息驱动构件"
+                    ]
+                },
+                {
+                    "index": 67,
+                    "belong_page": 1,
+                    "question_id": 348925,
+                    "question_title": "<p><br/></p><p><br/></p><p style=\"text-align: left;\">EJB是企业级Java构件，用于开发和部署多层结构的、分布式的、\n面向对象的Java应用系统。其中，（&nbsp; ）负责完成服务端与客户\n端的交互；（&nbsp; ）用于数据持久化来简化数据库开发工作；\n（&nbsp; ）主要用来处理并发和异步访问操作。</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 348923,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "2",
+                    "analyze": "EJB分为会话Bean、实体Bean和消息驱动Bean。\n①会话Bean：用于实现业务逻辑，它可以是有状态的，也可以是无\n状态的。每当客户端请求时，容器就会选择一个会话Bean来为客户\n端服务。会话Bean可以直接访问数据库，但更多时候，它会通过实\n体Bean实现数据访问。<br/>②实体Bean：用于实现O/R映射，负责将数据库中的表记录映射为\n内存中的实体对象，事实上，创建一个实体Bean对象相当于新建一\n条记录，删除一个实体Bean会同时从数据库中删除对应记录，修改\n一个实体Bean时，容器会自动将实体Bean的状态和数据库同步<br/>③消息驱动Bean是EJB3.0中引入的新的企业Bean，它基于JMS消息，\n只能接收客户端发送的JMS消息然后处理。消息驱动Bean实际上是\n一个异步的无状态会话Bean，客户端调用消息驱动Bean后无需等待，\n立刻返回，消息驱动Bean将异步处理客户请求。这适合于需要异步\n处理请求的场合，比如订单处理，这样就能避免客户端长时间的等待\n一个方法调用直到返回结果",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        "会话型构件&nbsp;",
+                        "实体型构件&nbsp;",
+                        "COM构件&nbsp;",
+                        "消息驱动构"
+                    ]
+                },
+                {
+                    "index": 68,
+                    "belong_page": 1,
+                    "question_id": 348926,
+                    "question_title": "<p><br/></p><p><br/></p><p style=\"text-align: left;\">EJB是企业级Java构件，用于开发和部署多层结构的、分布式的、\n面向对象的Java应用系统。其中，（&nbsp; ）负责完成服务端与客户\n端的交互；（&nbsp; ）用于数据持久化来简化数据库开发工作；\n（&nbsp; ）主要用来处理并发和异步访问操作。</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 348923,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "3",
+                    "analyze": "EJB分为会话Bean、实体Bean和消息驱动Bean。\n①会话Bean：用于实现业务逻辑，它可以是有状态的，也可以是无\n状态的。每当客户端请求时，容器就会选择一个会话Bean来为客户\n端服务。会话Bean可以直接访问数据库，但更多时候，它会通过实\n体Bean实现数据访问。<br/>②实体Bean：用于实现O/R映射，负责将数据库中的表记录映射为\n内存中的实体对象，事实上，创建一个实体Bean对象相当于新建一\n条记录，删除一个实体Bean会同时从数据库中删除对应记录，修改\n一个实体Bean时，容器会自动将实体Bean的状态和数据库同步。<br/>③消息驱动Bean是EJB3.0中引入的新的企业Bean，它基于JMS消息，\n只能接收客户端发送的JMS消息然后处理。消息驱动Bean实际上是\n一个异步的无状态会话Bean，客户端调用消息驱动Bean后无需等待，\n立刻返回，消息驱动Bean将异步处理客户请求。这适合于需要异步\n处理请求的场合，比如订单处理，这样就能避免客户端长时间的等待\n一个方法调用直到返回结果。",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        "会话型构件&nbsp;",
+                        "实体型构件&nbsp;",
+                        "COM构件&nbsp;",
+                        "消息驱动构件"
+                    ]
+                },
+                {
+                    "index": 69,
+                    "belong_page": 1,
+                    "question_id": 350293,
+                    "question_title": "<p>下列安全协议中&nbsp;（13） 是网络层安全协议。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 350293,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>IPSec是IETF制定的网络层加密协议，PKI技术为其提供了加密和认证过程的密钥管理功能。IPSec主要用于开发新一代的VPN。</p><p>L2TP是一种二层协议主要是对传统拨号协议PPP的扩展，通过定义多协议跨越第二层点对点链接的一个封装机制，来整合多协议拨号服务至现有的因特网服务提供商点，保证分散的远程客户端通过隧道方式经由Internet等网络访问企业内部网络。</p><p>PAP协议是二层协议PPP协议的一种握手协议，以保证PPP链接安全性。</p><p>HTTPS是一个应用层的安全通信通道，用于在客户计算机和服务器之间交换信息。它使用安全套接字层（SSL）进行信息交换，所有的数据在传输过程中都是加密的。</p>",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        " IPSec ",
+                        " L2TP ",
+                        " PAP ",
+                        " HTTPS "
+                    ]
+                },
+                {
+                    "index": 70,
+                    "belong_page": 1,
+                    "question_id": 350294,
+                    "question_title": "<p>ARP攻击造成网络无法跨网段通信的原因是&nbsp;（14） 。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 350294,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>ARP（Address Resolution Protocol，地址解析协议）是一个位于TCP/IP协议栈中的底层协议，负责将某个IP地址解析成对应的MAC地址。ARP攻击就是通过伪造IP地址和MAC地址实现ARP欺骗，造成网内其它计算机发出的IP包无法到达正确的地址。但它只能攻击网络中的软件或临时改变设备运行状态，不会破坏硬件设备本身和物理网络。</p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " 发送大量ARP报文造成网络拥塞&nbsp; ",
+                        " 伪造网关ARP报文使得数据包无法发送到网关 ",
+                        " ARP攻击破坏了网络的物理连通性 ",
+                        " ARP攻击破坏了网关设备 "
+                    ]
+                },
+                {
+                    "index": 71,
+                    "belong_page": 1,
+                    "question_id": 352257,
+                    "question_title": "<p>&nbsp;数字签名首先需要生成消息摘要， 然后发送方用&nbsp;（14） 对报文摘要进行加密。生成消息摘要的目的是&nbsp;（15） 。</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 352256,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "1",
+                    "analyze": "<p>报文摘要用于为发送的报文生成一个非常小的摘要信息，这个摘要信息保证原报文的完 整性。即原报文只要有一位被改变， 则摘要信息就会不匹配，所以是用于防止篡改。</p><p>数字签名用发送方的私钥对摘要做加密不仅保证了摘要的私密性， 还可以防止抵赖，因为只有匹配的公钥能够解开。也就是说，如果用某人的公钥能够解开报文，说明就是某人做的。</p>",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        " CA的公钥 ",
+                        " CA的私钥 ",
+                        " 自己的公钥 ",
+                        " 自己的私钥 "
+                    ]
+                },
+                {
+                    "index": 72,
+                    "belong_page": 1,
+                    "question_id": 352258,
+                    "question_title": "<p>&nbsp;数字签名首先需要生成消息摘要， 然后发送方用&nbsp;（14） 对报文摘要进行加密。生成消息摘要的目的是&nbsp;（15） 。</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 352256,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "2",
+                    "analyze": "<p>报文摘要用于为发送的报文生成一个非常小的摘要信息，这个摘要信息保证原报文的完 整性。即原报文只要有一位被改变， 则摘要信息就会不匹配，所以是用于防止篡改。</p><p>数字签名用发送方的私钥对摘要做加密不仅保证了摘要的私密性， 还可以防止抵赖，因为只有匹配的公钥能够解开。也就是说，如果用某人的公钥能够解开报文，说明就是某人做的。</p>",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        " 防止窃听 ",
+                        " 防止抵赖 ",
+                        " 防止篡改 ",
+                        " 防止重放 "
+                    ]
+                },
+                {
+                    "index": 73,
+                    "belong_page": 1,
+                    "question_id": 352399,
+                    "question_title": "<p>关于集中式负载均衡的特点不正确的是（&nbsp; ）</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 352399,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>&nbsp;与分布式负载均衡方式相比，集中式负载均衡实现简单，但也存在以下缺点：</p><p>&nbsp;&nbsp;&nbsp;&nbsp;（1）系统的可扩展性不强，均衡器需要记录所有计算机的负载信息。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;（2）安全性较差，如果均衡器所在的计算机瘫痪，则会导致整个集群系统的瘫痪。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;（3）实现不够灵活，负载均衡器很难根据不同脚手架的特性配置不同的均衡策略。</p>",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        " 系统的可扩展性不强，均衡器需要记录所有计算机的负载信息。 ",
+                        " 安全性较差，如果均衡器所在的计算机瘫痪，则会导致整个集群系统的瘫痪。 ",
+                        " 与分布式负载均衡方式相比，实现简单。 ",
+                        " 实现灵活，负载均衡器可以根据不同脚手架的特性配置不同的均衡策略。 "
+                    ]
+                },
+                {
+                    "index": 74,
+                    "belong_page": 1,
+                    "question_id": 352400,
+                    "question_title": "<p>（）是一种静态的故障屏蔽技术，采用前向恢复的策略；N版本程序的设计思想是用N个具有相同功能的程序同时执行一项计算，结果通过多数表决来选择。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 352400,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>N版本程序的设计思想是用N个具有相同功能的程序同时执行一项计算，结果通过多数表决来选择。其中N个版本的程序必须由不同的人（小组）独立设计，使用不同的方法、不同的设计语言、不同的开发环境和工具来实现，目的是减少N个版本的程序在表决点上相关错误的概率。</p>",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        " N版本程序设计&nbsp; ",
+                        " M模冗余 ",
+                        " 恢复块方法&nbsp;&nbsp; ",
+                        " 防卫式程序设计等 "
+                    ]
+                },
+                {
+                    "index": 75,
+                    "belong_page": 1,
+                    "question_id": 352435,
+                    "question_title": "<p>&nbsp;数字签名首先需要生成消息摘要，然后发送方用自己的私钥对报文摘要进行加密， 接收方用发送方的公钥验证真伪。生成消息摘要的目的是（ ），对摘要进行加密的目的是（ &nbsp;）。</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 352434,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "1",
+                    "analyze": "<p>报文摘要用于对发送的报文生成一个非常小的摘要信息。这个摘要信息保证原报文的完整性，即原报文只要有一位被改变，则摘要信息就会不匹配。</p><p>用私钥对摘要做加密，不仅保证了摘要的私密性，还可以防止抵赖。因为只有匹配的公钥能够解开。也就是说，如果用某人的公钥能够解开报文，说明就是某人做的。</p>",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        " 防止窃听 ",
+                        " 防止抵赖 ",
+                        " 防止篡改 ",
+                        " 防止重放 "
+                    ]
+                },
+                {
+                    "index": 76,
+                    "belong_page": 1,
+                    "question_id": 352436,
+                    "question_title": "<p>&nbsp;数字签名首先需要生成消息摘要，然后发送方用自己的私钥对报文摘要进行加密， 接收方用发送方的公钥验证真伪。生成消息摘要的目的是（ ），对摘要进行加密的目的是（ &nbsp;）。</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 352434,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "2",
+                    "analyze": "<p>报文摘要用于对发送的报文生成一个非常小的摘要信息。这个摘要信息保证原报文的完整性，即原报文只要有一位被改变，则摘要信息就会不匹配。</p><p>用私钥对摘要做加密，不仅保证了摘要的私密性，还可以防止抵赖。因为只有匹配的公钥能够解开。也就是说，如果用某人的公钥能够解开报文，说明就是某人做的。</p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        "&nbsp; 防止窃听 ",
+                        " 防止抵赖&nbsp; ",
+                        " 防止篡改&nbsp; ",
+                        " 防止重放&nbsp; "
+                    ]
+                },
+                {
+                    "index": 77,
+                    "belong_page": 1,
+                    "question_id": 352437,
+                    "question_title": "<p>系统的（）性能指标有系统的可靠性、系统的吞吐率（量)、系统响应时间、 系统资源 利用率、可移植性。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 352437,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>操作系统的系统的性能指标有系统的可靠性、系统的吞吐率（量)、系统响应时间、 系统资源 利用率、可移植性。</p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " 计算机 ",
+                        " 操作系统&nbsp; ",
+                        " 数据库&nbsp; ",
+                        " web服务器 "
+                    ]
+                },
+                {
+                    "index": 78,
+                    "belong_page": 1,
+                    "question_id": 352438,
+                    "question_title": "<p>假如有 4 块 80T 的硬盘，采用 RAID6&nbsp;的容量是（ ）。&nbsp;</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 352438,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>RAID6的容量是(N-2)*最低容量&nbsp;= (4-2)*80T = 160T。</p>",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        " 40T ",
+                        " &nbsp;80T ",
+                        " 160T&nbsp; ",
+                        " 240T "
+                    ]
+                },
+                {
+                    "index": 79,
+                    "belong_page": 1,
+                    "question_id": 356202,
+                    "question_title": "<p>系统（16）是指在规定的时间内和规定条件下能有效地实现规定功能的能力。它不仅取决于规定的使用条件等因素，还与设计技术有关。常用的度量指标主要有故障率（或失效率）、平均失效等待时间、平均失效间隔时间和可靠度等。其中，（17）是系统在规定工作时间内无故障的概率。</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 356201,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "1",
+                    "analyze": "<p>可靠性（Reliability）是指产品在规定的条件下和规定的时间内完成规定功能的能力。常用的度量指标主要有故障率（或失效率）、平均失效等待时间、平均失效间隔时间和可靠度等。可靠度就是软件系统在规定的条件下、规定的时间内不发生失效的概率。</p>",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        " 可靠性 ",
+                        " 可用性 ",
+                        " 可理解性 ",
+                        " 可测试性 "
+                    ]
+                },
+                {
+                    "index": 80,
+                    "belong_page": 1,
+                    "question_id": 356203,
+                    "question_title": "<p>系统（16）是指在规定的时间内和规定条件下能有效地实现规定功能的能力。它不仅取决于规定的使用条件等因素，还与设计技术有关。常用的度量指标主要有故障率（或失效率）、平均失效等待时间、平均失效间隔时间和可靠度等。其中，（17）是系统在规定工作时间内无故障的概率。</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 356201,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "2",
+                    "analyze": "<p>可靠性（Reliability）是指产品在规定的条件下和规定的时间内完成规定功能的能力。常用的度量指标主要有故障率（或失效率）、平均失效等待时间、平均失效间隔时间和可靠度等。可靠度就是软件系统在规定的条件下、规定的时间内不发生失效的概率。</p>",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        " 失效率 ",
+                        " 平均失效等待时间 ",
+                        " 平均失效间隔时间&nbsp;<br/> ",
+                        " 可靠度 "
+                    ]
+                },
+                {
+                    "index": 81,
+                    "belong_page": 1,
+                    "question_id": 356207,
+                    "question_title": "<p>完整的信息安全系统至少包含三类措施，即技术方面的安全措施、管理方面的安全措施和相应的（20）。其中，信息安全的技术措施主要有:信息加密、数字签名、身份鉴别、访问控制、网络控制技术、反病毒技术、（21）。</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 356206,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "1",
+                    "analyze": "<p>一个完整的信息安全系统至少包含三类措施：技术方面的安全措施，管理方面的安全措施和相应的政策法律。</p><p>信息安全的技术措施主要有：信息加密、数字签名、数据完整性保护、身份鉴别、访</p><p>问控制、数据备份和灾难恢复、网络控制技术、反病毒技术、安全审计、业务填充、路由控制机制、公证机制等。</p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " 用户需求 ",
+                        " 政策法律 ",
+                        " 市场需求 ",
+                        " 领域需求 "
+                    ]
+                },
+                {
+                    "index": 82,
+                    "belong_page": 1,
+                    "question_id": 356208,
+                    "question_title": "<p>完整的信息安全系统至少包含三类措施，即技术方面的安全措施、管理方面的安全措施和相应的（20）。其中，信息安全的技术措施主要有:信息加密、数字签名、身份鉴别、访问控制、网络控制技术、反病毒技术、（21）。</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 356206,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "2",
+                    "analyze": "<p>一个完整的信息安全系统至少包含三类措施：技术方面的安全措施，管理方面的安全措施和相应的政策法律。</p><p>信息安全的技术措施主要有：信息加密、数字签名、数据完整性保护、身份鉴别、访</p><p>问控制、数据备份和灾难恢复、网络控制技术、反病毒技术、安全审计、业务填充、路由控制机制、公证机制等。</p>",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        " 数据备份和数据测试 ",
+                        " 数据迁移和数据备份 ",
+                        " 数据备份和灾难恢复 ",
+                        " 数据迁移和数据测试 "
+                    ]
+                },
+                {
+                    "index": 83,
+                    "belong_page": 1,
+                    "question_id": 356256,
+                    "question_title": "<p>在进行软件系统安全性分折时，（61）保证信息不泄露给末授权的用户、实体或过程；完整性保证信息的完整和准确，防止信息被非法修改；（62）保证对信息的传播及内容具有控制的能力，防止为非法者所用。<br/></p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 356255,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "1",
+                    "analyze": "<p>信息安全包括的要素有：</p><p>1、机密性：确保信息不暴露给未授权的实体或进程。</p><p>2、完整性：只有得到允许的人才能修改数据，并且能够判别出数据是否已被篡改。</p><p>3、可用性：得到授权的实体在需要时可以访问数据，即攻击者不能占用所有的资源而阻碍授权者的工作。</p><p>4、可控性：可以控制授权范围内的信息流向及行为方式。</p><p>5、可审查性：对出现的网络安全问题提供调查的依据和手段。</p>",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        " 完整性 ",
+                        " 不可否认性&nbsp; &nbsp; ",
+                        " 可控性 ",
+                        " 机密性<br/> "
+                    ]
+                },
+                {
+                    "index": 84,
+                    "belong_page": 1,
+                    "question_id": 356257,
+                    "question_title": "<p>在进行软件系统安全性分折时，（61）保证信息不泄露给末授权的用户、实体或过程；完整性保证信息的完整和准确，防止信息被非法修改；（62）保证对信息的传播及内容具有控制的能力，防止为非法者所用。<br/></p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 356255,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "2",
+                    "analyze": "<p>信息安全包括的要素有：</p><p>1、机密性：确保信息不暴露给未授权的实体或进程。</p><p>2、完整性：只有得到允许的人才能修改数据，并且能够判别出数据是否已被篡改。</p><p>3、可用性：得到授权的实体在需要时可以访问数据，即攻击者不能占用所有的资源而阻碍授权者的工作。</p><p>4、可控性：可以控制授权范围内的信息流向及行为方式。</p><p>5、可审查性：对出现的网络安全问题提供调查的依据和手段。</p>",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        " 完整性&nbsp;&nbsp; ",
+                        " 安全审计&nbsp;&nbsp; ",
+                        " 加密性 ",
+                        " 可控性<br/> "
+                    ]
+                },
+                {
+                    "index": 85,
+                    "belong_page": 1,
+                    "question_id": 43734,
+                    "question_title": "<p><br/></p><h3>试题三&nbsp;&nbsp;论软件的可靠性设计</h3><p>&nbsp;&nbsp; &nbsp;现代军事和商用系统中，随着系统中软件成分的不断增加，系统对软件的依赖性越来越强。软件可靠性已成为软件设计过程中不可或缺的重要组成部分。实践证明，保障软件可靠性最有效、最经济、最重要的手段是在软件设计阶段采取措施进行可靠性控制，由此提出了可靠性设计的概念。可靠性设计就是在常规的软件设计中，应用各种方法和技术，使程序设计在兼顾用户的功能和性能需求的同时，全面满足软件的可靠性要求。</p><p>&nbsp;&nbsp; &nbsp;请围绕“软件的可靠性设计”论题，依次从以下三个方面进行论述。</p><p>&nbsp;&nbsp; &nbsp;1．概要叙述你参与管理和开发的软件项目以及你在其中所担任的主要工作。</p><p>&nbsp;&nbsp; &nbsp;2．简要说明目前比较主流的软件可靠性设计技术，结合项目实际情况，阐述所选择的可靠性设计技术及其原因。</p><p>&nbsp;&nbsp; &nbsp;3．结合你具体参与管理和开发的实际项目，举例说明所选取的软件可靠性技术的具体实施过程，并详细分析实施效果。</p><br/><p><br/></p>",
+                    "question_type": 5,
+                    "answer_type": 5,
+                    "show_type_name": null,
+                    "new_parent_id": 43734,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p>略</p>",
+                    "like": 0,
+                    "answer": [
+                        "<p>见解析</p>"
+                    ],
+                    "option": "[]"
+                },
+                {
+                    "index": 86,
+                    "belong_page": 1,
+                    "question_id": 43735,
+                    "question_title": "<p><br/></p><p><br/></p><h3>试题四&nbsp;&nbsp;论网络安全体系设计</h3><p>&nbsp;&nbsp; &nbsp;随着社会信息化的普及，计算机网络已经在各行各业得到了广泛的应用。目前，绝大多数业务处理几乎完全依赖计算机和网络执行，各种重要数据如政府文件、工资档案、财务账目和人事档案等均依赖计算机和网络进行存储与传输。另一方面，针对计算机和网络的攻击活动日益猖獗，网络安全已经成为当前社会的主要安全问题之一。</p><p>&nbsp;&nbsp; &nbsp;在上述背景下，国家标准《信息处理系统工程开放系统互联基本参考模型——第二部分：安全体系结构》(GB/T 9387.2-1995)定义了基于OSI参考模型7层协议之上的信息安全体系，其核心内容是：为了保证异构计算机进程与进程之间远距离交换信息的安全，定义了认证服务、访问控制服务、数据机密性服务、数据完整性服务和抗抵赖性服务等5大类安全服务，以及提供这些服务的8类安全机制及相应的OSI安全管理，并根据具体系统适当配置于OSI模型的7层协议之中。</p><p>&nbsp;&nbsp; &nbsp;请围绕“网络安全体系设计”论题，依次从以下三个方面进行论述。</p><p>&nbsp;&nbsp; &nbsp;1．概要叙述你参与管理和开发的软件项目以及你在其中承担的主要工作，并详细阐述该软件系统在网络安全方面的要求。</p><p>&nbsp;&nbsp; &nbsp;2．请对GB/T 9387.2-1995中定义的5大类安全服务进行描述，阐述每类安全服务的定义和主要实现手段。</p><p>&nbsp;&nbsp; &nbsp;3．请结合项目实际，具体阐述你在项目中实现了上述5大类安全服务中的哪些服务，具体运用了哪些实现手段。<span style=\"mso-spacerun:&#39;yes&#39;;font-family:Courier;mso-fareast-font-family:宋体;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p><br/></p>",
+                    "question_type": 5,
+                    "answer_type": 5,
+                    "show_type_name": null,
+                    "new_parent_id": 43735,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "<p>略</p>",
+                    "like": 0,
+                    "answer": [
+                        "<p>见解析</p>"
+                    ],
+                    "option": "[]"
+                },
+                {
+                    "index": 87,
+                    "belong_page": 1,
+                    "question_id": 348854,
+                    "question_title": "1、某公司欲开发一个大型多人即时战略游戏，游戏设计的目标之一是能够支持玩家自行创建战役地图，定义游戏对象的行为和对象之间的关系。针对该需求，在层次风格、解释器风格、黑板和事件驱动风中公司应该采用什么架构风格最为合适？<br/><br/>2、在基于体系结构的软件设计方法中，采用什么来描述软件架构？<br/><br/>3、哪种视图能解决并发性、分布性等问题？<br/><br/>4、某公司欲开发一个在线教育平台。在架构设计阶段，公司的架构师识别出3&nbsp;个核心质量<br/>属性场景。其中“网站在并发用户数量10&nbsp;万的负载情况下，用户请求的平均响应时间应小<br/>于3&nbsp;秒”这一场景主要与什么质量属性相关？<br/><br/>5、ABSDM模型把整个基于体系结构的软件过程划分为体系结构需求、设计、文档化、复审、实现和什么等6个子过程？<br/><br/>",
+                    "question_type": 5,
+                    "answer_type": 5,
+                    "show_type_name": "问答题",
+                    "new_parent_id": 348854,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "详见答案",
+                    "like": 0,
+                    "answer": [
+                        "1、某公司欲开发一个大型多人即时战略游戏，游戏设计的目标之一是能够支持玩家自行创建战役地图，定义游戏对象的行为和对象之间的关系。针对该需求，在层次风格、解释器风格、黑板和事件驱动风中公司应该采用什么架构风格最为合适？<br/>答：解释器风格<br/>2、在基于体系结构的软件设计方法中，采用什么来描述软件架构？<br/>答：采用视角与视图来描述软件架构<br/>3、哪种视图能解决并发性、分布性等问题？<br/>答：&nbsp;进程视图<br/>4、某公司欲开发一个在线教育平台。在架构设计阶段，公司的架构师识别出3&nbsp;个核心质量<br/>属性场景。其中“网站在并发用户数量10&nbsp;万的负载情况下，用户请求的平均响应时间应小<br/>于3&nbsp;秒”这一场景主要与什么质量属性相关？<br/>答：性能<br/>5、ABSDM模型把整个基于体系结构的软件过程划分为体系结构需求、设计、文档化、复审、实现和什么等6个子过程？<br/>答：体系结构演化"
+                    ],
+                    "option": ""
+                }
+            ],
+            "total_question": 87,
+            "summary": {
+                "radio": {
+                    "total_question": 84,
+                    "total_score": 0
+                },
+                "multiple": {
+                    "total_question": 0,
+                    "total_score": 0
+                },
+                "fill": {
+                    "total_question": 0,
+                    "total_score": 0
+                },
+                "program": {
+                    "total_question": 0,
+                    "total_score": 0
+                },
+                "qanda": {
+                    "total_question": 3,
+                    "total_score": 0
+                },
+                "cloze": {
+                    "total_question": 0,
+                    "total_score": 0
+                },
+                "budingxiang": {
+                    "total_question": 0,
+                    "total_score": 0
+                },
+                "material": {
+                    "total_question": 0,
+                    "total_score": 0
+                }
+            },
+            "title": "系统安全与可靠性设计"
+        },
+        "pagination": {
+            "curPage": 1,
+            "pageSize": 1000,
+            "total": 87,
+            "hasNextPage": false
+        },
+        "totalOrder": [
+            {
+                "index": 1,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "4635",
+                "answer_type": 1
+            },
+            {
+                "index": 2,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "43853",
+                "answer_type": 1
+            },
+            {
+                "index": 3,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "43855",
+                "answer_type": 1
+            },
+            {
+                "index": 4,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "43857",
+                "answer_type": 1
+            },
+            {
+                "index": 5,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "43858",
+                "answer_type": 1
+            },
+            {
+                "index": 6,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "43940",
+                "answer_type": 1
+            },
+            {
+                "index": 7,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "43946",
+                "answer_type": 1
+            },
+            {
+                "index": 8,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "43949",
+                "answer_type": 1
+            },
+            {
+                "index": 9,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "43950",
+                "answer_type": 1
+            },
+            {
+                "index": 10,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "43951",
+                "answer_type": 1
+            },
+            {
+                "index": 11,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "43952",
+                "answer_type": 1
+            },
+            {
+                "index": 12,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "43953",
+                "answer_type": 1
+            },
+            {
+                "index": 13,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "43954",
+                "answer_type": 1
+            },
+            {
+                "index": 14,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "43955",
+                "answer_type": 1
+            },
+            {
+                "index": 15,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "43957",
+                "answer_type": 1
+            },
+            {
+                "index": 16,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "43958",
+                "answer_type": 1
+            },
+            {
+                "index": 17,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "43959",
+                "answer_type": 1
+            },
+            {
+                "index": 18,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "46971",
+                "answer_type": 1
+            },
+            {
+                "index": 19,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "46986",
+                "answer_type": 1
+            },
+            {
+                "index": 20,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "49910",
+                "answer_type": 1
+            },
+            {
+                "index": 21,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "49915",
+                "answer_type": 1
+            },
+            {
+                "index": 22,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "49963",
+                "answer_type": 1
+            },
+            {
+                "index": 23,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "54289",
+                "answer_type": 1
+            },
+            {
+                "index": 24,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "54341",
+                "answer_type": 1
+            },
+            {
+                "index": 25,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "54344",
+                "answer_type": 1
+            },
+            {
+                "index": 26,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "63681",
+                "answer_type": 1
+            },
+            {
+                "index": 27,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "151220",
+                "answer_type": 1
+            },
+            {
+                "index": 28,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "151221",
+                "answer_type": 1
+            },
+            {
+                "index": 29,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "151248",
+                "answer_type": 1
+            },
+            {
+                "index": 30,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "151249",
+                "answer_type": 1
+            },
+            {
+                "index": 31,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "151250",
+                "answer_type": 1
+            },
+            {
+                "index": 32,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "151251",
+                "answer_type": 1
+            },
+            {
+                "index": 33,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "159193",
+                "answer_type": 1
+            },
+            {
+                "index": 34,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "159194",
+                "answer_type": 1
+            },
+            {
+                "index": 35,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "159196",
+                "answer_type": 1
+            },
+            {
+                "index": 36,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "208410",
+                "answer_type": 1
+            },
+            {
+                "index": 37,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "208457",
+                "answer_type": 1
+            },
+            {
+                "index": 38,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "208458",
+                "answer_type": 1
+            },
+            {
+                "index": 39,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "208479",
+                "answer_type": 1
+            },
+            {
+                "index": 40,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "208532",
+                "answer_type": 1
+            },
+            {
+                "index": 41,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "208533",
+                "answer_type": 1
+            },
+            {
+                "index": 42,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "281202",
+                "answer_type": 1
+            },
+            {
+                "index": 43,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "281351",
+                "answer_type": 1
+            },
+            {
+                "index": 44,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "281637",
+                "answer_type": 1
+            },
+            {
+                "index": 45,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "281638",
+                "answer_type": 1
+            },
+            {
+                "index": 46,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "281640",
+                "answer_type": 1
+            },
+            {
+                "index": 47,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "281641",
+                "answer_type": 1
+            },
+            {
+                "index": 48,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "281643",
+                "answer_type": 1
+            },
+            {
+                "index": 49,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "281644",
+                "answer_type": 1
+            },
+            {
+                "index": 50,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "281645",
+                "answer_type": 1
+            },
+            {
+                "index": 51,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "281646",
+                "answer_type": 1
+            },
+            {
+                "index": 52,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "281647",
+                "answer_type": 1
+            },
+            {
+                "index": 53,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "281648",
+                "answer_type": 1
+            },
+            {
+                "index": 54,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "284703",
+                "answer_type": 1
+            },
+            {
+                "index": 55,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "284704",
+                "answer_type": 1
+            },
+            {
+                "index": 56,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "310831",
+                "answer_type": 1
+            },
+            {
+                "index": 57,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "310835",
+                "answer_type": 1
+            },
+            {
+                "index": 58,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "312917",
+                "answer_type": 1
+            },
+            {
+                "index": 59,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "315944",
+                "answer_type": 1
+            },
+            {
+                "index": 60,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "315945",
+                "answer_type": 1
+            },
+            {
+                "index": 61,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "315946",
+                "answer_type": 1
+            },
+            {
+                "index": 62,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "315968",
+                "answer_type": 1
+            },
+            {
+                "index": 63,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "315969",
+                "answer_type": 1
+            },
+            {
+                "index": 64,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "315983",
+                "answer_type": 1
+            },
+            {
+                "index": 65,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "315984",
+                "answer_type": 1
+            },
+            {
+                "index": 66,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "348924",
+                "answer_type": 1
+            },
+            {
+                "index": 67,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "348925",
+                "answer_type": 1
+            },
+            {
+                "index": 68,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "348926",
+                "answer_type": 1
+            },
+            {
+                "index": 69,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "350293",
+                "answer_type": 1
+            },
+            {
+                "index": 70,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "350294",
+                "answer_type": 1
+            },
+            {
+                "index": 71,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "352257",
+                "answer_type": 1
+            },
+            {
+                "index": 72,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "352258",
+                "answer_type": 1
+            },
+            {
+                "index": 73,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "352399",
+                "answer_type": 1
+            },
+            {
+                "index": 74,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "352400",
+                "answer_type": 1
+            },
+            {
+                "index": 75,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "352435",
+                "answer_type": 1
+            },
+            {
+                "index": 76,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "352436",
+                "answer_type": 1
+            },
+            {
+                "index": 77,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "352437",
+                "answer_type": 1
+            },
+            {
+                "index": 78,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "352438",
+                "answer_type": 1
+            },
+            {
+                "index": 79,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "356202",
+                "answer_type": 1
+            },
+            {
+                "index": 80,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "356203",
+                "answer_type": 1
+            },
+            {
+                "index": 81,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "356207",
+                "answer_type": 1
+            },
+            {
+                "index": 82,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "356208",
+                "answer_type": 1
+            },
+            {
+                "index": 83,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "356256",
+                "answer_type": 1
+            },
+            {
+                "index": 84,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "356257",
+                "answer_type": 1
+            },
+            {
+                "index": 85,
+                "question_type": "5",
+                "belong_page": 1,
+                "question_id": "43734",
+                "answer_type": 5
+            },
+            {
+                "index": 86,
+                "question_type": "5",
+                "belong_page": 1,
+                "question_id": "43735",
+                "answer_type": 5
+            },
+            {
+                "index": 87,
+                "question_type": "5",
+                "belong_page": 1,
+                "question_id": "348854",
+                "answer_type": 5
+            }
+        ],
+        "progress": []
+    }
+}

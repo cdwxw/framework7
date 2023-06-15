@@ -1,0 +1,435 @@
+{
+    "msg": "成功",
+    "status": 0,
+    "data": {
+        "data": {
+            "examine": {
+                "examine_id": 4221,
+                "answer_id": "3940074",
+                "title": "2018年11月 系统架构设计师 下午题",
+                "len_time": 0,
+                "total_score": "114",
+                "get_score": "0",
+                "total_question": 5,
+                "proposal": "",
+                "proposalList": [
+                    {
+                        "proposal": "",
+                        "comment_time": "0",
+                        "log_id": "8588727"
+                    }
+                ],
+                "platform_id": "2",
+                "submit_limit_num": "0",
+                "version_id": "0",
+                "version_year": "0",
+                "mark_question_ids": []
+            },
+            "question": [
+                {
+                    "every_score": "25",
+                    "rank": "1",
+                    "correlation_time": "0",
+                    "question_id": "63698",
+                    "difficulty_id": "3",
+                    "question_title": "<p>阅读以下关于软件系统设计的叙述，在答题纸上回答问题1至问题3。</p><p>[说明]某文化产业集团委托软件公司开发一套文化用品商城系统，业务涉及文化用品销售、定制、竞拍和点评等板块，以提升商城的信息化建设水平。该软件公司组织项目组完成了需求调研，现已进入到系统架构设计阶段。考虑到系统需求对架构设计决策的影响，项目组先列出了可能影响系统架构设计的部分需求如下:</p><p>(a) 用户界面支持用户的个性化定制;</p><p>(b) 系统需要支持当前主流的标准和服务，特别是通信协议和平台接口;</p><p>(c) 用户操作的响应时间应不大于3秒，竞拍板块不大于1秒;</p><p>(d) 系统具有故障诊断和快速恢复能力;</p><p>(e) 用户密码需要加密传输;</p><p>(f) 系统需要支持不低于2G的数据缓存;</p><p>(g) 用户操作停滞时间超过定时限需要重新登录验证;</p><p>(h) 系统支持用户选择汉语、英语或法语三种语言之一进行操作。</p><p>项目组提出了两种系统架构设计方案:瘦客户端C/S架构和胖客户端C/S架构，经过对，上述需求逐条分析和讨论，最终决定采用瘦客户端C/S架构进行设计。</p><p><br/></p><p>[问题1](8分)&nbsp;</p><p>在系统架构设计中，决定系统架构设计的非功能性需求主要有四类:操作性需求、性能需求、安全性需求和文化需求。请简要说明四类需求的含义。</p><p>[问题2] (8分)</p><p>根据表1-1的分类，将题干所给出的系统需求(a) ~ (h) 分别填入(1) ~ (4)&nbsp;</p><p>表1-1需求分类</p><p><img style=\"max-width:100%;height:auto\"  src=\"http://s2.51cto.com/images/20181127/1543312292494065.jpg\" title=\"1543312292494065.jpg\" alt=\"1.jpg\"/></p><p>问题3 (9分)<br/></p><p>请说明瘦客户端C/S架构能够满足题干中给出的哪些系统需求(只需要回答出三个系统需求)。</p>",
+                    "option": "[]",
+                    "answer": [
+                        "<p>[问题1]</p><p>系统性能需求( Performance Requirements) : 指响应时间、吞吐量、准确性、有效性、资源利用率等与系统完成任务效率相关的指标。可靠性、可用性等指标可归为此类。</p><p>安全性需求( Security Requirements ) :系统向合法用户提供服务并阻止非授权用户使用服务方面的系统需求。</p><p>操作性需求( Operational Requirements) :与用户操作使用系统相关的一些需求 。</p><p>文化需求( Cultural Requirements) : 带有文化背景因素的系统需求。</p><p>[问题2]</p><p>(1) (a) (b)</p><p>(2) (c)(d)(f)</p><p>(3) (e) (g)</p><p>(4) (h)</p><p>[问题3]</p><p>b,c,h（此题不严谨）</p>"
+                    ],
+                    "knowledge": "系统架构师",
+                    "analyze": "<p>略</p>",
+                    "question_type": "5",
+                    "material_text": "",
+                    "answer_type": "5",
+                    "score_rule": "",
+                    "new_parent_id": "63698",
+                    "sort_son": "0",
+                    "creater_name": "试题账号",
+                    "create_time": "1543312307",
+                    "review_status": "1",
+                    "parent_id": "0",
+                    "first_id": "554",
+                    "second_id": "227",
+                    "three_id": "240",
+                    "show_type_name": "问答题",
+                    "examine_id": "4221",
+                    "type": "3",
+                    "title": "2018年11月 系统架构设计师 下午题",
+                    "len_time": "0",
+                    "submit_limit_num": "0",
+                    "platform_id": "2",
+                    "radio_score": "0",
+                    "pass_type": "2",
+                    "pass_score": "68",
+                    "passrate": "60",
+                    "checkbox_score": "0",
+                    "judgment_score": "0",
+                    "avg_score": "0",
+                    "max_score": "97",
+                    "exam_num": "501",
+                    "person_num": "595",
+                    "avg_time": "44.9",
+                    "is_right": "0",
+                    "chapter_name": [
+                        " 系统设计与架构"
+                    ],
+                    "single_score": 0,
+                    "index": 1,
+                    "belong_page": 1,
+                    "like": 0,
+                    "user_answer": [],
+                    "answer_imgs": [],
+                    "result": 0,
+                    "other_type_name": "qanda",
+                    "show_son": 0
+                },
+                {
+                    "every_score": "25",
+                    "rank": "1",
+                    "correlation_time": "0",
+                    "question_id": "63700",
+                    "difficulty_id": "3",
+                    "question_title": "<p>阅读以下关于软件系统建模的叙述，在答题纸上回答问题1至问题3。</p><p>[说明]某公司欲建设-一个房屋租赁服务系统，统一管理房主和租赁者的信息，提供快捷的租赁服务。本系统的主要功能描述如下:&nbsp;</p><p>1.登记房主信息。记录房主的姓名、住址、身份证号和联系电话等信息，并写入房主信息文件。</p><p>2.登记房屋信息。记录房屋的地址、房屋类型(如平房、带阳台的楼房、独立式住宅等)、楼层、租金及房屋状态(待租赁、已出租)等信息，并写入房屋信息文件。-名房主可以在系统中登记多套待租赁的房屋。</p><p>3.登记租赁者信息。记录租赁者的个人信息，包括:姓名、性别、住址、身份证号和电话号码等，并写入租赁者信息文件。</p><p>4.安排看房。已经登记在系统中的租赁者，可以从待租赁房屋列表中查询待租赁房屋信息。租赁者可以提出看房请求，系统安排租赁者看房。对于每次看房，系统会生成一条看房记录并将其写入看房记录文件中。</p><p>5.收取手续费。房主登记完房屋后，系统会生成一份费用单，房主根据费用单交纳相应的费用。</p><p>6.变更房屋状态。当租赁者与房主达成租房或退房协议后，房主向系统提交变更房屋状态的请求。系统将根据房主的请求，修改房屋信息文件。</p><p><img style=\"max-width:100%;height:auto\"  src=\"http://s2.51cto.com/images/20181127/1543312351968704.jpg\" title=\"1543312351968704.jpg\" alt=\"1.jpg\"/></p><p>[问题1](12分)<br/></p><p>若来用结构化方法对房屋租赁服务系统进行分析，得到如图2-1所示的顶层DFD,使用题干中给出的词语，给出图2-1中外部实体E1~E2、加工P1~P6以及数据存储D1~D4的名称。</p><p>[问题2] (5分)</p><p>若采用信息工程(Information Engineering)方法对房屋租赁服务系统进行分析，得到如图2-2所示的ERD.请给出图2-2中实体(1) ~ (5) 的名称。</p><p>[问题3](8分)</p><p>(1)信息工程方法中的&#39;实体(entity) ”与面向对象方法中的“类(class) ”之间有哪些不同之处?</p><p>(2)在面向对象方法中通常采用用例(Use Case)来捕获系统的功能需求。用例可以按照不同的层次来进行划分,其中的Essential Use Cases和Real Use Cases有哪些区别?<br/><img style=\"max-width:100%;height:auto\"  src=\"http://s2.51cto.com/images/20181127/1543312360520122.jpg\" title=\"1543312360520122.jpg\" alt=\"2.jpg\"/></p>",
+                    "option": "[]",
+                    "answer": [
+                        "<p>[问题1]</p><p>E1:房主</p><p>E2:租赁者</p><p>P1:登记房主信息</p><p>P2:登记房屋信息</p><p>P3:登记租赁者信息</p><p>P4:查询租赁房屋信息</p><p>P5:安排看房</p><p>P6:变更房屋状态</p><p>D1:房主信息文件</p><p>D2:租赁者信息文件</p><p>D3:房屋信息文件</p><p>D4:看房记录文件</p><p>[问题2]</p><p>(1) 房主</p><p>(2) 房屋</p><p>(3) 房屋信息文件</p><p>(4) 租赁者</p><p>(5) 看房记录</p><p>[问题3]</p><p>(1)实体用于数据建模，而类用于面向对象建模。实体只有属性，而类有属性和操作。</p><p>(2) Essential Use Cases可翻译为抽象用例，Real Use Cases可翻译为基础用例。他们是区别在于: 基础用例是实实在在与用户需求有对应关系的用例，是从用户需求获取的渠道得到的，而抽象用例是从基础用例中抽取的用例的公共部分，是为了避免重复工作，优化结构而提出的用例。</p>"
+                    ],
+                    "knowledge": "系统架构师",
+                    "analyze": "<p>略</p>",
+                    "question_type": "5",
+                    "material_text": "",
+                    "answer_type": "5",
+                    "score_rule": "",
+                    "new_parent_id": "63700",
+                    "sort_son": "0",
+                    "creater_name": "试题账号",
+                    "create_time": "1543312372",
+                    "review_status": "1",
+                    "parent_id": "0",
+                    "first_id": "554",
+                    "second_id": "227",
+                    "three_id": "240",
+                    "show_type_name": "问答题",
+                    "examine_id": "4221",
+                    "type": "3",
+                    "title": "2018年11月 系统架构设计师 下午题",
+                    "len_time": "0",
+                    "submit_limit_num": "0",
+                    "platform_id": "2",
+                    "radio_score": "0",
+                    "pass_type": "2",
+                    "pass_score": "68",
+                    "passrate": "60",
+                    "checkbox_score": "0",
+                    "judgment_score": "0",
+                    "avg_score": "0",
+                    "max_score": "97",
+                    "exam_num": "501",
+                    "person_num": "595",
+                    "avg_time": "44.9",
+                    "is_right": "0",
+                    "chapter_name": [
+                        "系统分析与设计"
+                    ],
+                    "single_score": 0,
+                    "index": 2,
+                    "belong_page": 1,
+                    "like": 0,
+                    "user_answer": [],
+                    "answer_imgs": [],
+                    "result": 0,
+                    "other_type_name": "qanda",
+                    "show_son": 0
+                },
+                {
+                    "every_score": "14",
+                    "rank": "1",
+                    "correlation_time": "0",
+                    "question_id": "63704",
+                    "difficulty_id": "3",
+                    "question_title": "<p><br/></p><p>阅读以下关于嵌入式实时系统相关技术的叙述，在答题纸.上回答问题1和问题2。</p><p>[说明]某公司长期从事宇航领域嵌入式实时系统的软件研制任务。公司为了适应未来嵌入式系统网络化、智能化和综合化的技术发展需要，决定重新考虑新产品的架构问题，经理将论证工作交给王工负责。王工经调研和分析，完成了新产品架构设计方案，提交公司高层讨论。</p><p>[问题1] (14分)</p><p>王工提交的设计方案中指出:由于公司目前研制的嵌入式实时产品属于简单型系统，其嵌入式子系统相互独立，功能单一，时序简单。而未来满足网络化、智能化和综合化的嵌入式实时系统将是种复杂系统，其核心特征体现为实时任务的机理、状态和行为的复杂性。简单任务和复杂任务的特征区分主要表现在十个方面。请参考表3- 1给出的实时任务特征分类，用题干中给出的(a) ~ (t)20个实时任务特征描述，补充完善表31给出的空(1) ~ (14) 。</p><p>(a) 任务属性不会随时间变化而改变;</p><p>(b) 任务的属性与时间相关;</p><p>(c) 任务仅可以从非连续集中获取特征变量;</p><p>(d) 任务变量域是连续的;</p><p>(e) 功能原理不依赖于上下文;</p><p>(f) 功能原理依赖于上下文;</p><p>(g) 任务行为可以用step-by- step顺序分析方法来理解;</p><p>(h) 许多任务在产生访问活动时相互间是并发处理的，很难用step by-step方法分析;</p><p>(i) 因果关系相互影响;</p><p>(j) 行为特征依赖于大量的反馈机制;</p><p>(k) 系统内构成、策略和描述是相似的;</p><p>(l) 系统内存 在许多不同的构成、策略和描述;</p><p>(m) 功能关系是非线性的;</p><p>(n) 功能关 系是线性的;</p><p>(o) 不同的子任务是相互独立的，任务内部仅存在少量的交互操作;</p><p>(p) 不同的子任务 有很高的交互操作，要把一个单任务的行为隔离开是困难的;</p><p>(q) 域特征有非常整齐的原则和规则;</p><p>(r) 许多不同的上下文依赖于规则;</p><p>(s) 原理和规则在表面属性， 上很容易被识别;</p><br/><img style=\"max-width:100%;height:auto\"  src=\"http://s2.51cto.com/images/20181127/1543312410412043.jpg\" title=\"1543312410412043.jpg\" alt=\"1.jpg\"/>",
+                    "option": "[]",
+                    "answer": [
+                        "<p>[问题1]</p><p>(1) (d)</p><p>(2) (c)</p><p>(3) (e)</p><p>(4) (f)</p><p>(5) (g)</p><p>(6) (h)</p><p>(7) (i)</p><p>(8) (j)</p><p>(9) (k)</p><p>(10) (l)&nbsp;</p><p>(11) (n)</p><p>(12) (m)</p><p>(13) (o)</p><p>(14) (p)</p><p>[问题2]&nbsp;</p><p>BMTS的消息通信网络主要特征为:能适配不同的传输介质, 以及适配不同的协议, 屏蔽不同协议之间的差异,简化通信过程降低系统复杂度。</p><p>事件触发消息;以事件作为触发方式，事件发生便触发相应消息。</p><p>速率约束消息;传输速率固定的消息，</p><p>时间触发消息;以时间作为触发方式，到达时间点便触发相应消息。</p><p>具有时间触发消息能力的网络总线;&nbsp;</p><p>航空电子全双工交换式以太网( Avion nics Full Duplex Switched Ethermet , AFDX )时间触发以太网( Time Triggered Ethernet, TTE )</p>"
+                    ],
+                    "knowledge": "系统架构师",
+                    "analyze": "<p>略</p>",
+                    "question_type": "5",
+                    "material_text": "",
+                    "answer_type": "5",
+                    "score_rule": "",
+                    "new_parent_id": "63704",
+                    "sort_son": "0",
+                    "creater_name": "试题账号",
+                    "create_time": "1543312422",
+                    "review_status": "1",
+                    "parent_id": "0",
+                    "first_id": "554",
+                    "second_id": "227",
+                    "three_id": "240",
+                    "show_type_name": "问答题",
+                    "examine_id": "4221",
+                    "type": "3",
+                    "title": "2018年11月 系统架构设计师 下午题",
+                    "len_time": "0",
+                    "submit_limit_num": "0",
+                    "platform_id": "2",
+                    "radio_score": "0",
+                    "pass_type": "2",
+                    "pass_score": "68",
+                    "passrate": "60",
+                    "checkbox_score": "0",
+                    "judgment_score": "0",
+                    "avg_score": "0",
+                    "max_score": "97",
+                    "exam_num": "501",
+                    "person_num": "595",
+                    "avg_time": "44.9",
+                    "is_right": "0",
+                    "chapter_name": [
+                        " 系统设计与架构"
+                    ],
+                    "single_score": 0,
+                    "index": 3,
+                    "belong_page": 1,
+                    "like": 0,
+                    "user_answer": [],
+                    "answer_imgs": [],
+                    "result": 0,
+                    "other_type_name": "qanda",
+                    "show_son": 0
+                },
+                {
+                    "every_score": "25",
+                    "rank": "1",
+                    "correlation_time": "0",
+                    "question_id": "63707",
+                    "difficulty_id": "3",
+                    "question_title": "<p>阅读以下关于分布式数据库缓存设计的叙述，在答题纸，上回答问题1至问题3.</p><p>[说明]某企业是为城市高端用户提供高品质蔬菜生鲜服务的初创企业，创业初期为快速开展业务，该企业采用轻量型的开发架构(脚本语言+关系型数据库)研制了一套业务系统。业务开展后受到用户普遍欢迎，用户数和业务数量迅速增长，原有的数据库服务器已不能满足高度并发的业务要求。为此，该企业成立了专门的研发团队来解决该问题。张工建议重新开发整个系统，采用新的服务器和数据架构，解决当前问题的同时为日后的扩展提供支持。但是，李工认为张工的方案开发周期过长，投入过大，当前应该在改动尽量小的前提下解决该问题。李工认为访问量很大的只是部分数据，建议采用缓存工具MemCache来减轻数据库服务器的压力，这样开发量小，开发周期短，比较适合初创公司，同时将来也可以通过集群进行扩展。然而，刘工又认为李工的方案中存在数据可靠性和一致性问题，在宕机时容易丢失交易数据，建议采用Redis来解决问题。 在经过充分讨论，该公司最终决定采用刘工的方案。</p><p><br/></p><p>[问题1](9分)</p><p>在李工和刘工的方案中，均采用分布式数据库缓存技术来解决问题。请说明分布式数据库缓存的基本概念。</p><p>表4- 1中对MemCache和Redis两种工具的优缺点进行了比较，请补充完善表4-1中的空(1) ~ (6) 。</p><p>表4-1</p><p><img style=\"max-width:100%;height:auto\"  src=\"https://s1.51ctocdn.cn//images/20181127/1543312497669959.jpg\" title=\"1543312497669959.jpg\" alt=\"1.jpg\"/></p><p><br/></p><p>[问题2](8分)</p><p>刘工认为李工的方案存在数据可靠性和一致性的问题，请说明原因。</p><p>为避免数据可靠性和一致性的问题，刘工的方案采用Redis作为数据库缓存，请说明基本的Redis与原有关系数据库的数据同步方案。</p><p>[问题3](8分)</p><p>请给出Redis分布式存储的2种常见方案和Redis集群切片的几种常见方式。</p>",
+                    "option": "[]",
+                    "answer": [
+                        "<p>[问题1]</p><p>（1）Redis不仅仅支持简单的k/v类型的数据，同时还提供list，set，hash等数据结构的存储。</p><p>（2）不支持</p><p>（3）支持</p><p>（4）不支持</p><p>（5）支持</p><p>（6）弱支持，只能保证事务中的每个操作连续执行</p><p><br/></p><p>[问题2]<br/>数据仅存在于内存中,宕机或重启数据将全部失效，这属于数据可靠性问题。<br/>MemCache不支持事务，存在数据一致性问题。<br/></p><p>读数据时，先读Redis中的数据,如果Redis没有，则从原数据库读取，并同步更新Redis数据。写数据时，先写入原数据库中，并同步更新至Redis中。</p><p><br/></p><p>[问题3]</p><p>（1）主从、Cluster<br/>（2）客户端分片、Twemproxy、Redis&nbsp;Cluster、Proxy&nbsp;+&nbsp;Redis&nbsp;Cluster</p>"
+                    ],
+                    "knowledge": "系统架构师",
+                    "analyze": "<p>略</p>",
+                    "question_type": "5",
+                    "material_text": "",
+                    "answer_type": "5",
+                    "score_rule": "",
+                    "new_parent_id": "63707",
+                    "sort_son": "0",
+                    "creater_name": "试题账号",
+                    "create_time": "1543312545",
+                    "review_status": "1",
+                    "parent_id": "0",
+                    "first_id": "554",
+                    "second_id": "227",
+                    "three_id": "240",
+                    "show_type_name": "问答题",
+                    "examine_id": "4221",
+                    "type": "3",
+                    "title": "2018年11月 系统架构设计师 下午题",
+                    "len_time": "0",
+                    "submit_limit_num": "0",
+                    "platform_id": "2",
+                    "radio_score": "0",
+                    "pass_type": "2",
+                    "pass_score": "68",
+                    "passrate": "60",
+                    "checkbox_score": "0",
+                    "judgment_score": "0",
+                    "avg_score": "0",
+                    "max_score": "97",
+                    "exam_num": "501",
+                    "person_num": "595",
+                    "avg_time": "44.9",
+                    "is_right": "0",
+                    "chapter_name": [
+                        "系统分析与设计"
+                    ],
+                    "single_score": 0,
+                    "index": 4,
+                    "belong_page": 1,
+                    "like": 0,
+                    "user_answer": [],
+                    "answer_imgs": [],
+                    "result": 0,
+                    "other_type_name": "qanda",
+                    "show_son": 0
+                },
+                {
+                    "every_score": "25",
+                    "rank": "1",
+                    "correlation_time": "0",
+                    "question_id": "63709",
+                    "difficulty_id": "3",
+                    "question_title": "<p>阅读以下关于Web系统设计的叙述，在答题纸上回答问题1至问题3。</p><p>[说明]</p><p>某银行拟将以分行为主体的银行信息系统，全面整合为由总行统一管理维护的银行信息系统，实现统一的用户账户管理、转账汇款、自助缴费、理财投资、贷款管理、网上支付、财务报表分析等业务功能。但是，由于原有以分行为主体的银行信息系统中，多个业务系统采用异构平台、数据库和中间件，使用的报文交换标准和通信协议也不尽相同，使用传统的EAI解决方案根本无法实现新的业务模式下异构系统间灵活的交互和集成。因此，为了以最小的系统改进整合现有的基于不同技术实现的银行业务系统，该银行拟采用基于ESB的面向服务架构(SOA)集成方案实现业务整合。</p><p>[问题1](7分)</p><p>请说明什么是面向服务架构(SOA)以及ESB在SOA中的作用与特点。</p><p>[问题2](12分)</p><p>基于该信息系统整合的实际需求，项目组完成了基于SOA的银行信息系统架构设计方案。该系统架构图如图5-1所示:</p><p><img style=\"max-width:100%;height:auto\"  src=\"https://s1.51ctocdn.cn//images/20181127/1543312554977896.jpg\" title=\"1543312554977896.jpg\" alt=\"1.jpg\"/></p><p>请从(a) ~ (j)中选择相应内容填入图5-1的(1) ~ (6)，补充完善架构设计图。</p><p>(a)数据层</p><p>(b)界面层</p><p>(c)业务层</p><p>(d) bind</p><p>(e) 企业服务总线ESB</p><p>(f)XML</p><p>(g)安全验证和质量管理</p><p>(h)publish</p><p>(i) UDDI</p><p>(j)组件层</p><p>(k)BPEL</p><p><br/></p><p>[问题3] (6分)</p><p>针对银行信息系统的数据交互安全性需求，列举3种可实现信息系统安全保障的措施。</p>",
+                    "option": "[]",
+                    "answer": [
+                        "<p>[问题1]</p><p>SOA是一个组件模型,它将应用程序的不同功能单元(称为服务)通过这些服务之间定义良好的接口和契约联系起来。接口是采用中立的方式进行定义的,它应该独立于实现服务的硬件平台、操作系统和编程语言。这使得构建在各种这样的系统中的服务可以一种统-和通用的方式进行交互。</p><p>ESB作用与特点:</p><p>1、SOA的一种实现方式, ESB在面向服务的架构中起到的是总线作用,将各种服务进行连接与整合;</p><p>2、描述服务的元数据和服务注册管理;</p><p>3、 在服务请求者和提供者之间传递数据,以及对这些数据进行转换的能力,并支持由实践中总结出来的一些模式如同步</p><p>模式、异步模式等;</p><p>4、发现、路由、匹配和选择的能力,以支持服务之间的动态交互,解耦服务请求者和服务提供者。高级一些的能力,包括对安全的支持、服务质量保证、可管理性和负载平衡等。</p><p>(问题2)</p><p>(c)业务层</p><p>(i) UDDI</p><p>(h) publish</p><p>(e)企业服务总线ESB</p><p>(g)安全验证和质量管理</p><p>(j)组件层</p><p>[问题3]</p><p>1、引入https协议或采用加密技术对数据先加密再传输</p><p>2、采用信息摘要技术对重要信息进行完整性验证</p><p>3、交易类敏感信息采用数字签名机制</p>"
+                    ],
+                    "knowledge": "系统架构师",
+                    "analyze": "<p>略</p>",
+                    "question_type": "5",
+                    "material_text": "",
+                    "answer_type": "5",
+                    "score_rule": "",
+                    "new_parent_id": "63709",
+                    "sort_son": "0",
+                    "creater_name": "试题账号",
+                    "create_time": "1543312572",
+                    "review_status": "1",
+                    "parent_id": "0",
+                    "first_id": "554",
+                    "second_id": "227",
+                    "three_id": "240",
+                    "show_type_name": "问答题",
+                    "examine_id": "4221",
+                    "type": "3",
+                    "title": "2018年11月 系统架构设计师 下午题",
+                    "len_time": "0",
+                    "submit_limit_num": "0",
+                    "platform_id": "2",
+                    "radio_score": "0",
+                    "pass_type": "2",
+                    "pass_score": "68",
+                    "passrate": "60",
+                    "checkbox_score": "0",
+                    "judgment_score": "0",
+                    "avg_score": "0",
+                    "max_score": "97",
+                    "exam_num": "501",
+                    "person_num": "595",
+                    "avg_time": "44.9",
+                    "is_right": "0",
+                    "chapter_name": [
+                        "系统分析与设计"
+                    ],
+                    "single_score": 0,
+                    "index": 5,
+                    "belong_page": 1,
+                    "like": 0,
+                    "user_answer": [],
+                    "answer_imgs": [],
+                    "result": 0,
+                    "other_type_name": "qanda",
+                    "show_son": 0
+                }
+            ],
+            "summary": {
+                "radio": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        1,
+                        9,
+                        11
+                    ]
+                },
+                "multiple": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        2,
+                        12
+                    ]
+                },
+                "budingxiang": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        7
+                    ]
+                },
+                "judge": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        3,
+                        13
+                    ]
+                },
+                "cloze": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        8
+                    ]
+                },
+                "fill": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        4
+                    ]
+                },
+                "qanda": {
+                    "total_question": 5,
+                    "total_score": 114,
+                    "question_types": [
+                        5,
+                        14
+                    ]
+                },
+                "program": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        6
+                    ]
+                },
+                "material": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        10
+                    ]
+                }
+            }
+        },
+        "pagination": {
+            "curPage": 1,
+            "pageSize": 250,
+            "total": 5,
+            "hasNextPage": false
+        },
+        "totalOrder": [
+            {
+                "index": 1,
+                "belong_page": 1,
+                "is_right": "0",
+                "user_answer": [],
+                "result": 0
+            },
+            {
+                "index": 2,
+                "belong_page": 1,
+                "is_right": "0",
+                "user_answer": [],
+                "result": 0
+            },
+            {
+                "index": 3,
+                "belong_page": 1,
+                "is_right": "0",
+                "user_answer": [],
+                "result": 0
+            },
+            {
+                "index": 4,
+                "belong_page": 1,
+                "is_right": "0",
+                "user_answer": [],
+                "result": 0
+            },
+            {
+                "index": 5,
+                "belong_page": 1,
+                "is_right": "0",
+                "user_answer": [],
+                "result": 0
+            }
+        ]
+    }
+}

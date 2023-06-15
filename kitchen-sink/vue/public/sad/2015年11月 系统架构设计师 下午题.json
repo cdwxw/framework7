@@ -1,0 +1,435 @@
+{
+    "msg": "成功",
+    "status": 0,
+    "data": {
+        "data": {
+            "examine": {
+                "examine_id": 3192,
+                "answer_id": "3940089",
+                "title": "2015年11月  系统架构设计师  下午题",
+                "len_time": 0,
+                "total_score": "125",
+                "get_score": "0",
+                "total_question": 5,
+                "proposal": "",
+                "proposalList": [
+                    {
+                        "proposal": "",
+                        "comment_time": "0",
+                        "log_id": "8588752"
+                    }
+                ],
+                "platform_id": "2",
+                "submit_limit_num": "0",
+                "version_id": "0",
+                "version_year": "0",
+                "mark_question_ids": []
+            },
+            "question": [
+                {
+                    "every_score": "25",
+                    "rank": "1",
+                    "correlation_time": "0",
+                    "question_id": "151259",
+                    "difficulty_id": "3",
+                    "question_title": "<p>阅读以下关于软件架构评估的说明，回答下列问题。</p><p style=\"margin-top: 5px;text-indent: 28px\">【说明】</p><p>某软件公司拟为某市级公安机关开发一套特种车辆管理与监控系统，以提高特种车辆管理的效率和准确性。在系统需求分析与架构设计阶段，用户提出的部分需求和关键质量属性场景如下：</p><p>&nbsp;&nbsp; &nbsp;(a)系统用户分为管理员、分管领导和普通民警等三类；</p><p>&nbsp;&nbsp; &nbsp;(b)正常负载情况下，系统必须在0.5秒内对用户的车辆查询请求进行响应；</p><p>&nbsp;&nbsp; &nbsp;(c)系统能够抵御99.999%的黑客攻击；</p><p>&nbsp;&nbsp; &nbsp;(d)系统的用户名必须以字母开头，长度不少于5个字符；</p><p>&nbsp;&nbsp; &nbsp;(e)对查询请求处理时间的要求将影响系统的数据传输协议和处理过程的设计；</p><p>&nbsp;&nbsp; &nbsp;(f)网络失效后，系统需要在2分钟内发现并启用备用网络系统；</p><p>&nbsp;&nbsp; &nbsp;(g)在系统升级时，需要保证在1个月内添加一个新的消息处理中间件；</p><p>&nbsp;&nbsp; &nbsp;(h)查询过程中涉及到的车辆实时视频传输必须保证20帧/秒的速率，且画面具有600×480的分辨率；</p><p>&nbsp;&nbsp; &nbsp;(i)更改系统加密的级别将对安全性和性能产生影响；</p><p>&nbsp;&nbsp; &nbsp;(j)系统主站点断电后，需要在3秒内将请求重定向到备用站点；</p><p>&nbsp;&nbsp; &nbsp;(k)假设每秒中用户查询请求的数量是10个，处理请求的时间为30毫秒，则“在1秒内完成用户的查询请求”这一要求是可以实现的；</p><p>&nbsp;&nbsp; &nbsp;(l)对用户信息数据的授权访问必须保证99.999%的安全性；</p><p>&nbsp;&nbsp; &nbsp;(m)目前对“车辆信息实时监控”业务逻辑的描述尚未达成共识，这可能导致部分业务功能模块的重复，影响系统的可修改性；</p><p>&nbsp;&nbsp; &nbsp;(n)更改系统的Web界面接口必须在1周内完成；</p><p>&nbsp;&nbsp; &nbsp;(o)系统需要提供远程调试接口，并支持系统的远程调试。</p><p>&nbsp;&nbsp; &nbsp;在对系统需求和质量属性场景进行分析的基础上，系统的架构师给出了三个候选的架构设计方案。公司目前正在组织系统开发的相关人员对系统架构进行评估。</p><p>【问题1】（12分）</p><p>在架构评估过程中，质量属性效用树(utility tree)是对系统质量属性进行识别和优先级排序的重要工具。请给出合适的质量属性，填入图1中(1)、(2)空白处；并选择题干描述中的(a)～(o)，将恰当的序号填入(3)～(6)空白处，完成该系统的效用树。</p><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/20190925/1569399023297847.jpg\" title=\"1569399023297847.jpg\" alt=\"1.jpg\"/><br/><p>【问题2】（3分）</p><p>在架构评估过程中，需要正确识别系统的架构风险、敏感点和权衡点请从题干描述中的(a)～(o)各选出1个属于系统架构风险、敏感点和权衡点的描述。</p>【问题3】（10分）<p>该项目的四种质量属性分别用什么设计策略实现？（每种举例2个，只写名词即可）</p>",
+                    "option": "[]",
+                    "answer": [
+                        "【问题1】<br/><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/20190925/1569399071239732.jpg\" title=\"1569399071239732.jpg\" alt=\"1.jpg\"/><p>【问题2】<br/></p><p>(m)描述的是系统架构风险；(e)描述的是敏感点；(i)描述的是权衡点。</p><p>【问题3】<br/><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/20190925/1569399110382196.jpg\" title=\"1569399110382196.jpg\" alt=\"1.jpg\"/></p>"
+                    ],
+                    "knowledge": "系统架构设计师",
+                    "analyze": "<p>无</p>",
+                    "question_type": "5",
+                    "material_text": "",
+                    "answer_type": "5",
+                    "score_rule": "",
+                    "new_parent_id": "151259",
+                    "sort_son": "0",
+                    "creater_name": "试题账号",
+                    "create_time": "1569399155",
+                    "review_status": "1",
+                    "parent_id": "0",
+                    "first_id": "554",
+                    "second_id": "227",
+                    "three_id": "240",
+                    "show_type_name": "问答题",
+                    "examine_id": "3192",
+                    "type": "3",
+                    "title": "2015年11月  系统架构设计师  下午题",
+                    "len_time": "0",
+                    "submit_limit_num": "0",
+                    "platform_id": "2",
+                    "radio_score": "0",
+                    "pass_type": "1",
+                    "pass_score": "45",
+                    "passrate": "0",
+                    "checkbox_score": "0",
+                    "judgment_score": "0",
+                    "avg_score": "0",
+                    "max_score": "125",
+                    "exam_num": "265",
+                    "person_num": "293",
+                    "avg_time": "43.7",
+                    "is_right": "0",
+                    "chapter_name": [
+                        "案例分析"
+                    ],
+                    "single_score": 0,
+                    "index": 1,
+                    "belong_page": 1,
+                    "like": 0,
+                    "user_answer": [],
+                    "answer_imgs": [],
+                    "result": 0,
+                    "other_type_name": "qanda",
+                    "show_son": 0
+                },
+                {
+                    "every_score": "25",
+                    "rank": "2",
+                    "correlation_time": "0",
+                    "question_id": "84451",
+                    "difficulty_id": "3",
+                    "question_title": "<p>阅读下列说明和图，回答问题，将解答填入答题纸的对应栏内。</p><p>【说明】</p><p>某公司拟研制一款高空监视无人直升机，该无人机采用遥控一自主复合型控制实现垂直升降。该直升机飞行控制系统由机上部分和地面部分组成，机上部分主要包括无线电传输设备、飞控计算机、导航设备等，地面部分包括遥控操纵设备、无线电传输设备以及地面综合控制计算机等。其主要工作原理是地面综合控制计算机负责发送相应指令，飞控计算机按照预定程序实现相应功能。经过需求分析，对该无人直升机控制系统纵向控制基本功能整理如下：</p><p>(a)飞控计算机加电后，应完成系统初始化，飞机进入准备起飞状态；</p><p>(b)在准备起飞状态中等待地面综合控制计算机发送起飞指令，飞控计算机接收到起飞指令后，进入垂直起飞状态；</p><p>(c)垂直起飞过程中如果飞控计算机发现飞机飞行异常，飞行控制系统应转入无线电遥控飞行状态，地面综合控制计算机发送遥控指令；</p><p>(d)垂直起飞达到预定起飞高度后，飞机应进入高度保持状态；</p><p>(e)飞控计算机在收到地面综合控制计算机发送的目标高度后，飞机应进入垂直升降状态，接近目标高度；垂直升降过程中出现飞机飞行异常，控制系统应转入无线电遥控飞行；</p><p>(f)飞机到达目标高度后，应进入高度保持状态，完成相应的任务；</p><p>(g)飞机在接到地面综合控制计算机发送的任务执行结束指令后，进入飞机降落状态；</p><p>(h)飞机降落过程中如果出现飞机飞行异常，控制系统应转入无线电遥控飞行；</p><p>(i)飞机降落到指定着陆高度后，进入飞机着陆状态，应按照预定着陆算法，进行着陆；</p><p>(j)无线电遥控飞行中，地面综合控制计算机发送着陆指令，飞机进入着陆状态，应按照预定着陆算法，进行着陆。</p><p>【问题1】（1分）</p><p>状态图和活动图是软件系统设计建模中常用的两种手段，请简述二者的区别。</p><p>【问题2】（5分）</p><p>根据题干中描述的基本功能需求，架构师王工通过对需求的分析和总结给出了无人直升机控制系统纵向控制状态图(如下图)。请根据题干描述，提炼出相应状态及条件，并完善下图所示状态图中的(1)～(5)。<br/><br/></p><p><img style=\"max-width:100%;height:auto\"  src=\"http://s2.51cto.com/images/20190411/1554973836878397.jpg\" title=\"1554973836878397.jpg\" alt=\"1.jpg\"/></p><p>【问题3】（9分）</p><p>根据题目中描述的基本功能需求，架构师王工给出了无人直升机控制系统纵向控制的顶层活动图(如下图)。请根据题干描述，完善下图活动图中的(1)～(9)。<br/><img style=\"max-width:100%;height:auto\"  src=\"http://s2.51cto.com/images/20190411/1554973856862917.jpg\" title=\"1554973856862917.jpg\" alt=\"1.jpg\"/></p>",
+                    "option": "[]",
+                    "answer": [
+                        "<p>【问题1】</p><p>活动图主要描述行为的动作。</p><p>状态图主要描述行为的结果。</p><p>【问题2】</p><p>（1）垂直起飞状态 （2）飞机飞行异常 （3）高度保持状态 （4）垂直升降状态 （5）无线遥控飞行状态</p><p>【问题3】</p><p>(1)地面综合控制计算机 (2)下传起飞就绪信息 (3)垂直起飞</p><p>&nbsp;(4)高度保持 (5)发送目标高度 (6)垂直升降</p><p>&nbsp;(7)发送任务结束指令 (8)飞机降落 (9)无线电遥控飞行</p>"
+                    ],
+                    "knowledge": "软件设计师",
+                    "analyze": "<p>无</p>",
+                    "question_type": "5",
+                    "material_text": "",
+                    "answer_type": "5",
+                    "score_rule": "",
+                    "new_parent_id": "84451",
+                    "sort_son": "0",
+                    "creater_name": "试题账号",
+                    "create_time": "1554973932",
+                    "review_status": "1",
+                    "parent_id": "0",
+                    "first_id": "554",
+                    "second_id": "263",
+                    "three_id": "239",
+                    "show_type_name": "问答题",
+                    "examine_id": "3192",
+                    "type": "3",
+                    "title": "2015年11月  系统架构设计师  下午题",
+                    "len_time": "0",
+                    "submit_limit_num": "0",
+                    "platform_id": "2",
+                    "radio_score": "0",
+                    "pass_type": "1",
+                    "pass_score": "45",
+                    "passrate": "0",
+                    "checkbox_score": "0",
+                    "judgment_score": "0",
+                    "avg_score": "0",
+                    "max_score": "125",
+                    "exam_num": "265",
+                    "person_num": "293",
+                    "avg_time": "43.7",
+                    "is_right": "0",
+                    "chapter_name": [
+                        "案例分析"
+                    ],
+                    "single_score": 0,
+                    "index": 2,
+                    "belong_page": 1,
+                    "like": 0,
+                    "user_answer": [],
+                    "answer_imgs": [],
+                    "result": 0,
+                    "other_type_name": "qanda",
+                    "show_son": 0
+                },
+                {
+                    "every_score": "25",
+                    "rank": "3",
+                    "correlation_time": "0",
+                    "question_id": "43813",
+                    "difficulty_id": "3",
+                    "question_title": "<p>阅读以下关于嵌入式系统可靠性设计方面的描述，回答下列问题。<br/>【说明】某宇航公司长期从事宇航装备的研制工作，嵌入式系统的可靠性分析与设计已成为该公司产品研制中的核心工作，随着宇航装备的综合化技术发展，嵌入式软件规模发生了巨大变化，代码规模已从原来的几十万扩展到上百万，从而带来了由于软件失效而引起系统可靠性降低的隐患。公司领导非常重视软件可靠性工作，决定抽调王工程师等5人组建可靠性研究团队，专门研究提高本公司宇航装备的系统可靠性和软件可靠性问题，并要求在三个月内，给出本公司在系统和软件设计方面如何考虑可靠性设计的方法和规范。可靠性研究团队很快拿出了系统及硬件的可靠性提高方案，但对于软件可靠性问题始终没有研究出一种普遍认同的方法。<br/>【问题1】请用200字以内文字说明系统可靠性的定义及包含的4个子特性，并简要指出提高系统可靠性一般采用哪些技术?<br/>【问题2】王工带领的可靠性研究团队之所以没能快速取得软件可靠性问题的技术突破，其核心原因是他们没有搞懂高可靠性软件应具备的特点。软件可靠性一般致力于系统性地减少和消除对软件程序性能有不利影响的系统故障。除非被修改，否则软件系统不会随着时间的推移而发生退化。请根据你对软件可靠性的理解，给出下表所列出的硬件可靠性特征与其对应的软件可靠性特征之间的差异或相似之处，将答案写在答题纸上。<br/><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/20211130/1638258162853319.png\" title=\"1638258162853319.png\" alt=\"屏幕截图 2021-11-30.png\"/><br/>【问题3】王工带领的可靠性研究团队在分析了大量相关资料基础上，提出软件的质量和可靠性必须在开发过程构建到软件中，也就是说，为了提高软件的可靠性，必须在需求分析、设计阶段开展软件可靠性筹划和设计。研究团队针对本公司承担的飞行控制系统制定出了一套飞控软件的可靠性设计要求。飞行控制系统是一种双余度同构型系统，输入采用了独立的两路数据通道，在系统内完成输入数据的交叉对比、表决、制导率计算，输出数据的交叉对比、表决、输出等功能，系统的监控模块实现对系统失效或失步的检测与定位。其软件的可靠性设计包括恢复块方法和N版本程序设计方法。请根据恢复块方法工作原理完成下图，在(1)～(4)中填入恰当的内容。并比较恢复块方法与N版本程序设计方法，将比较结果(5)～(8)填入下表中。<br/><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/20211130/1638258195510300.png\" title=\"1638258195510300.png\" alt=\"屏幕截图 2021-11-30.png\"/><br/><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/20211130/1638258246245025.png\" title=\"1638258246245025.png\" alt=\"屏幕截图 2021-11-30.png\"/></p>",
+                    "option": "[]",
+                    "answer": [
+                        "<p>答案：<br/>问题1：<br/>系统可靠性定义：系统在规定的时间内及规定的环境条件下，完成规定功能的能力，就是系统无故障运行的概率。&nbsp;&nbsp; &nbsp;<br/>根据国家标准《软件工程产品质量&nbsp;第1部分：质量模型》(GB/T 16260.1—2006)的规定，系统可靠性包括：成熟性、容错性、易恢复性和可靠性的依从性4个子特性。&nbsp;&nbsp; <br/>&nbsp;提高系统可靠性一般采用以下4类技术：&nbsp;&nbsp; &nbsp;(1)冗余技术；&nbsp;&nbsp; &nbsp;(2)软件容错技术；&nbsp;&nbsp; &nbsp;(3)双机容错技术；&nbsp;&nbsp; &nbsp;(4)集群技术。<br/>问题2：<br/>(1)从硬件角度分析，由于硬件一旦生产完成，其可靠性指标将会随着使用时间延长而逐步老化，从而带来可靠性降低，即呈现失效率服从浴缸曲线；而软件不存在随时间延长而老化的现象，因此，在不考虑软件演化的情况下，失效率在统计上是非增的。&nbsp;&nbsp; &nbsp;<br/>(2)由于硬件是由多种电子器件组成，即使不使用，材料劣化也会导致失效；而软件就不同了，软件一旦调试完成，固化到设备中，在不考虑存储介质的老化因素的前提下，即使不使用该软件，软件也永远不会发生失效。&nbsp;&nbsp; <br/>&nbsp;(3)由于硬件存在可更换性，其硬件通过维修，可恢复原始状态；而对于软件而言，一旦需要维护，必然是存在需求更改、程序存在bug等现象，其维护必然会创建新的软件代码。&nbsp;&nbsp; <br/>&nbsp;(4)一般而言，硬件失效存在一个发展过程，在发生故障之前必然会有报警现象出现，而软件失效之前很少会有警告。<br/>问题3：<br/>1．恢复块方法：&nbsp;&nbsp; &nbsp;(1)主块&nbsp;&nbsp; &nbsp;(2)验证测试&nbsp;&nbsp; &nbsp;(3)输出正确结果&nbsp;&nbsp; &nbsp;(4)异常处理&nbsp;&nbsp; &nbsp;<br/>2．恢复块方法与N版本程序设计的比较&nbsp;&nbsp; &nbsp;(5)表决&nbsp;&nbsp; &nbsp;(6)反向恢复&nbsp;&nbsp; &nbsp;(7)差&nbsp;&nbsp; &nbsp;(8)好</p>"
+                    ],
+                    "knowledge": "系统架构设计师",
+                    "analyze": "<p>略</p>",
+                    "question_type": "5",
+                    "material_text": "",
+                    "answer_type": "5",
+                    "score_rule": "",
+                    "new_parent_id": "43813",
+                    "sort_son": "0",
+                    "creater_name": "薛大龙",
+                    "create_time": "1532681736",
+                    "review_status": "1",
+                    "parent_id": "0",
+                    "first_id": "554",
+                    "second_id": "227",
+                    "three_id": "240",
+                    "show_type_name": "问答题",
+                    "examine_id": "3192",
+                    "type": "3",
+                    "title": "2015年11月  系统架构设计师  下午题",
+                    "len_time": "0",
+                    "submit_limit_num": "0",
+                    "platform_id": "2",
+                    "radio_score": "0",
+                    "pass_type": "1",
+                    "pass_score": "45",
+                    "passrate": "0",
+                    "checkbox_score": "0",
+                    "judgment_score": "0",
+                    "avg_score": "0",
+                    "max_score": "125",
+                    "exam_num": "265",
+                    "person_num": "293",
+                    "avg_time": "43.7",
+                    "is_right": "0",
+                    "chapter_name": [
+                        "操作系统\t"
+                    ],
+                    "single_score": 0,
+                    "index": 3,
+                    "belong_page": 1,
+                    "like": 0,
+                    "user_answer": [],
+                    "answer_imgs": [],
+                    "result": 0,
+                    "other_type_name": "qanda",
+                    "show_son": 0
+                },
+                {
+                    "every_score": "25",
+                    "rank": "4",
+                    "correlation_time": "0",
+                    "question_id": "43814",
+                    "difficulty_id": "3",
+                    "question_title": "<p>阅读以下关于应用系统数据架构的说明，回答下列问题。<br/></p><p>某软件公司拟开发一套贸易综合管理系统，包括客户关系管理子系统和商品信息管理子系统两部分。客户关系管理子系统主要管理客户信息，并根据贸易业务需要频繁向客户发送相关的电子邮件、短信等提醒信息。商品信息管理子系统主要为客户提供商品信息在线查询功能，包括商品基本信息、实时库存与价格等。<br/>在对系统进行数据架构设计时，公司项目组的架构师王工主张采用文件系统进行数据管理，原因是目前公司客户和商品数量不大，且系统功能较为简单，采用文件系统进行数据管理简单直观，开发周期短。架构师李工则建议采用关系数据库进行数据管理，原因在于公司目前正处在高速扩张期，虽然目前的客户和商品数量不大，但随着公司快速发展，需要管理的数据必然飞速膨胀，采用关系数据库作为数据存储层，系统的扩展性更强，并能够对未来可能增加的复杂业务提供有效支持。经过讨论，项目组初步采纳了李工的意见，决定采用关系数据库存储客户数据，并针对业务特征对系统性能进行优化。</p><p>【问题1】</p><p>请从设计难度、数据冗余程度、数据架构、应用扩展性等4个方面对关系型数据库管理系统和文件系统两种数据存储方式进行比较，填写下表中(1)～(4)。</p><p><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/201807/0157614983c0076f7f33994fd909f88cfd205a.png\"/></p><p><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/201807/476ab5385e915d614318809a7c0a5c2f897b9f.png\"/></p><p><br/></p><p><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/201807/246006196151d3643998307a4051362c6367ec.png\"/></p>",
+                    "option": "[]",
+                    "answer": [
+                        "<p>问题一：</p><p>(1)数据结构需要符合关系模式，设计难度较大</p><p>&nbsp; &nbsp; (2)可能在多个文件中复制相同的数据属性，数据冗余较大</p><p>&nbsp; &nbsp; (3)以应用系统为中心组织、管理数据</p><p>&nbsp; &nbsp; (4)数据独立于应用系统，很容易在不同的应用系统之间共享数据</p><p><br/></p><p>问题二：</p><p>(1)Key-Value模式(键-值对模式)</p><p>&nbsp; &nbsp; (2)外存读写，性能相对较低</p><p>&nbsp; &nbsp; (3)基于内存存储，存储容量受限</p><p>&nbsp; &nbsp; (4)恢复机制复杂，可靠性较低</p><p>&nbsp; &nbsp; (5)内存数据库</p><p>&nbsp; &nbsp; (6)内存数据库</p><p>&nbsp; &nbsp; (7)关系数据库</p><p>&nbsp; &nbsp; (8)内存数据库</p><p>&nbsp; &nbsp; (9)内存数据库</p><p><br/></p><p>问题三：</p><p>(1)提升&nbsp; &nbsp; (2)降低&nbsp; &nbsp; (3)降低&nbsp; &nbsp; (4)提升</p><p><br/></p>"
+                    ],
+                    "knowledge": "系统架构设计师",
+                    "analyze": "<p>略</p><p><br/></p>",
+                    "question_type": "5",
+                    "material_text": "",
+                    "answer_type": "5",
+                    "score_rule": "",
+                    "new_parent_id": "43814",
+                    "sort_son": "0",
+                    "creater_name": "薛大龙",
+                    "create_time": "1532681896",
+                    "review_status": "1",
+                    "parent_id": "0",
+                    "first_id": "554",
+                    "second_id": "227",
+                    "three_id": "240",
+                    "show_type_name": "问答题",
+                    "examine_id": "3192",
+                    "type": "3",
+                    "title": "2015年11月  系统架构设计师  下午题",
+                    "len_time": "0",
+                    "submit_limit_num": "0",
+                    "platform_id": "2",
+                    "radio_score": "0",
+                    "pass_type": "1",
+                    "pass_score": "45",
+                    "passrate": "0",
+                    "checkbox_score": "0",
+                    "judgment_score": "0",
+                    "avg_score": "0",
+                    "max_score": "125",
+                    "exam_num": "265",
+                    "person_num": "293",
+                    "avg_time": "43.7",
+                    "is_right": "0",
+                    "chapter_name": [
+                        "数据库基础"
+                    ],
+                    "single_score": 0,
+                    "index": 4,
+                    "belong_page": 1,
+                    "like": 0,
+                    "user_answer": [],
+                    "answer_imgs": [],
+                    "result": 0,
+                    "other_type_name": "qanda",
+                    "show_son": 0
+                },
+                {
+                    "every_score": "25",
+                    "rank": "5",
+                    "correlation_time": "0",
+                    "question_id": "43815",
+                    "difficulty_id": "3",
+                    "question_title": "<p>阅读以下关于Web系统架构的设计的叙述，回答下列问题。<br/></p><p>某信息技术公司计划开发一套在线投票系统，用于为市场调研、信息调查和销售反馈等业务提供服务。该系统计划通过大量宣传和奖品鼓励的方式快速积累用户，当用户规模扩大到一定程度时，开始联系相关企业提供信息服务，并按照信息服务种类和用户投票数量收取费用。<br/></p><p><br/>为了降低开发成本和提高开发效率，项目组经过讨论后决定采用轻量级Java EE开发框架设计系统应用架构。在应用架构设计中，除了满足系统主要功能需求，还需要考虑的因素包括：</p><p>1.项目开发采用MySQL，数据库存储数据，但将来可能移植到其他数据库平台；</p><p>2.系统开发过程中尽可能降低或者消除SQL语句开发的工作量；</p><p>3.投票系统中数据之间的关系复杂，需要支持数据对象的聚合和继承等关系。</p><p><br/>项目组基于MVC模式设计出了投票系统的架构，包括表示层、业务逻辑层、数据持久层和数据层。在具体讨论数据持久层采用哪种技术方案时，老王建议采用成熟的Hibernate框架，小李则认为iBatis更加灵活，更适合作为投票系统数据持久层开发技术。</p><p>【问题1】</p><p>请用300以内文字说明什么是数据持久层，使用数据持久层能够为项目开发带来哪些好处?</p><p>【问题2】</p><p>针对在线投票系统的实际应用需求和要求，项目组应选用哪种技术实现数据持久层?请用200字以内文字说明其采用该技术的原因</p><p><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/201807/e636c28055ae3c3f8cd857eab63d0ce42562f4.png\"/></p>",
+                    "option": "[]",
+                    "answer": [
+                        "<p>见解析</p>"
+                    ],
+                    "knowledge": "系统架构设计师",
+                    "analyze": "<p>数据持久层是根据分层思想，通过建立逻辑数据操作接口，采取一定的对象/关系映射策略，隐藏数据库访问代码细节，向业务开发人员提供透明的对象持久化操作机制。<br/></p><p><br/>能够为项目开发带来的好处：</p><p>(1)分离业务逻辑层和数据层，降低两者之间的耦合；</p><p>(2)通过对象/关系映射向业务逻辑提供面向对象的数据访问；</p><p>(3)简化数据层访问，隐藏数据库链接、数据读写命令和事务管理细节。</p><p><br/></p><p>项目组应该采用Hibernate框架。<br/></p><p>原因：(1)Hibernate支持多种不同类型数据库，满足项目组数据库移植需求；<br/></p><p>(2)Hibernate相对于iBatis减少了SQL语句开发的工作量；</p><p>(3)iBatis生成的PO是扁平化的，无法像Hibernate一样支持对象的继承和聚合等立体化关系。</p><p><br/><br/></p><p>答案：</p><p>(1)(c)&nbsp; &nbsp; (2)&nbsp; (b)&nbsp; &nbsp; (3)&nbsp; (d)&nbsp; &nbsp; (4)&nbsp; (a)</p><p><br/></p>",
+                    "question_type": "5",
+                    "material_text": "",
+                    "answer_type": "5",
+                    "score_rule": "",
+                    "new_parent_id": "43815",
+                    "sort_son": "0",
+                    "creater_name": "薛大龙",
+                    "create_time": "1532681971",
+                    "review_status": "1",
+                    "parent_id": "0",
+                    "first_id": "554",
+                    "second_id": "227",
+                    "three_id": "240",
+                    "show_type_name": "问答题",
+                    "examine_id": "3192",
+                    "type": "3",
+                    "title": "2015年11月  系统架构设计师  下午题",
+                    "len_time": "0",
+                    "submit_limit_num": "0",
+                    "platform_id": "2",
+                    "radio_score": "0",
+                    "pass_type": "1",
+                    "pass_score": "45",
+                    "passrate": "0",
+                    "checkbox_score": "0",
+                    "judgment_score": "0",
+                    "avg_score": "0",
+                    "max_score": "125",
+                    "exam_num": "265",
+                    "person_num": "293",
+                    "avg_time": "43.7",
+                    "is_right": "0",
+                    "chapter_name": [
+                        " 系统设计与架构"
+                    ],
+                    "single_score": 0,
+                    "index": 5,
+                    "belong_page": 1,
+                    "like": 0,
+                    "user_answer": [],
+                    "answer_imgs": [],
+                    "result": 0,
+                    "other_type_name": "qanda",
+                    "show_son": 0
+                }
+            ],
+            "summary": {
+                "radio": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        1,
+                        9,
+                        11
+                    ]
+                },
+                "multiple": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        2,
+                        12
+                    ]
+                },
+                "budingxiang": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        7
+                    ]
+                },
+                "judge": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        3,
+                        13
+                    ]
+                },
+                "cloze": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        8
+                    ]
+                },
+                "fill": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        4
+                    ]
+                },
+                "qanda": {
+                    "total_question": 5,
+                    "total_score": 125,
+                    "question_types": [
+                        5,
+                        14
+                    ]
+                },
+                "program": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        6
+                    ]
+                },
+                "material": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        10
+                    ]
+                }
+            }
+        },
+        "pagination": {
+            "curPage": 1,
+            "pageSize": 250,
+            "total": 5,
+            "hasNextPage": false
+        },
+        "totalOrder": [
+            {
+                "index": 1,
+                "belong_page": 1,
+                "is_right": "0",
+                "user_answer": [],
+                "result": 0
+            },
+            {
+                "index": 2,
+                "belong_page": 1,
+                "is_right": "0",
+                "user_answer": [],
+                "result": 0
+            },
+            {
+                "index": 3,
+                "belong_page": 1,
+                "is_right": "0",
+                "user_answer": [],
+                "result": 0
+            },
+            {
+                "index": 4,
+                "belong_page": 1,
+                "is_right": "0",
+                "user_answer": [],
+                "result": 0
+            },
+            {
+                "index": 5,
+                "belong_page": 1,
+                "is_right": "0",
+                "user_answer": [],
+                "result": 0
+            }
+        ]
+    }
+}

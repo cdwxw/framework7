@@ -1,0 +1,923 @@
+{
+    "msg": "成功",
+    "status": 0,
+    "data": {
+        "data": {
+            "question": [
+                {
+                    "index": 1,
+                    "belong_page": 1,
+                    "question_id": 281649,
+                    "question_title": "嵌入式系统设计一般要考虑低功耗，软件设计也要考虑低功耗设计，软件低功耗设计一般采用 （ ）。",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 281649,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>软件设计层面的功耗控制可以从以下几个方面展开：</p><p>①软硬件协同设计，即软件的设计要与硬件的匹配，考虑硬件因素。</p><p>②编译优化，采用低功耗优化的编译技术。</p><p>③减少系统的持续运行时间，可从算法角度进行优化。</p><p>④用“中断”代替“查询”。</p><p>⑤进行电源的有效管理。</p>",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        "结构优化、编译优化和代码优化",
+                        "软硬件协同设计、开发过程优化和环境设计优化",
+                        "轻量级操作系统、算法优化和仿真实验",
+                        "编译优化技术、软硬件协同设计和算法优化"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "belong_page": 1,
+                    "question_id": 281650,
+                    "question_title": "嵌入式处理器是嵌入式系统的核心部件，一般可分为嵌入式微处理器(MPU)、微控制器(MCU)、数字信号处理器(DSP)和片上系统(SOC)。以下叙述中，错误的是（）。",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 281650,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>选项A是错的。MPU采用增强型通用微处理器。由于嵌入式系统通常应用于环境比较恶劣的环境中，因而MPU在工作温度、电磁兼容性以及可靠性方面的要求较通用的标准微处理器高。但是，MPU 在功能方面与标准的微处理器基本上是一样的。</p><p>选项B是对的。MCU又称单片微型计算机(Single Chip Microcomputer)或者单片机，是指随着大规模集成电路的出现及其发展，将计算机的CPU、RAM、ROM、定时计数器和多种I/O接口集成在一片芯片上，形成芯片级的计算机，为不同的应用场合做不同组合控制。典型代表是单片机，体积小从而使功耗和成本下降。</p><p>选项C是对的。DSP是一种独特的微处理器，是以数字信号来处理大量信息的器件。其实时运行速度可达每秒数以千万条复杂指令程序，远远超过通用微处理器，它的强大数据处理能力和高运行速度，是最值得称道的两大特色。</p><p>选项D是对的。SoC称为系统级芯片，也有称片上系统,意指它是一个产品，是一个有专用目标的集成电路，其中包含完整系统并有嵌入软件的全部内容。</p>",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        "MPU在安全性和可靠性等方面进行增强，适用于运算量较大的智能系统",
+                        "MCU典型代表是单片机，体积小从而使功耗和成本下降",
+                        "DSP处理器对系统结构和指令进行了特殊设计，适合数字信号处理",
+                        "SOC是一个有专用目标的集成电路，其中包括完整系统并有嵌入式软件的全部内容"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "belong_page": 1,
+                    "question_id": 281651,
+                    "question_title": "嵌入式软件设计需要考虑 （） 以保障软件良好的可移植性。",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 281651,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "嵌入式系统的软件设计除了需要考虑一般软件设计的基本要求之外，通常都会要求嵌入式系统软件具有良好的可移植性，以实现对不同硬件平台的适用性，这就要求基于硬件抽象层的系统软件设计特性实现对上层软件的统一接口，做到硬件无关性。",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        "先进性",
+                        "易用性",
+                        "硬件无关性",
+                        "可靠性"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "belong_page": 1,
+                    "question_id": 281652,
+                    "question_title": "以下描述中，（）不是嵌入式操作系统的特点。",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 281652,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "嵌入式操作系统是应用于嵌入式系统，实现软硬件资源的分配，任务调度，控制、协调并发活动等的操作系统软件。它除了具有一般操作系统最基本的功能如多任务调度、同步机制等之外，通常还会具备以下适用于嵌入式系统的特性：面向应用，可以进行检查和移植，以支持开放性和可伸缩性的体系结构；强实时性，以适应各种控制设备及系统；硬件适用性，对于不同硬件平台提供有效的支持并实现统一的设备驱动接口；高可靠性，运行时无须用户过多干预，并处理各类事件和故障；编码体积小，通常会固化在嵌入式系统有限的存储单元中。",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        "面向应用，可以进行裁剪和移植",
+                        "用于特定领域，不需要支持多任务",
+                        "可靠性高，无须人工干预独立运行，并处理各类事件和故障",
+                        "要求编码体积小，能够在嵌入式系统的有效存储空间内运行"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "belong_page": 1,
+                    "question_id": 281653,
+                    "question_title": "以下关于多核处理器的说法中,不正确的是( ）。",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 281653,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>多核处理器，是将多个独立CPU封装在一起，集成在一个电路里。</p><p>多核处理器有三种运行模式，如下表<br/><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/20200914/1600077399235576.jpg\" title=\"1600077399235576.jpg\" alt=\"1.jpg\"/></p>每一个模式适合于解决某方面的特定问题，而且对操作系统的要求也各不相同，采用哪种模式，需要考虑硬件的差异情况。",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        "采用多核处理器可以降低计算机系统的功耗和体积",
+                        "SMP、BMP和AMP 是多核处理器系统通常采用的三种结构,釆用哪种结构与应用场景相关,而无须考虑硬件的组成差异",
+                        "在多核处理器中,计算机可以同执行多个进程,而操作系统中的多个线程也可以并行执行",
+                        "多核处理器是将两个或更多的独立处理器封装在一起,集成在一个电路中。"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "belong_page": 1,
+                    "question_id": 281654,
+                    "question_title": "以下关于实时操作系统(RTOS)任务调度器的叙述中，正确的是（）。",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 281654,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>任务是RTOS中最重要的操作对象，每个任务在RTOS的调度下由CPU分时执行。任务的调度目前主要有时间分片式、轮流查询式和优先抢占式三种，不同的RTOS可能支持其中一种或几种，其中优先抢占式对实时性的支持最好。</p><p>在非实时系统中，调度的主要目的是缩短系统平均响应时间，提高系统资源的利用率，或优化某一项指标；而实时系统中调度的目的则是要尽可能地保证每个任务满足他们的时间约束，及时对外部请求做出响应。</p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        "任务之间的公平性是最重要的调度目标",
+                        "大多数RTOS调度算法都是抢占方式(可剥夺方式)",
+                        "RTOS调度器都采用了基于时间片轮转的调度算法",
+                        "大多数RTOS调度算法只采用一种静态优先级调度算法"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "belong_page": 1,
+                    "question_id": 281655,
+                    "question_title": "以下关于嵌入式系统开发的叙述，正确的是（）。",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 281655,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>在嵌入式系统开发中，由于嵌入式设备不具备足够的处理器能力和存储空间，程序开发一般用PC(宿主机)来完成，然后将可执行文件下载到嵌入式系统(目标机)中运行。</p><p>当宿主机与目标机的机器指令不同时，就需要交叉工具链(指编译、汇编、链接等一整套工具)。</p>",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        "宿主机与目标机之间只需要建立逻辑连接",
+                        "宿主机与目标机之间只能采用串口通信方式",
+                        "在宿主机上必须采用交叉编译器来生成目标机的可执行代码",
+                        "调试器与被调试程序必须安装在同一台机器上"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "belong_page": 1,
+                    "question_id": 281656,
+                    "question_title": "<p>雷达设计人员在设计数字信号处理单元时,其处理器普遍采用DSP芯片（比如TI公司的TMS320C63xx），通常DSP芯片采用哈佛（Harvard）体系结构，以下关于哈佛结构特征的描述不正确是（ ）。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 281656,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>在计算机中，为了便于管理，常把一条指令的执行过程划分为若干个阶段，每一阶段完成一项工作。例如，取指令、存储器读、存储器写等，这每一项工作称为一个基本操作。完成一个基本操作所需要的时间称为机器周期。因此，B项错误。</p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " 程序和数据具有独立的存储空间,允许同时取指令和取操作数,并允许在程序空间或数据空间之间互传数据 ",
+                        " 处理器内用多总线结构,保证了在一个机器周期内可以多次访问程序空间和数据空间 ",
+                        " 哈佛体系结构强调的是多功能,适合多种不同的环境和任务,强调兼容性 ",
+                        " 处理器内部采用多处理单元,可以在一个指令周期内同时进行运算 "
+                    ]
+                },
+                {
+                    "index": 9,
+                    "belong_page": 1,
+                    "question_id": 281658,
+                    "question_title": "<p>“从减少成本和缩短研发周期考虑，要求嵌入式操作系统能运行在不同的微处理器平台上。能针对硬件变化进行结构与功能上的配置”是属于嵌入式操作系统(&nbsp; )特点。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 281658,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>嵌入式操作系统的特点<br/>（1）微型化：从性能和成本角度考虑，希望占用的资源和系统代码量少。<br/>（2）可定制：从减少成本和缩短研发周期考虑，要求嵌入式操作系统能运行在不同的微处理器平台上，能针对硬件变化进行结构与功能上的配置，以满足不同应用的需求。<br/>（3）实时性：嵌入式操作系统主要应用于过程控制、数据采集、传输通信、多媒体信息及管件要害领域需要迅速响应的场合，所以对实时性要求较高。<br/>（4）可靠性：系统构件、模块和体系结构必须达到应有的可靠性，对关键要害应用还要提供容错和防故障措施。<br/>（5）易移植性：为了提高系统的易移植性，通常采用硬件抽象层和板级支持包的底层设计技术。<br/></p>",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        " 可定制 ",
+                        " 实时性 ",
+                        " 可靠性 ",
+                        " 易移植性 "
+                    ]
+                },
+                {
+                    "index": 10,
+                    "belong_page": 1,
+                    "question_id": 310840,
+                    "question_title": "（13）不是反映嵌入式实时操作系统实时性的评价指标。",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 310840,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>一个嵌入式实时操作系统(BTOS)的评价要从很多角度进行，如体系结构、API的丰富程度、网络支持、可靠性等。其中，实时性是RTOS评价的最重要的指标之一，实时性的优劣是用户选择操作系统的一个重要参考。</p><p>严格地说，影响嵌入式操作系统实时性的因素有很多，如常用系统调用平均运行时间、任务切换时间、线程切换时间、信号量混洗时间(指从一个任务释放信号量到另一个等待该信号量的任务被激活的时间延迟)、中断响应时间等。</p><p>任务执行时间不是反映RTOS实时性的评价指标。</p>",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        "任务执行时间",
+                        "中断响应和延迟时间",
+                        "任务切换时间",
+                        "信号量混洗时间"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "belong_page": 1,
+                    "question_id": 310860,
+                    "question_title": "以下不是嵌入式操作系统应用领域的是（28）。",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 310860,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "A、B、D都属于嵌入式操作系统。",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        "智能手机",
+                        "车载系统",
+                        "办公系统",
+                        "军工航天"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "belong_page": 1,
+                    "question_id": 315910,
+                    "question_title": "<p>一般说来，SoC 称为系统级芯片，也称片上系统，它是一个有专用且标的集成电路产品，以下关于 SoC 不正确的说法是（9)</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 315910,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>在soC中软硬件的结合是十分紧密的，软件和硬件之间的功能划分以及它们的实现并没有固定的模式，而是随着应用的不同而变化。</p>",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        " SoC 是一种技术，是以实际的、确定的系统功能开始，到软/硬件划分，并完成设计的整个过程 ",
+                        " SoC 是一款具有运算能力的处理器芯片，可面向特定用途进行定制的标准产品 ",
+                        " SoC 是信息系统核心的芯片集成，是将系统关键部件集成在一块芯片上，完成信息系统的核心功能 ",
+                        " SoC 是将微处理器、模拟IP 核、数字 IP 核和存储器(或片外存储控制接口)集成在单一芯片上，是面向特定用途的标准产品 "
+                    ]
+                },
+                {
+                    "index": 13,
+                    "belong_page": 1,
+                    "question_id": 315911,
+                    "question_title": "<p>嵌入式实时操作系统与一般操作系统相比，具备许多特点。以下不属于嵌入式实时操作系统特点的是(10)</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 315911,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "嵌入式操作系统是专用性的操作系统，应用于专用的硬件。",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        "可剪裁性",
+                        "实时性",
+                        "通用性",
+                        "可固化性"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "belong_page": 1,
+                    "question_id": 315912,
+                    "question_title": "<p>基于网络的数据库系统(Netware Database System，NDB)是基于 4G/5G 的移动通信之上，在逻辑上可以把嵌入式设备看作远程服务器的一个客户端。以下有关 NDB的摘述中，不正确的是(11)</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 315912,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "NDB需要支持可剪裁性、代码可重用。",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        "NDB 主要由客户端、通信协议和远程服务器等三部分组成",
+                        " NDB 的客户端主要负责提供接口给嵌入式程序，通信协议负责规范客户端与远程服务器之间的通信，远程服务器负责维护服务器上的数据库数 ",
+                        "NDB 具有客户端小、无需支持可剪裁性、代码可重用等特点",
+                        "NDB 是以文件方式存储数据库数据。即数据按照一定格式储存在磁盘中，使用时由应用程序通过相应的驱动程序甚至直接对数据文件进行读写"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "belong_page": 1,
+                    "question_id": 348928,
+                    "question_title": "<p>形成Web Service架构基础的协议主要包括 （ ）</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 348928,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>Web Services定义了一种松散的、粗粒度的分布计算模式，使用标准的\nHTTP（S）协议传送XML表示及封装的内容，Web服务的典型技术包括：用\n于传达信息的简单对象访问协议（Simple Object Access Protocal，\nSOAP）、用于描述服务的Web服务描述语言（Web Services Description\nLanguage，WSDL）、用于Web服务的注册的统一描述、发现及集成\n（Universal Description Discoveryand Integrption Language，\nUDDI）、用于数据交换的XML。<br/>Web Services的主要目标是跨平台的互相操作性，适合使用Web Services的情况如下。<br/>（1） 跨越防火墙：对于成千上万且分布在世界各地的客户来讲，应用程序的客户端和服\n务器之间的通信是一个棘手的问题，客户端和服务器之间通常都会有防火墙或者代理服\n务器，用户通过Web服务访问服务器端逻辑和数据可以规避防火墙的阻挡。<br/>（2） 应用程序集成：企业需要将不同语言编写的在不同平台上运行的各种程序集成起来\n时，Web服务可以用标准的方法提供功能和数据，供其他应用程序使用。<br/>（3） B2B集成：在跨公司业务集成（B2B集成）中，通过Web服务已将关键的商务应\n用提供给指定的合作伙伴和客户，用Web服务实现B2B集成可以很容易的解决互操作问\n题。<br/>（4） 软件重用：Web服务允许的重用代码的同时，重用代码后面的数据通过直接调用\n远端的Web服务，可以动态的获得当前的数据信息，用Web服务集成各种应用中的功能，\n为用户提供一个统一的界面，是另一种软件重用方式。\n所以，答案选D。</p>",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        " SOAP、HTTP、UdbDI&nbsp; ",
+                        " WSDL、SOAP、DHCP ",
+                        " SOAP、DHCP、WSDL ",
+                        " WSDL、SOAP、UDD "
+                    ]
+                },
+                {
+                    "index": 16,
+                    "belong_page": 1,
+                    "question_id": 348930,
+                    "question_title": "<p><br/></p><p>根据布线标准ANSI/TIA/EIA-568A，综合布线系统分为如下图所示的6个\n子系统。其中的①为 （ ） 子系统、②为 （ ） 子系统、③为 （ ） 子系统。<br/><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/20220819/1660905384511275.png\" title=\"1660905384511275.png\" alt=\"image.png\"/></p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 348929,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "1",
+                    "analyze": "目前在综合布线领域被广泛遵循的标准是EIA/TIA568A。在\nEIA/TIA-568A中把综合布线系统分为6个子系统：建筑群子系统、设备间\n子系统、垂直干线子系统、管理子系统、水平子系统和工作区子系统。\n综合布线系统的范围应根据建筑工程项目范围来定，主要有单幢建筑和建筑\n群体两种范围。单幢建筑中的综合布线系统工程范围，一般是指在整幢建筑\n内部敷设的通信线路，还应包括引出建筑物的通信线路。建筑物内部的综合\n布线系统包括设备间子系统、垂直干线子系统、管理子系统、水平子系统和\n工作区子系统。\n综合布线系统的工程范围除包括每幢建筑内的通信线路外，还需包括各栋建\n筑之间相互连接的通信线路。",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        "水平子系统&nbsp;",
+                        "建筑群子系统&nbsp;",
+                        "工作区子系统&nbsp;",
+                        "设备间子系统"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "belong_page": 1,
+                    "question_id": 348931,
+                    "question_title": "<p><br/></p><p>根据布线标准ANSI/TIA/EIA-568A，综合布线系统分为如下图所示的6个\n子系统。其中的①为 （ ） 子系统、②为 （ ） 子系统、③为 （ ） 子系统。<br/><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/20220819/1660905384511275.png\" title=\"1660905384511275.png\" alt=\"image.png\"/></p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 348929,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "2",
+                    "analyze": "目前在综合布线领域被广泛遵循的标准是EIA/TIA568A。在\nEIA/TIA-568A中把综合布线系统分为6个子系统：建筑群子系统、设备间\n子系统、垂直干线子系统、管理子系统、水平子系统和工作区子系统。\n综合布线系统的范围应根据建筑工程项目范围来定，主要有单幢建筑和建筑\n群体两种范围。单幢建筑中的综合布线系统工程范围，一般是指在整幢建筑\n内部敷设的通信线路，还应包括引出建筑物的通信线路。建筑物内部的综合\n布线系统包括设备间子系统、垂直干线子系统、管理子系统、水平子系统和\n工作区子系统。\n综合布线系统的工程范围除包括每幢建筑内的通信线路外，还需包括各栋建\n筑之间相互连接的通信线路。",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        "水平子系统&nbsp;",
+                        "建筑群子系统&nbsp;",
+                        "工作区子系统&nbsp;",
+                        "设备间子系统"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "belong_page": 1,
+                    "question_id": 348932,
+                    "question_title": "<p><br/></p><p>根据布线标准ANSI/TIA/EIA-568A，综合布线系统分为如下图所示的6个\n子系统。其中的①为 （ ） 子系统、②为 （ ） 子系统、③为 （ ） 子系统。<br/><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/20220819/1660905384511275.png\" title=\"1660905384511275.png\" alt=\"image.png\"/></p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 348929,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "3",
+                    "analyze": "目前在综合布线领域被广泛遵循的标准是EIA/TIA568A。在\nEIA/TIA-568A中把综合布线系统分为6个子系统：建筑群子系统、设备间\n子系统、垂直干线子系统、管理子系统、水平子系统和工作区子系统。\n综合布线系统的范围应根据建筑工程项目范围来定，主要有单幢建筑和建筑\n群体两种范围。单幢建筑中的综合布线系统工程范围，一般是指在整幢建筑\n内部敷设的通信线路，还应包括引出建筑物的通信线路。建筑物内部的综合\n布线系统包括设备间子系统、垂直干线子系统、管理子系统、水平子系统和\n工作区子系统。\n综合布线系统的工程范围除包括每幢建筑内的通信线路外，还需包括各栋建\n筑之间相互连接的通信线路",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        "&nbsp;水平子系统&nbsp;",
+                        "建筑群子系统&nbsp;",
+                        "工作区子系统&nbsp;",
+                        "设备间子系统"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "belong_page": 1,
+                    "question_id": 350296,
+                    "question_title": "<p>嵌入式系统中采用中断方式实现输入输出的主要原因是&nbsp;（15） 。在中断时，CPU断点信息一般保存到&nbsp;（16） 中。</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 350295,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "1",
+                    "analyze": "<p>CPU利用中断方式完成数据的I/O，当I/O系统与外设交换数据时，CPU无需等待也不必去查询I/O的状态，当I/O系统完成了数据传输后则以中断信号通知CPU。然后CPU通过栈保存正在执行程序的现场，转入I/O中断服务程序完成与I/O系统的数据交换。再然后返回原主程序继续执行。与程序控制方式相比，中断方式因为CPU无需等待而提高了效率。</p>",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        " 速度最快 ",
+                        " CPU不参与操作 ",
+                        " 实现起来比较容易 ",
+                        " 能对突发事件做出快速响应 "
+                    ]
+                },
+                {
+                    "index": 20,
+                    "belong_page": 1,
+                    "question_id": 350297,
+                    "question_title": "<p>嵌入式系统中采用中断方式实现输入输出的主要原因是&nbsp;（15） 。在中断时，CPU断点信息一般保存到&nbsp;（16） 中。</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 350295,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "2",
+                    "analyze": "<p>CPU利用中断方式完成数据的I/O，当I/O系统与外设交换数据时，CPU无需等待也不必去查询I/O的状态，当I/O系统完成了数据传输后则以中断信号通知CPU。然后CPU通过栈保存正在执行程序的现场，转入I/O中断服务程序完成与I/O系统的数据交换。再然后返回原主程序继续执行。与程序控制方式相比，中断方式因为CPU无需等待而提高了效率。</p>",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        " 通用寄存器 ",
+                        " 堆 ",
+                        " 栈 ",
+                        " I/O接口 "
+                    ]
+                },
+                {
+                    "index": 21,
+                    "belong_page": 1,
+                    "question_id": 352259,
+                    "question_title": "<p>&nbsp;实时操作系统(RTOS) 内核与应用程序之间的接口称为&nbsp;（16） 。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 352259,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>API 的含义是 Application Programming Interface，即应用程序编程接口， 是一些预先定义 的函数，目的是提供应用程序与开发人员基于某软件或硬件得以访问一组例程的能力， 而又 无须访问源码或理解内部工作机制的细节。</p><p>所有操作系统(不仅仅只是嵌入式操作系统) 为应用程序提供的接口均称之为“API”。 因此本题选 C，其他容易迷惑的选项如下。</p><p>(1) &nbsp;PCI，指 Peripheral Component Interconnect，外设部件互联标准，是目前个人电脑 中使用最为广泛的接口， 几乎所有的主板产品上都带有这种插槽。</p><p>(2) &nbsp;GUI 指Graphical User Interface，即图形用户界面， 又称“图形用户接口”，是用 户与操作系统之间的接口。</p>",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        " I/O 接口&nbsp; ",
+                        " PCI ",
+                        " API ",
+                        " GUI "
+                    ]
+                },
+                {
+                    "index": 22,
+                    "belong_page": 1,
+                    "question_id": 352260,
+                    "question_title": "<p>&nbsp;嵌入式处理器是嵌入式系统的核心部件。以下叙述中， 错误的是&nbsp;（17） 。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 352260,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>选项 A 是错的，MPU是“嵌入式微处理器”，采用增强型通用微处理器。由于嵌入式系统通常应用于环境比较 恶劣的环境中，因而 MPU 在工作温度、电磁兼容性，以及可靠性方面的要求较通用的标准微处理器高， 但是 MPU 在本质上仍然是一个嵌入式处理器，并不适合高并发大型计算。</p><p>选项 B 是对的，MCU 又称“单片微型计算机”(Single Chip Microcomputer)或者“单 片机”。它指随着大规模集成电路的出现及其发展， 将计算机的 CPU、RAM 、ROM、定时 计数器和多种 I/O 接口集成在一片芯片上，形成芯片级的计算机，为不同的应用场合做不同 组合控制。由于体积小， 所以功耗和成本下降。</p><p>选项 C 是对的，DSP 是一种独特的微处理器， 是以数字信号来处理大量信息的器件。其 实时运行速度可达每秒运行数以千万条复杂指令，远远超过通用微处理器， 它的强大数据处 理能力和高运行速度是最值得称道的两大特色。</p><p>选项 D 是对的，SOC 称为“系统级芯片”，称为“片上系统”。意指它是一个产品， 是 一个有专用目标的集成电路， 其中包含完整系统并有嵌入软件。。</p>",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        " MPU 是多处理单元，适合高并发大型计算 ",
+                        " MCU 典型代表是单片机， 体积小从而使功耗和成本下降 ",
+                        " DSP 处理器对系统结构和指令进行了特殊设计，适合数字信号处理 ",
+                        " SOC 是一个有专用目标的集成电路，其中包括完整系统并有嵌入式软件的全 部内容 "
+                    ]
+                },
+                {
+                    "index": 23,
+                    "belong_page": 1,
+                    "question_id": 352360,
+                    "question_title": "<p>以下关于实时操作系统(RTOS)任务调度器的叙述中，正确的是（&nbsp; ）。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 352360,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>任务是RTOS中最重要的操作对象，每个任务在RTOS的调度下由CPU分时执行。任务的调度目前主要有时间分片式、轮流查询式和优先抢占式三种，不同的RTOS可能支持其中一种或几种，其中优先抢占式对实时性的支持最好。</p><p>在非实时系统中，调度的主要目的是缩短系统平均响应时间，提高系统资源的利用率，或优化某一项指标；而实时系统中调度的目的则是要尽可能地保证每个任务满足他们的时间约束，及时对外部请求做出响应。</p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " 任务之间的公平性是最重要的调度目标 ",
+                        " 大多数RTOS调度算法都是抢占方式(可剥夺方式) ",
+                        " RTOS调度器都采用了基于时间片轮转的调度算法 ",
+                        " 大多数RTOS调度算法只采用一种静态优先级调度算法 "
+                    ]
+                },
+                {
+                    "index": 24,
+                    "belong_page": 1,
+                    "question_id": 356080,
+                    "question_title": "<p>嵌入式实时操作系统与一般操作系统相比，具备许多特点。以下不属于嵌入式实时操作系统特点的是（）。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 356080,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>嵌入式操作系统是专用性的操作系统，应用于专用的硬件。</p>",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        " A.可剪裁性 ",
+                        " B.实时性 ",
+                        " C.通用性 ",
+                        " D.可固化性 "
+                    ]
+                },
+                {
+                    "index": 25,
+                    "belong_page": 1,
+                    "question_id": 356081,
+                    "question_title": "<p>嵌入式系统设计一般要考虑低功耗， 软件设计也要考虑低功耗设计，软件低功耗设计一般采用（ ）。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 356081,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>软件设计层面的功耗控制可以采用编译优化技术、软硬件协同设计和算法优化。</p>",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        " A. 结构优化、编译优化和代码优化 ",
+                        " B. 软硬件协同设计、开发过程优化和环境设计优化 ",
+                        " C. 轻量级操作系统、算法优化和仿真实验 ",
+                        "D. 编译优化技术、软硬件协同设计和算法优化"
+                    ]
+                },
+                {
+                    "index": 26,
+                    "belong_page": 1,
+                    "question_id": 356082,
+                    "question_title": "<p>嵌入式软件设计需要考虑（）以保障软件良好的可移植性。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 356082,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>嵌入式系统的软件设计除了需要考虑一般软件设计的基本要求之外，通常都会要求嵌入式系统软件具有良好的可移植性，以实现对不同硬件平台的适用性，这就要求基于硬件抽象层的系统软件设计特性实现对上层软件的统一接口，做到硬件无关性。</p>",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        " A．先进性 &nbsp; ",
+                        " B．易用性 ",
+                        " C．硬件无关性 ",
+                        " D．可靠性 "
+                    ]
+                },
+                {
+                    "index": 27,
+                    "belong_page": 1,
+                    "question_id": 356083,
+                    "question_title": "<p>多核CPU 环境下进程的调度算法一般有全局队列调度和局部队列调度两种。（）属于全局队列调度的特征。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 356083,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>多核CPU 环境下进程的调度算法一般有全局队列调度和局部队列调度两种。</p><p>（1）全局队列调度是操作系统维护一个全局的任务等待队列，当系统中有一个CPU核心空闲时，操作系统便从全局任务等待队列中选取就绪任务并开始在此核心上执行，它的优点是CPU核心利用率较高。</p><p>（2）局部队列调度是指操作系统为每个CPU内核维护一个局部的任务等待队列，当系统中有一个CPU内核空闲时，便从该核心的任务等待队列中选取恰当的任务执行，局部队列调度可以使任务基本上无需在多个CPU核心间切换，有利于提高CPU核心局部缓存命中率，缺点是CPU利用率太低。</p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " A.操作系统为每个CPU 维护一个任务等待队列 ",
+                        " B.操作系统维护一个任务等待队列 ",
+                        " C.任务基本上无需在多个 CPU 核心间切换,有利于提高 Cache 命中率 ",
+                        " D.当系统中有一个 CPU核心空闲时,操作系统便从该核心的任务等待队列中选取适当的任务执行 "
+                    ]
+                },
+                {
+                    "index": 28,
+                    "belong_page": 1,
+                    "question_id": 356084,
+                    "question_title": "<p>嵌入式操作系统的（）是指硬件平台多种多样，处理器的更新速度快，每种处理器都是针对不同的应用领域而专门设计的。因此，EOS要有很好适应性和移植性，还要支持多种开发平台。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 356084,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>&nbsp;嵌入式操作系统EOS负责嵌入式系统的全部软、硬件资源的分配、任务调度、控制、协调并发活动。</p><p>&nbsp;&nbsp;&nbsp;与通用操作系统相比，EOS主要有以下特点：</p><p>（1）微型化。EOS的运行平台不是通用计算机，而是嵌入式系统。这类系统一般没有大容量的内存，几乎没有外存，因此，EOS必须做得小巧，以占用尽量少的系统资源。</p><p>（2）代码质量高。在大多数嵌入式应用中，存储空间依然是宝贵的资源，这就要求程序代码的质量要高，代码要尽量精简。</p><p>（3）专业化。嵌入式系统的硬件平台多种多样，处理器的更新速度快，每种处理器都是针对不同的应用领域而专门设计的。因此，EOS要有很好适应性和移植性，还要支持多种开发平台。</p><p>（4）实时性强。嵌入式系统广泛应用于过程控制、数据采集、通信、多媒体信息处理等要求实时响应的场合，因此，实时性成为EOS的又一特点。</p><p>（5）可裁减和可配置。应用的多样性要求EOS具有较强的适应能力，能够根据应用的特点和具体要求进行灵活配置和合理裁减，以适应微型化和专业化的要求。</p>",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        " A.专业化 ",
+                        " B实时性 ",
+                        " C可裁减 ",
+                        " D可配置 "
+                    ]
+                }
+            ],
+            "total_question": 28,
+            "summary": {
+                "radio": {
+                    "total_question": 28,
+                    "total_score": 0
+                },
+                "multiple": {
+                    "total_question": 0,
+                    "total_score": 0
+                },
+                "fill": {
+                    "total_question": 0,
+                    "total_score": 0
+                },
+                "program": {
+                    "total_question": 0,
+                    "total_score": 0
+                },
+                "qanda": {
+                    "total_question": 0,
+                    "total_score": 0
+                },
+                "cloze": {
+                    "total_question": 0,
+                    "total_score": 0
+                },
+                "budingxiang": {
+                    "total_question": 0,
+                    "total_score": 0
+                },
+                "material": {
+                    "total_question": 0,
+                    "total_score": 0
+                }
+            },
+            "title": "嵌入式系统分析与设计"
+        },
+        "pagination": {
+            "curPage": 1,
+            "pageSize": 1000,
+            "total": 28,
+            "hasNextPage": false
+        },
+        "totalOrder": [
+            {
+                "index": 1,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "281649",
+                "answer_type": 1
+            },
+            {
+                "index": 2,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "281650",
+                "answer_type": 1
+            },
+            {
+                "index": 3,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "281651",
+                "answer_type": 1
+            },
+            {
+                "index": 4,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "281652",
+                "answer_type": 1
+            },
+            {
+                "index": 5,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "281653",
+                "answer_type": 1
+            },
+            {
+                "index": 6,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "281654",
+                "answer_type": 1
+            },
+            {
+                "index": 7,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "281655",
+                "answer_type": 1
+            },
+            {
+                "index": 8,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "281656",
+                "answer_type": 1
+            },
+            {
+                "index": 9,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "281658",
+                "answer_type": 1
+            },
+            {
+                "index": 10,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "310840",
+                "answer_type": 1
+            },
+            {
+                "index": 11,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "310860",
+                "answer_type": 1
+            },
+            {
+                "index": 12,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "315910",
+                "answer_type": 1
+            },
+            {
+                "index": 13,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "315911",
+                "answer_type": 1
+            },
+            {
+                "index": 14,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "315912",
+                "answer_type": 1
+            },
+            {
+                "index": 15,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "348928",
+                "answer_type": 1
+            },
+            {
+                "index": 16,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "348930",
+                "answer_type": 1
+            },
+            {
+                "index": 17,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "348931",
+                "answer_type": 1
+            },
+            {
+                "index": 18,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "348932",
+                "answer_type": 1
+            },
+            {
+                "index": 19,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "350296",
+                "answer_type": 1
+            },
+            {
+                "index": 20,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "350297",
+                "answer_type": 1
+            },
+            {
+                "index": 21,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "352259",
+                "answer_type": 1
+            },
+            {
+                "index": 22,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "352260",
+                "answer_type": 1
+            },
+            {
+                "index": 23,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "352360",
+                "answer_type": 1
+            },
+            {
+                "index": 24,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "356080",
+                "answer_type": 1
+            },
+            {
+                "index": 25,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "356081",
+                "answer_type": 1
+            },
+            {
+                "index": 26,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "356082",
+                "answer_type": 1
+            },
+            {
+                "index": 27,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "356083",
+                "answer_type": 1
+            },
+            {
+                "index": 28,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "356084",
+                "answer_type": 1
+            }
+        ],
+        "progress": []
+    }
+}

@@ -1,0 +1,117 @@
+{
+    "msg": "成功",
+    "status": 0,
+    "data": {
+        "data": {
+            "question": [
+                {
+                    "index": 1,
+                    "belong_page": 1,
+                    "question_id": 315913,
+                    "question_title": "<p>人工智能技术已成为当前国际科技竞争的核心技术之一，AI 芯片是占据人工智能市场的法宝。AI 芯片有别于通常处理器芯片，它应具备四种关键特征。(12)是 AI 芯片的关键特点。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 315913,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>AI芯片的关键特点有： 新型计算范式、训练和推断、大数据处理能力、数据精度、可重构能力、软件工具。</p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " 新型的计算范式、信号处理能力、低精度设计、专用开发工具 ",
+                        " 新型的计算范式、训练和推断、大数据处理能力、可重构的能力 ",
+                        " 训练和推断、大数据处理能力、可定制性，专用开发工具 ",
+                        " 训练和推断、低精度设计、新型的计算范式、图像处理能力 "
+                    ]
+                },
+                {
+                    "index": 2,
+                    "belong_page": 1,
+                    "question_id": 315920,
+                    "question_title": "<p>企业数字化转型的五个发展阶段依次是(18)</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 315920,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>企业数字化转型的五个发展阶段依次是：初始级发展阶段、单元级发展阶段、流程级发展阶段、网络级发展险段、生态级发展阶段。</p>",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        " 初始级发展阶段、单元级发展阶段、流程级发展阶段、网络级发展险段、生态级发展阶段 ",
+                        " 初始级发展阶段、单元级发展阶段、系统级发展阶段、网络级发展阶段、生态级发展阶段 ",
+                        " 初始级发展阶段、单元级发展阶段、流程级发展阶段、网络服发展输段、优化级发展阶段 ",
+                        " 初始级发展阶段、流程级发展阶段、系统级发展险段、网络级发展阶段、生态级发展阶段 "
+                    ]
+                }
+            ],
+            "total_question": 2,
+            "summary": {
+                "radio": {
+                    "total_question": 2,
+                    "total_score": 0
+                },
+                "multiple": {
+                    "total_question": 0,
+                    "total_score": 0
+                },
+                "fill": {
+                    "total_question": 0,
+                    "total_score": 0
+                },
+                "program": {
+                    "total_question": 0,
+                    "total_score": 0
+                },
+                "qanda": {
+                    "total_question": 0,
+                    "total_score": 0
+                },
+                "cloze": {
+                    "total_question": 0,
+                    "total_score": 0
+                },
+                "budingxiang": {
+                    "total_question": 0,
+                    "total_score": 0
+                },
+                "material": {
+                    "total_question": 0,
+                    "total_score": 0
+                }
+            },
+            "title": "新技术"
+        },
+        "pagination": {
+            "curPage": 1,
+            "pageSize": 25,
+            "total": 2,
+            "hasNextPage": false
+        },
+        "totalOrder": [
+            {
+                "index": 1,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "315913",
+                "answer_type": 1
+            },
+            {
+                "index": 2,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "315920",
+                "answer_type": 1
+            }
+        ],
+        "progress": []
+    }
+}

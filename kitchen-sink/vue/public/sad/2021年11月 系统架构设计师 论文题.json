@@ -1,0 +1,370 @@
+{
+    "msg": "成功",
+    "status": 0,
+    "data": {
+        "data": {
+            "examine": {
+                "examine_id": 12578,
+                "answer_id": "3940051",
+                "title": "2021年11月 系统架构设计师 论文题",
+                "len_time": 0,
+                "total_score": "300",
+                "get_score": "0",
+                "total_question": 4,
+                "proposal": "",
+                "proposalList": [
+                    {
+                        "proposal": "",
+                        "comment_time": "0",
+                        "log_id": "8588691"
+                    }
+                ],
+                "platform_id": "2",
+                "submit_limit_num": "0",
+                "version_id": "0",
+                "version_year": "0",
+                "mark_question_ids": []
+            },
+            "question": [
+                {
+                    "every_score": "75",
+                    "rank": "1",
+                    "correlation_time": "1636354821",
+                    "question_id": "314779",
+                    "difficulty_id": "3",
+                    "question_title": "<p>试题一 论面向方面的编程技术及其应用</p><p><br/>针对应用开发所面临的规模不断扩大、复杂度不断提升的问题，面向方面的编程（Aspect Oriented Programming,AOP）技术提供了一种有效的程序开发方法。为了理解和完成一个复杂的程序，通常要把程序进行功能划分和封装。一般系统中的某些通用功能，如安全性、持续性、日志记录等等，其代码是分散的，较难实现模块化，不利于程序演变、维护和更新。AOP技术将逻辑上关系松散的代码封装到一个具有某种公共行为的可重用模块，并将其命名为方面（Aspect）.</p><p><br/>请围绕“面向方面的编程技术及其应用”论题，依次从以下三个方面进行论述。</p><p><br/>1.概要叙述你参与实施的应用AOP技术的软件项目以及你在其中所担任的主要工作。</p><p>2.叙述在软件项目实践过程使用AOP技术开发的具体步骤。</p><p>3.结合项目内容，论述该项目使用AOP技术的原因，开发过程中存在的问题和解决方法，以及使用AOP技术带来的实际应用效果。</p>",
+                    "option": "",
+                    "answer": [
+                        "<p>无</p>"
+                    ],
+                    "knowledge": "系统架构设计师",
+                    "analyze": "<p><img style=\"max-width:100%;height:auto\"  src=\"https://docimg7.docs.qq.com/image/3kEooJzdlbV2X_l1VXEIpw.png?w=509&h=212\" width=\"509\" height=\"212px\"/></p><p>AOP包括三个开发步骤，分别是方面分解、关注点实现和方面的重新组合。</p><p>（1）方面分解。分解需求提取出横切关注点和核心关注点。把核心模块级关注点和系统级的横切关注点进行分离。例如，对于一个信用卡系统，可以分解出三个关注点：核心的信用卡处理、日志和验证。</p><p>（2）关注点实现。各自独立地实现这些关注点，用OOP（面向对象的程序设计）实现核心关注点，用AOP实现横切关注点。例如，可以用OOP实现信用卡处理单元，而用AOP实现日志单元和验证单元。</p><p>（3）方面的重新组合。方面集成器通过创建一个模块单元（方面）来制定重组的规则，重组过程也称为编织。</p>",
+                    "question_type": "5",
+                    "material_text": "",
+                    "answer_type": "5",
+                    "score_rule": "",
+                    "new_parent_id": "314779",
+                    "sort_son": "0",
+                    "creater_name": "mb5fdc82e2523a4",
+                    "create_time": "1636354821",
+                    "review_status": "1",
+                    "parent_id": "0",
+                    "first_id": "554",
+                    "second_id": "227",
+                    "three_id": "240",
+                    "show_type_name": "问答题",
+                    "examine_id": "12578",
+                    "type": "3",
+                    "title": "2021年11月 系统架构设计师 论文题",
+                    "len_time": "0",
+                    "submit_limit_num": "0",
+                    "platform_id": "2",
+                    "radio_score": "0",
+                    "pass_type": "2",
+                    "pass_score": "180",
+                    "passrate": "60",
+                    "checkbox_score": "0",
+                    "judgment_score": "0",
+                    "avg_score": "0",
+                    "max_score": "0",
+                    "exam_num": "34",
+                    "person_num": "20",
+                    "avg_time": "3.6",
+                    "is_right": "0",
+                    "chapter_name": [
+                        "论文"
+                    ],
+                    "single_score": 0,
+                    "index": 1,
+                    "belong_page": 1,
+                    "like": 0,
+                    "user_answer": [],
+                    "answer_imgs": [],
+                    "result": 0,
+                    "other_type_name": "qanda",
+                    "show_son": 0
+                },
+                {
+                    "every_score": "75",
+                    "rank": "1",
+                    "correlation_time": "1636355014",
+                    "question_id": "314783",
+                    "difficulty_id": "3",
+                    "question_title": "<p>试题二 论系统安全架构设计及其应用</p><p><br/>随着社会信息化进程的加快，计算机及网络已经被各行各业广泛应用，信息安全问题也变得愈来愈重要。它具有机密性、完整性、可用性、可控性和不可抵赖性等特征。信息系统的安全保障是以风险和策略为基础，在信息系统的整个生命周期中提供包括技术、管理、人员和工程过程的整体安全，以保障信息的安全特征。</p><p><br/>请围绕“系统安全架构设计及其应用”论题，依次从以下三个方面进行论述。</p><p><br/>1.概要叙述你参与管理和开发的涉及安全架构设计的软件项目以及承担的主要工作。</p><p>2.请详细论述安全架构设计中鉴别框架和访问控制框架设计的内容，并论述鉴别和访问控制所面临的主要威胁有哪些，说明其危害。</p><p>3.请简要说明在你所参与项目的开发过程中，在鉴别框架和访问控制框架设计中存在的实际问题，以及是如何解决这些问题的。</p>",
+                    "option": "",
+                    "answer": [
+                        "无"
+                    ],
+                    "knowledge": "系统架构设计师",
+                    "analyze": "<p>&nbsp; &nbsp; &nbsp; &nbsp;鉴别（Authentication）的基本目的，就是防止其他实体占用和独立操作被鉴别实体的身份。鉴别提供了实体声称其身份的保证，只有在主体和验证者的关系背景下，鉴别才是有意义的。鉴别有两种重要的关系背景：一是实体由申请者来代表，申请者与验证者之间存在着特定的通信关系（如实体鉴别）；二是实体为验证者提供数据项来源。</p><p>鉴别的方式主要基于以下5种。</p><p>（1）已知的，如一个秘密的口令。</p><p>（2）拥有的，如1C卡、令牌等。</p><p>（3）不改变的特性，如生物特征。</p><p>（4）相信可靠的第三方建立的鉴别（递推）。</p><p>（5）环境（如主机地址等）。</p><p>&nbsp; &nbsp; &nbsp; &nbsp;鉴别服务分为以下阶段：安装阶段；修改鉴别信息阶段；分发阶段；获取阶段；传送阶段；验证阶段；停活阶段；重新激活阶段；取消安装阶段。</p><p>&nbsp; &nbsp; &nbsp; &nbsp;在安装阶段，定义申请AI和验证AI.修改鉴别信息阶段，实体或管理者申请AI和验证AI变更（如修改口令）。在分发阶段，为了验证交换AI,把验证AI分发到各实体（如申请者或验证者）以供使用。在获取阶段，申请者或验证者可得到为鉴别实例生成特定交换AI所需的信息，通过与可信第三方进行交互或鉴别实体间的信息交换可得到交换AI.例如，当使用联机密钥分配中心时，申请者或验证者可从密钥分配中心得到一些信息，如鉴别证书。在传送阶段，在申请者与验证者之间传送交换AI.在验证阶段，用验证AI核对交换AI.在停活阶段，将建立一种状态，使得以前能被鉴别的实体暂时不能被鉴别。在重新激活阶段，使在停活阶段建立的状态将被终止。在取消安装阶段，实体从实体集合中被拆除。</p><p>&nbsp; &nbsp; &nbsp; &nbsp;访问控制（AccessControl)决定开放系统环境中允许使用哪些资源、在什么地方适 合阻止未授权访问的过程。在访问控制实例中，访问可以是对一个系统（即对一个系统 通信部分的一个实体）或对一个系统内部进行的。<br/><br/></p><p><img style=\"max-width:100%;height:auto\"  src=\"https://docimg4.docs.qq.com/image/eW6Z1sBidFZhw0xhwGiBSQ.png?w=773&h=203\" width=\"601\" height=\"158px\"/></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 基本访问控制功能示意图</p><p>&nbsp; &nbsp; &nbsp; &nbsp;ACI&nbsp;(访问控制信息）是用于访问控制目的的任何信息，其中包括上下文信息。AD1 (访问控制判决信息）是在做出一个特定的访问控制判决时可供ADF使用的部分（或全 部）ACI。ADF&nbsp;(访问控制判决功能）是一种特定功能，它通过对访问请求、ADI以及 该访问请求的上下文使用访问控制策略规则而做出访问控制判决。AEF&nbsp;(访问控制实施 功能）确保只有对目标允许的访问才由发起者执行。</p><p>&nbsp; &nbsp; &nbsp; &nbsp;涉及访问控制的有发起者、AEF、ADF和目标。发起者代表访问或试图访问目标的 人和基于计算机的实体。目标代表被试图访问或由发起者访问的，基于计算机或通信的 实体。例如，目标可能是OSI实体、文件或者系统。访问请求代表构成试图访问部分的 操作和操作数。</p><p>&nbsp; &nbsp; &nbsp; &nbsp;当发起者请求对目.标进行特殊访问时，AEF就通知ADF需要一个判决来做出决定。 为了作出判决，给ADF提供了访问请求（作为判决请求的一部分）和下列几种访问控 制判决信息（ADI)。</p>",
+                    "question_type": "5",
+                    "material_text": "",
+                    "answer_type": "5",
+                    "score_rule": "",
+                    "new_parent_id": "314783",
+                    "sort_son": "0",
+                    "creater_name": "mb5fdc82e2523a4",
+                    "create_time": "1636355014",
+                    "review_status": "1",
+                    "parent_id": "0",
+                    "first_id": "554",
+                    "second_id": "227",
+                    "three_id": "240",
+                    "show_type_name": "问答题",
+                    "examine_id": "12578",
+                    "type": "3",
+                    "title": "2021年11月 系统架构设计师 论文题",
+                    "len_time": "0",
+                    "submit_limit_num": "0",
+                    "platform_id": "2",
+                    "radio_score": "0",
+                    "pass_type": "2",
+                    "pass_score": "180",
+                    "passrate": "60",
+                    "checkbox_score": "0",
+                    "judgment_score": "0",
+                    "avg_score": "0",
+                    "max_score": "0",
+                    "exam_num": "34",
+                    "person_num": "20",
+                    "avg_time": "3.6",
+                    "is_right": "0",
+                    "chapter_name": [
+                        "论文"
+                    ],
+                    "single_score": 0,
+                    "index": 2,
+                    "belong_page": 1,
+                    "like": 0,
+                    "user_answer": [],
+                    "answer_imgs": [],
+                    "result": 0,
+                    "other_type_name": "qanda",
+                    "show_son": 0
+                },
+                {
+                    "every_score": "75",
+                    "rank": "1",
+                    "correlation_time": "1636355067",
+                    "question_id": "314786",
+                    "difficulty_id": "3",
+                    "question_title": "<p>试题三 论企业集成平台的理解与应用</p><p><br/>企业集成平台（Enterprise Imtcgation Plaform,EIP)是支特企业信息集成的像环境，其主要功能是为企业中的数据、系统和应用等多种对象的协同行提供各种公共服务及运行时的支撑环境。企业集成平台能够根据业务模型的变化快速地进行信息系统的配置和调整，保证不同系统、应用、服务或操作人员之同顺畅地相互操作，进而提高企业适应市场变化的能力，使企业能够在复杂多变的市场环境中生存。</p><p><br/>请围绕“企业集成平台的理解与应用”论题，依次从以下三个方阅进行论述。</p><p><br/>1.概要叙述你参与管理和开发的、采用企业集成平台进行企业信息集成的软件项目以及你在其中所承担的主要工作。</p><p>2.请给出至少4种企业集成平台应具有的基本功能，并对这4种功能的内涵进行简要阐述。</p><p>3.具体阐述你参与管理和开发的项目是如何使用企业集成平台进行企业信息集成的，并围绕上述4种功能，详细论述在集成过程中遇到了哪些实际问题，是如何解决的。</p>",
+                    "option": "",
+                    "answer": [
+                        "<p>无</p>"
+                    ],
+                    "knowledge": "系统架构设计师",
+                    "analyze": "<p>集成平台是支持企业集成的支撑环境，包括硬件、软件、软件工具和系统，通过集成各种企业应用软件形成企业集成系统。由于硬件环境和应用软件的多样性，企业信息 系统的功能和环境都非常复杂，因此，为了能够较好地满足企业的应用需求，作为企业 集成系统支持环境的集成平台，其基本功能要如下。</p><p>（1）通信服务</p><p>提供分布环境下透明的同步/异步通信服务功能，使用户和应用程序无需关心具体的操作系统和应用程序所处的网络物理位置，而以透明的函数调用或对象服务方式完成 它们所需的通信服务要求。\t</p><p>（2）信息集成服务</p><p>为应用提供透明的信息访问服务，通过实现异种数据库系统之间数据的交换、互操 作、分布数据管理和共享信息模型定义（或共享信息数据库的建立)，使集成平台上运行 的应用、服务或用户端能够以一致的语义和接口实现对数据（数据库、数据文件、应用 交互信息）的访问与控制。</p><p>（3）应用集成服务</p><p>通过高层应用编程接口来实现对相应应用程序的访问，这砦高层应用编程接口包含 在不同的适配器或代理中，被用来连接不同的应用程序。这些接口以函数或对象服务的 方式向平台的组件模型提供信息，使用户在无需对原有系统进行修改（不会影响原有系 统的功能）的情况下，只要在原有系统的基础上加上相应的访问接口就可以将现有的、 用不同的技术实现的系统互联起来，通过为应用提供数据交换和访问操作，使各种不同 的系统能够相互协作。</p><p>（4）二次开发工具</p><p>是集成平台提供的一组帮助用户开发特定应用程序（如实现数据转换的适配器或应 用封装服务等）的支持工具，其目的是简化用户在企业集成平台实施过程中（特定应用 程序接口）的开发工作。</p><p>（5）平台运行管理工具</p><p>是企业集成平台的运行管理和控制模块，负责企业集成平台系统的静态和动态配 置、集成平台应用运行管理和维护、事件管理和出错管理等。通过命名服务、目录服务、 平台的动态静态配置，以及其中的关键数据的定期备份等功能来维护整个服务平台的系统配置及稳定运行。</p>",
+                    "question_type": "5",
+                    "material_text": "",
+                    "answer_type": "5",
+                    "score_rule": "",
+                    "new_parent_id": "314786",
+                    "sort_son": "0",
+                    "creater_name": "mb5fdc82e2523a4",
+                    "create_time": "1636355067",
+                    "review_status": "1",
+                    "parent_id": "0",
+                    "first_id": "554",
+                    "second_id": "227",
+                    "three_id": "240",
+                    "show_type_name": "问答题",
+                    "examine_id": "12578",
+                    "type": "3",
+                    "title": "2021年11月 系统架构设计师 论文题",
+                    "len_time": "0",
+                    "submit_limit_num": "0",
+                    "platform_id": "2",
+                    "radio_score": "0",
+                    "pass_type": "2",
+                    "pass_score": "180",
+                    "passrate": "60",
+                    "checkbox_score": "0",
+                    "judgment_score": "0",
+                    "avg_score": "0",
+                    "max_score": "0",
+                    "exam_num": "34",
+                    "person_num": "20",
+                    "avg_time": "3.6",
+                    "is_right": "0",
+                    "chapter_name": [
+                        "论文"
+                    ],
+                    "single_score": 0,
+                    "index": 3,
+                    "belong_page": 1,
+                    "like": 0,
+                    "user_answer": [],
+                    "answer_imgs": [],
+                    "result": 0,
+                    "other_type_name": "qanda",
+                    "show_son": 0
+                },
+                {
+                    "every_score": "75",
+                    "rank": "1",
+                    "correlation_time": "1636355136",
+                    "question_id": "314789",
+                    "difficulty_id": "3",
+                    "question_title": "<p>试题四 论微服务架构及其应用</p><p><br/>微服务架构（Microservices Architecture)是一种架构风格，它将一个复杂的应用拆分成多个独立自治的服务，服务与服务间通过松耦合的形式交互，在微服务架构中，服务是细粒度的，协议是轻量级的。这些服务通常按业务能力组织，有自身的技术堆栈。</p><p><br/>请围绕“微服务架构及其应用”论题，依次从以下三个方面进行论述。</p><p><br/>1.&nbsp;概要叙述你参与管理和开发的、采用微服务架构的软件项目以及你在其中所承担的主要工作。</p><p>2.请简要描述微服务架构的优点。</p><p>3.具体阐述你参与管理和开发的项目是如何基于微服务架构进行件设计实现的。</p>",
+                    "option": "[]",
+                    "answer": [
+                        "<p>无</p>"
+                    ],
+                    "knowledge": "系统架构设计师",
+                    "analyze": "<p>微服务好处：</p><p>高异构性，高性能，高弹性，高扩展，易部署，可组合性，可替代性</p><p>微服务优点：</p><p>● 通过应用“分而治之”的原则，持续交付和部署大型，复杂的应用程序</p><p>● 通过更易于理解，开发和测试系统来提高模块化</p><p>● 通过每个微服务具有较小的代码库来降低复杂性</p><p>● 允许更新功能，而对系统的其余部分没有影响或影响极小</p><p>● 使架构变得高度可扩展</p><p>● 大大减少了破坏系统无关部分的机会</p><p>● 可以独立交付和部署服务，而不必等待整个系统发布</p><p>● 允许部署到多个云和本地基础设施环境</p><p>● 在持续发展现有系统的同时持续融入和利用最新的技术</p><p>● 使同一时间在同一系统上工作的一组开发人员间的协作更可控</p><p>● 允许新的团队成员更快地提高生产力，他们可以开发新功能而不必学习整个系统</p><p>基于微服务的系统设计实现：</p><p>设计原则</p><p>● 围绕业务概念建模</p><p>● 实现自动化</p><p>● 隐藏内部实现细节</p><p>● 一切去中心化</p><p>● 独立部署</p><p>● 隔离失败</p><p>● 高度可观察</p><p>设计实现</p><p><img style=\"max-width:100%;height:auto\"  src=\"https://docimg7.docs.qq.com/image/79gY_JjjiDMSBIte7DPRHA.png?w=468&h=266\" width=\"468\" height=\"266px\"/></p><p><img style=\"max-width:100%;height:auto\"  src=\"https://docimg8.docs.qq.com/image/Kno4YRscFCU49CnSjywRow.png?w=920&h=323\" width=\"601\" height=\"211px\"/></p>微服务 RESTful API ：<p>业务服务及通用服务</p><p>服务网关 API Gateway：</p><p>客户端到微服务通信</p><p>服务注册 Service Registry：</p><p>微服务注册，发现中心</p><p>事件总线 Event Bus：</p><p>微服务到微服务通信</p><p>安全保护 Auth Provider：</p><p>认证授权提供服务</p>",
+                    "question_type": "5",
+                    "material_text": "",
+                    "answer_type": "5",
+                    "score_rule": "",
+                    "new_parent_id": "314789",
+                    "sort_son": "0",
+                    "creater_name": "mb5fdc82e2523a4",
+                    "create_time": "1636355136",
+                    "review_status": "1",
+                    "parent_id": "0",
+                    "first_id": "554",
+                    "second_id": "227",
+                    "three_id": "240",
+                    "show_type_name": "问答题",
+                    "examine_id": "12578",
+                    "type": "3",
+                    "title": "2021年11月 系统架构设计师 论文题",
+                    "len_time": "0",
+                    "submit_limit_num": "0",
+                    "platform_id": "2",
+                    "radio_score": "0",
+                    "pass_type": "2",
+                    "pass_score": "180",
+                    "passrate": "60",
+                    "checkbox_score": "0",
+                    "judgment_score": "0",
+                    "avg_score": "0",
+                    "max_score": "0",
+                    "exam_num": "34",
+                    "person_num": "20",
+                    "avg_time": "3.6",
+                    "is_right": "0",
+                    "chapter_name": [
+                        "论文"
+                    ],
+                    "single_score": 0,
+                    "index": 4,
+                    "belong_page": 1,
+                    "like": 0,
+                    "user_answer": [],
+                    "answer_imgs": [],
+                    "result": 0,
+                    "other_type_name": "qanda",
+                    "show_son": 0
+                }
+            ],
+            "summary": {
+                "radio": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        1,
+                        9,
+                        11
+                    ]
+                },
+                "multiple": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        2,
+                        12
+                    ]
+                },
+                "budingxiang": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        7
+                    ]
+                },
+                "judge": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        3,
+                        13
+                    ]
+                },
+                "cloze": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        8
+                    ]
+                },
+                "fill": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        4
+                    ]
+                },
+                "qanda": {
+                    "total_question": 4,
+                    "total_score": 300,
+                    "question_types": [
+                        5,
+                        14
+                    ]
+                },
+                "program": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        6
+                    ]
+                },
+                "material": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        10
+                    ]
+                }
+            }
+        },
+        "pagination": {
+            "curPage": 1,
+            "pageSize": 250,
+            "total": 4,
+            "hasNextPage": false
+        },
+        "totalOrder": [
+            {
+                "index": 1,
+                "belong_page": 1,
+                "is_right": "0",
+                "user_answer": [],
+                "result": 0
+            },
+            {
+                "index": 2,
+                "belong_page": 1,
+                "is_right": "0",
+                "user_answer": [],
+                "result": 0
+            },
+            {
+                "index": 3,
+                "belong_page": 1,
+                "is_right": "0",
+                "user_answer": [],
+                "result": 0
+            },
+            {
+                "index": 4,
+                "belong_page": 1,
+                "is_right": "0",
+                "user_answer": [],
+                "result": 0
+            }
+        ]
+    }
+}

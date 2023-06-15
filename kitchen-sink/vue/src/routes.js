@@ -3,6 +3,20 @@ import PanelLeft from './pages/panel-left.vue';
 import PanelRight from './pages/panel-right.vue';
 import About from './pages/about.vue';
 
+import Sad_1036 from './pages/1036.vue';
+import Sad_1037 from './pages/1037.vue';
+import Sad_1038 from './pages/1038.vue';
+import Sad_1039 from './pages/1039.vue';
+import Sad_1040 from './pages/1040.vue';
+import Sad_1041 from './pages/1041.vue';
+import Sad_1042 from './pages/1042.vue';
+import Sad_1043 from './pages/1043.vue';
+import Sad_1044 from './pages/1044.vue';
+import Sad_1045 from './pages/1045.vue';
+import Sad_1046 from './pages/1046.vue';
+import Sad_1047 from './pages/1047.vue';
+import Sad_1669 from './pages/1669.vue';
+import Sad_1791 from './pages/1791.vue';
 import Accordion from './pages/accordion.vue';
 import ActionSheet from './pages/action-sheet.vue';
 import Appbar from './pages/appbar.vue';
@@ -196,6 +210,62 @@ export default [
   },
 
   // Components
+  {
+    path: '/1036/',
+    component: Sad_1036,
+  },
+  {
+    path: '/1037/',
+    component: Sad_1037,
+  },
+  {
+    path: '/1038/',
+    component: Sad_1038,
+  },
+  {
+    path: '/1039/',
+    component: Sad_1039,
+  },
+  {
+    path: '/1040/',
+    component: Sad_1040,
+  },
+  {
+    path: '/1041/',
+    component: Sad_1041,
+  },
+  {
+    path: '/1042/',
+    component: Sad_1042,
+  },
+  {
+    path: '/1043/',
+    component: Sad_1043,
+  },
+  {
+    path: '/1044/',
+    component: Sad_1044,
+  },
+  {
+    path: '/1045/',
+    component: Sad_1045,
+  },
+  {
+    path: '/1046/',
+    component: Sad_1046,
+  },
+  {
+    path: '/1047/',
+    component: Sad_1047,
+  },
+  {
+    path: '/1669/',
+    component: Sad_1669,
+  },
+  {
+    path: '/1791/',
+    component: Sad_1791,
+  },
   {
     path: '/accordion/',
     component: Accordion,

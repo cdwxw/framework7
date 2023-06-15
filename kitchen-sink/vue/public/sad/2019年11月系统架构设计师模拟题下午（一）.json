@@ -1,0 +1,431 @@
+{
+    "msg": "成功",
+    "status": 0,
+    "data": {
+        "data": {
+            "examine": {
+                "examine_id": 7656,
+                "answer_id": "3940002",
+                "title": "2019年11月系统架构设计师模拟题下午（一）",
+                "len_time": 0,
+                "total_score": "125",
+                "get_score": "0",
+                "total_question": 5,
+                "proposal": "",
+                "proposalList": [
+                    {
+                        "proposal": "",
+                        "comment_time": "0",
+                        "log_id": "8588594"
+                    }
+                ],
+                "platform_id": "2",
+                "submit_limit_num": "0",
+                "version_id": "0",
+                "version_year": "0",
+                "mark_question_ids": []
+            },
+            "question": [
+                {
+                    "every_score": "25",
+                    "rank": "1",
+                    "correlation_time": "0",
+                    "question_id": "151259",
+                    "difficulty_id": "3",
+                    "question_title": "<p>阅读以下关于软件架构评估的说明，回答下列问题。</p><p style=\"margin-top: 5px;text-indent: 28px\">【说明】</p><p>某软件公司拟为某市级公安机关开发一套特种车辆管理与监控系统，以提高特种车辆管理的效率和准确性。在系统需求分析与架构设计阶段，用户提出的部分需求和关键质量属性场景如下：</p><p>&nbsp;&nbsp; &nbsp;(a)系统用户分为管理员、分管领导和普通民警等三类；</p><p>&nbsp;&nbsp; &nbsp;(b)正常负载情况下，系统必须在0.5秒内对用户的车辆查询请求进行响应；</p><p>&nbsp;&nbsp; &nbsp;(c)系统能够抵御99.999%的黑客攻击；</p><p>&nbsp;&nbsp; &nbsp;(d)系统的用户名必须以字母开头，长度不少于5个字符；</p><p>&nbsp;&nbsp; &nbsp;(e)对查询请求处理时间的要求将影响系统的数据传输协议和处理过程的设计；</p><p>&nbsp;&nbsp; &nbsp;(f)网络失效后，系统需要在2分钟内发现并启用备用网络系统；</p><p>&nbsp;&nbsp; &nbsp;(g)在系统升级时，需要保证在1个月内添加一个新的消息处理中间件；</p><p>&nbsp;&nbsp; &nbsp;(h)查询过程中涉及到的车辆实时视频传输必须保证20帧/秒的速率，且画面具有600×480的分辨率；</p><p>&nbsp;&nbsp; &nbsp;(i)更改系统加密的级别将对安全性和性能产生影响；</p><p>&nbsp;&nbsp; &nbsp;(j)系统主站点断电后，需要在3秒内将请求重定向到备用站点；</p><p>&nbsp;&nbsp; &nbsp;(k)假设每秒中用户查询请求的数量是10个，处理请求的时间为30毫秒，则“在1秒内完成用户的查询请求”这一要求是可以实现的；</p><p>&nbsp;&nbsp; &nbsp;(l)对用户信息数据的授权访问必须保证99.999%的安全性；</p><p>&nbsp;&nbsp; &nbsp;(m)目前对“车辆信息实时监控”业务逻辑的描述尚未达成共识，这可能导致部分业务功能模块的重复，影响系统的可修改性；</p><p>&nbsp;&nbsp; &nbsp;(n)更改系统的Web界面接口必须在1周内完成；</p><p>&nbsp;&nbsp; &nbsp;(o)系统需要提供远程调试接口，并支持系统的远程调试。</p><p>&nbsp;&nbsp; &nbsp;在对系统需求和质量属性场景进行分析的基础上，系统的架构师给出了三个候选的架构设计方案。公司目前正在组织系统开发的相关人员对系统架构进行评估。</p><p>【问题1】（12分）</p><p>在架构评估过程中，质量属性效用树(utility tree)是对系统质量属性进行识别和优先级排序的重要工具。请给出合适的质量属性，填入图1中(1)、(2)空白处；并选择题干描述中的(a)～(o)，将恰当的序号填入(3)～(6)空白处，完成该系统的效用树。</p><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/20190925/1569399023297847.jpg\" title=\"1569399023297847.jpg\" alt=\"1.jpg\"/><br/><p>【问题2】（3分）</p><p>在架构评估过程中，需要正确识别系统的架构风险、敏感点和权衡点请从题干描述中的(a)～(o)各选出1个属于系统架构风险、敏感点和权衡点的描述。</p>【问题3】（10分）<p>该项目的四种质量属性分别用什么设计策略实现？（每种举例2个，只写名词即可）</p>",
+                    "option": "[]",
+                    "answer": [
+                        "【问题1】<br/><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/20190925/1569399071239732.jpg\" title=\"1569399071239732.jpg\" alt=\"1.jpg\"/><p>【问题2】<br/></p><p>(m)描述的是系统架构风险；(e)描述的是敏感点；(i)描述的是权衡点。</p><p>【问题3】<br/><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/20190925/1569399110382196.jpg\" title=\"1569399110382196.jpg\" alt=\"1.jpg\"/></p>"
+                    ],
+                    "knowledge": "系统架构设计师",
+                    "analyze": "<p>无</p>",
+                    "question_type": "5",
+                    "material_text": "",
+                    "answer_type": "5",
+                    "score_rule": "",
+                    "new_parent_id": "151259",
+                    "sort_son": "0",
+                    "creater_name": "试题账号",
+                    "create_time": "1569399155",
+                    "review_status": "1",
+                    "parent_id": "0",
+                    "first_id": "554",
+                    "second_id": "227",
+                    "three_id": "240",
+                    "show_type_name": "问答题",
+                    "examine_id": "7656",
+                    "type": "3",
+                    "title": "2019年11月系统架构设计师模拟题下午（一）",
+                    "len_time": "0",
+                    "submit_limit_num": "0",
+                    "platform_id": "2",
+                    "radio_score": "0",
+                    "pass_type": "1",
+                    "pass_score": "45",
+                    "passrate": "0",
+                    "checkbox_score": "0",
+                    "judgment_score": "0",
+                    "avg_score": "0",
+                    "max_score": "107",
+                    "exam_num": "401",
+                    "person_num": "505",
+                    "avg_time": "65.4",
+                    "is_right": "0",
+                    "chapter_name": [
+                        "案例分析"
+                    ],
+                    "single_score": 0,
+                    "index": 1,
+                    "belong_page": 1,
+                    "like": 0,
+                    "user_answer": [],
+                    "answer_imgs": [],
+                    "result": 0,
+                    "other_type_name": "qanda",
+                    "show_son": 0
+                },
+                {
+                    "every_score": "25",
+                    "rank": "2",
+                    "correlation_time": "0",
+                    "question_id": "151260",
+                    "difficulty_id": "3",
+                    "question_title": "<p>阅读下列说明，回答问题 1 至问题 3，将解答填入答题纸的对应栏内。</p><p>【说明】</p><p>某 ETC（ Electronic Toll Collection，不停车收费）系统在高速公路沿线的特</p><p>定位置上设置一个横跨道路上空的龙门架（ Toll gantry），龙门架下包括 6条车道（ Trafficlanes），每条车道上安装有雷达传感器（ Radar sensor）、无线传输器（ Radio transceiver）</p><p>和数码相机（ Digital Camera）等用于不停车收费的设备，以完成正常行驶速度下的收费工作。该系统的基本工作过程如下：</p><p>（1）每辆汽车上安装有车载器，驾驶员（ Driver）将一张具有唯一识别码的磁卡插入车载器中。磁卡中还包含有驾驶员账户的当前信用记录。</p><p>（2）当汽车通过某条车道时，不停车收费设备识别车载器内的特有编码，判断车型，</p><p>将收集到的相关信息发送到该路段所属的区域系统（ Regional center）中，计算通行费用创建收费交易（ Transaction），从驾驶员的专用账户中扣除通行费用。如果驾驶员账户透</p><p>支，则记录透支账户交易信息。区域系统再将交易后的账户信息发送到维护驾驶员账户信息</p><p>的中心系统（ Central system）</p><p>（3）车载器中的磁卡可以使用邮局的付款机进行充值。充值信息会传送至中心系统，以更新驾驶员账户的余额。</p><p>（4）当没有安装车载器或者车载器发生故障的车辆通过车道时，车道上的数码相机将对车辆进行拍照，并将车辆照片及拍摄时间发送到区域系统，记录失败的交易信息；并将该交易信息发送到中心系统。</p><p>（5）区域系统会获取不停车收费设备所记录的交通事件（ Traffic events）；交</p><p>通广播电台（ Traffic advice center）根据这些交通事件进行路况分析并播报路况。</p><p>现采用面向对象方法对上述系统进行分析与设计，得到如表 3－1 所示的用例列</p><p>表以及如图 3－1 所示的用例图和图 3－2 所示的分析类图。</p><p><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/20190925/1569399216557882.jpg\" title=\"1569399216557882.jpg\" alt=\"1.jpg\"/><br/><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/20190925/1569399221618469.jpg\" title=\"1569399221618469.jpg\" alt=\"2.jpg\"/><br/></p><p>【问题 1】（15分）</p><p>根据说明中的描述，给出图 3－1 中 A1～A4 所对应的参与者名称。</p><p>根据说明中的描述及表 3－1，给出图 3－1 中 U1－U5 所对应的用例名称。</p><p>根据说明中的描述，给出图 3－2 中 C1~C6 所对应的类名。</p><p>【问题2】&nbsp;(6分)</p><p>用例图包括哪几个基本元素，并用300字以内的文字进行简要说明。</p><p>【问题 3】（4分）</p><p>在OOA方法中，构建用例模型一般需要经历几个阶段。</p>",
+                    "option": "[]",
+                    "answer": [
+                        "<p>【问题 1】（15分）</p><p>参与者：</p><p>A1:Central system/Driver</p><p>A2:Driver/Central system</p><p>A3:Regional center/Traffic advice center</p><p>A4:Traffic advice center/Regional center</p><p>用例：</p><p>U1:Underpaid transaction/Record Illegal use</p><p>U2:Record Illegal use/Underpaid transaction</p><p>U3:Create transaction</p><p>U4:Record traffic event</p><p>U5:Charge card</p><p>类：</p><p>C1:Center system</p><p>C2: Toll gantry</p><p>C3: Traffic lanes</p><p>C4:Radar sensor/Radio transceiver/Digital Camera</p><p>C5:Radio transceiver/Radar sensor/Digital Camera</p><p>C6: Digital Camera/Radar sensor/Radio transceiver</p><p>【问题2】&nbsp;(6分)</p><p>（1）参与者。参与者是指存在于系统外部并与系统进行交互的任何事物，既可以是使用系统的用户，也可以是其他外部系统和设备等外部实体。</p><p>（2）用例。用例表示系统所提供的服务，它定义了系统是如何被参与者所使用的，它描述的是参与者为了使用系统所提供的某一完整功能而与系统之间发生的一段对话。</p><p>（3）通信关联。通信关联表示的是参与者和用例之间的关系，或用例与用例之间的关系。箭头表示在这一关系中哪一方是对话的主动发起者，箭头所指方是对话的被动接受者，箭尾所指方是对话的主动发起者。如果不想强调对话中的主动与被动关系，可以使用不带箭头的关联实线。</p><p>【问题 3】（4分）</p><p>在OOA方法中，构建用例模型一般需要经历4个阶段，分别是识别参与者、合并需求获得用例、细化用例描述和调整用例模型，其中前三个阶段是必需的。</p>"
+                    ],
+                    "knowledge": "系统架构设计师",
+                    "analyze": "<p>无</p>",
+                    "question_type": "5",
+                    "material_text": "",
+                    "answer_type": "5",
+                    "score_rule": "",
+                    "new_parent_id": "151260",
+                    "sort_son": "0",
+                    "creater_name": "试题账号",
+                    "create_time": "1569399274",
+                    "review_status": "1",
+                    "parent_id": "0",
+                    "first_id": "554",
+                    "second_id": "227",
+                    "three_id": "240",
+                    "show_type_name": "问答题",
+                    "examine_id": "7656",
+                    "type": "3",
+                    "title": "2019年11月系统架构设计师模拟题下午（一）",
+                    "len_time": "0",
+                    "submit_limit_num": "0",
+                    "platform_id": "2",
+                    "radio_score": "0",
+                    "pass_type": "1",
+                    "pass_score": "45",
+                    "passrate": "0",
+                    "checkbox_score": "0",
+                    "judgment_score": "0",
+                    "avg_score": "0",
+                    "max_score": "107",
+                    "exam_num": "401",
+                    "person_num": "505",
+                    "avg_time": "65.4",
+                    "is_right": "0",
+                    "chapter_name": [
+                        "案例分析"
+                    ],
+                    "single_score": 0,
+                    "index": 2,
+                    "belong_page": 1,
+                    "like": 0,
+                    "user_answer": [],
+                    "answer_imgs": [],
+                    "result": 0,
+                    "other_type_name": "qanda",
+                    "show_son": 0
+                },
+                {
+                    "every_score": "25",
+                    "rank": "3",
+                    "correlation_time": "0",
+                    "question_id": "152006",
+                    "difficulty_id": "4",
+                    "question_title": "<p style=\"margin-top:20px;text-indent:28px\">试题三（25分）</p><p>阅读以下关于某嵌入式实时系统的软件需求的叙述，回答问题1至问题3。某公司承担了一项嵌入式实时控制系统的软件开发任务，其内容是按系统要求的固定的时间序列采集、处理、输出数据，以实现对多个设备的综合控制。</p><p>系统由硬件和软件组成，硬件由处理机（采用PowerPC603e，主频133MHz）、存储器、定时器、中断控制器、双口存储器（空间大小1024KB）、4路422半双工串口接口（其中两路的频率115200Hz，另两路频率38400Hz）、两路A/D、D/A数模转换器和10路离散量接口组成。系统的软件需求如下（注：B：字节；s：秒；ms：毫秒）：</p><p>（1）系统要求以5ms为周期从双口存储器中采集1024KB的输入数据，处理任务的时间约为1ms；（称为5ms任务）（2）系统要求以20ms为周期从两路422接口（115200Hz）中采集一定格式的大小为64B的数据，在完成处理（处理时间约为4ms）任务后，分别输出大小为16B的控制命令；（称为20ms任务）</p><p>（3）系统要求以60ms为周期从两路422接口（38400Hz）中采集一定数据格式的大小为6B数据，从两路A/D接口采集28位数据，在完成处理（处理时间约为2ms）任务后，分别输出大小为2B的控制命令和一个28位D/A数据，输出8路离散量控制数据；（称为60ms任务）4）作为系统的安全监控保障，系统要求在每1s内对系统软硬件状态进行测试并完成系统工作的状态记录工作。该任务共需处理时间是5ms。（称为1s任务）</p><p>本公司课题组根据用户的硬件环境及软件的需求，就软件的实施方案展开了激烈的讨论，讨论的首要问题就是本系统中软件的运行平台是采用嵌入式实时操作系统还是在裸机上直接开发的方式，李工程师（简称李工）提出了为了保证系统的实时性，应该采用裸机上直接开发的方式，关键部分采用汇编语言编写，而王工程师（简称王工）提出，由于系统将由多种周期的处理任务组成，为了保证系统的可靠性，应该采用商用嵌入式实时操作系统作为本项目的开发基础，经过充分论证，最后李工接受了王工的建议，并申报课题组组长，课题组长同意采用了操作系统的方案，并指出必须尽快对需求的时间性能做出评估。</p><p>［问题1］（10分）</p><p>请用450字以内文字简要说明王工提出的采用嵌入式实时操作系统的理由或优点，并说明选择操作系统产品时需要重点考虑其哪些功能与性能？</p><p>［问题2］（10分）</p><p>李工和王工通过认真地对需求进行了分析，给出了时间性能评估报告，判定在上述硬件平台上可以满足系统要求。请用300字以内文字简要说明嵌入式实时操作系统中时间性能评估中主要考虑哪几项因素；针对本课题的具体数据，叙述系统的工作时序关系。</p><p>［问题3］（5分）</p><p>根据系统需求，请设计出系统的处理流程（按时序），说明所有任务的优先级分配策略，422接口、双口存储器、离散量接口和A/D（D/A）的数据输入／输出方法（中断或查询驱动）及理由。请用350字以内文字简要说明。</p>",
+                    "option": "[]",
+                    "answer": [
+                        "<p>【问题1】</p><p>采用嵌入式实时操作系统的主要理由及优点:</p><p>操作系统提供的任务调度功能,可以有效地管理本系统多周期任务的调度,并且操作系统提供的事件、信号和间的通信机制,可以有效地解决本系统中资源共享中的互斥问题。</p><p>采用商品化的软件,可提高所开发软件的可靠性,还可简化软件开发成本,提高开发效率。</p><p>选择嵌入式实时操作系统,主要考虑操作系统以下功能和性能:</p><p>（1）任务的上下文切换时间越短越好、中断响应时间越快越好、内核代码占用空间比较小。</p><p>（2)操作系统提供的服务接口应较丰富,有利于灵活使用（接口的开放性）。</p><p>(3）操作系统对可靠性有较强的保障支持能力。</p><p>（4）使用简单,支撑环境配套好,可配置、可剪裁能力强。</p><p>【问题2】</p><p>嵌入式实时系统中时间性能评估主要考虑以下几个因素:</p><p>(1)系统（操作系统）时间开销,一般不大于整个控制系统运行时间总开销的20%。</p><p>(2)保证所有任务在规定的时间期限内完成（或进行可调度性评估）。</p><p>(3)任务的上下文切换时间和中断响应时间。</p><p>针对本题的具体数据,系统的工作时序关系应该是:</p><p>系统的最小时间节拍定义为5ms,系统最大工作周期为1s,在每个5ms起点,5ms任务首先运行,占1ms时间,完成后转入处理被终止的任务;如果这个时刻时间到达20ms的起点,则启动20ms任务运行,以此类推,确保在1s周期内所有任务按规定的时间序列执行。</p><p>【问题3]</p><p>优先级策略:小周期优先策略。</p><p>数据输入输出处理方式:422接口适合采用中断方式,主要因为处理机速度远远比数据传输速度快,在采集时不易消耗太多的时间,而查询方式由于存在等待数据时间,消耗处理机时间较大。双口存储器和离散量接口由于是直接访问存储器,采用查询较合适。AD、D/A存在数据的转换时间,应在等待时交出处理机时间（定时查询）。</p><p>&nbsp;</p>"
+                    ],
+                    "knowledge": "系统架构设计师",
+                    "analyze": "<p>略</p>",
+                    "question_type": "5",
+                    "material_text": "",
+                    "answer_type": "5",
+                    "score_rule": "",
+                    "new_parent_id": "152006",
+                    "sort_son": "0",
+                    "creater_name": "hj199567",
+                    "create_time": "1569568520",
+                    "review_status": "1",
+                    "parent_id": "0",
+                    "first_id": "554",
+                    "second_id": "227",
+                    "three_id": "240",
+                    "show_type_name": "问答题",
+                    "examine_id": "7656",
+                    "type": "3",
+                    "title": "2019年11月系统架构设计师模拟题下午（一）",
+                    "len_time": "0",
+                    "submit_limit_num": "0",
+                    "platform_id": "2",
+                    "radio_score": "0",
+                    "pass_type": "1",
+                    "pass_score": "45",
+                    "passrate": "0",
+                    "checkbox_score": "0",
+                    "judgment_score": "0",
+                    "avg_score": "0",
+                    "max_score": "107",
+                    "exam_num": "401",
+                    "person_num": "505",
+                    "avg_time": "65.4",
+                    "is_right": "0",
+                    "chapter_name": [
+                        "案例分析"
+                    ],
+                    "single_score": 0,
+                    "index": 3,
+                    "belong_page": 1,
+                    "like": 0,
+                    "user_answer": [],
+                    "answer_imgs": [],
+                    "result": 0,
+                    "other_type_name": "qanda",
+                    "show_son": 0
+                },
+                {
+                    "every_score": "25",
+                    "rank": "4",
+                    "correlation_time": "0",
+                    "question_id": "177938",
+                    "difficulty_id": "3",
+                    "question_title": "<p>请详细阅读有关数据库方面的描述，回答问题。</p><p style=\"margin-top: 5px;text-indent: 28px\">【说明】</p><p>某软件公司欲开发一个基于Web 2.0的大型社交网络系统。就该系统的数据架构而言，李工决定采用公司熟悉的数据架构，使用通用的商用关系型数据库，系统内部数据采用中央集中方式存储。</p><p>该系统投入使用后，初期用户数量少，系统运行平稳。6个月后，用户数出现了爆炸式增长，系统暴露出诸多问题，集中表现在：</p><p>1.用户执行读写操作时，响应时间均变得很慢；</p><p>2.随着系统功能的扩充，原有数据格式发生变化，又出现新的数据格式，维护困难；</p><p>3.数据容量很快超过系统原有的设计上限，数据库扩容困难；</p><p>4.软件系统不断出现宕机，整个系统可用性较差。</p><p>经过多次会议讨论，公司的邹月平邹工建议采用NoSQL数据库来替代关系数据库，以解决上述问题。但薛大龙薛工指出NoSQL数据库出现时间不长，在使用上可能存在风险。公司技术人员对NoSQL数据库产品进行了认真测试，最终决定采用NoSQL数据库来替代现有的数据库系统。</p><p>【问题1】10分</p><p>请比较关系数据库与 NoSQL 数据的特点，如表 4-1 所示，以此来说明该系统更适合采用 NoSQL 数据库。请完成表 4-1 中的（1） ~ （5） 处空白。</p><p>表 4-1 关系数据库与 NoSQL 数据库特征比较<br/><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/20191030/1572414843713819.jpg\" title=\"1572414843713819.jpg\" alt=\"2.jpg\"/></p><p>【问题2】15分</p><p>公司最终决定采用邹工的方案，同时配合分布式缓存技术减轻数据库服务器压力，目前有Memcache和Redis两种方案，请从数据类型、持久化和分布式存储三个方面比较两种技术的区别。</p><p><br/></p>",
+                    "option": "[]",
+                    "answer": [
+                        "<p>见解析</p>"
+                    ],
+                    "knowledge": "系统架构设计师",
+                    "analyze": "<p>【问题1】<br/></p><p>（1）弱一致性（2）结构化数据（3）高（强）事务性（4）强（5）有限数据</p><p>【问题2】<br/></p><p>在数据类型方面：Memcache支持简单Key/Value类型，而Redis不仅仅支持简单的k/v类型的数据，同时还提供list，set，hash等数据结构的存储。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在持久化方面：Memcache不支持数据持久化，Redis支持支持数据持久化。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在分布式存储方面：Memcache服务器需要通过hash一致化来支撑主从结构，而Redis支持多种方式，主从、sentinel、cluster等。</p>",
+                    "question_type": "5",
+                    "material_text": "",
+                    "answer_type": "5",
+                    "score_rule": "",
+                    "new_parent_id": "177938",
+                    "sort_son": "0",
+                    "creater_name": "试题账号",
+                    "create_time": "1572414909",
+                    "review_status": "1",
+                    "parent_id": "0",
+                    "first_id": "554",
+                    "second_id": "227",
+                    "three_id": "240",
+                    "show_type_name": "问答题",
+                    "examine_id": "7656",
+                    "type": "3",
+                    "title": "2019年11月系统架构设计师模拟题下午（一）",
+                    "len_time": "0",
+                    "submit_limit_num": "0",
+                    "platform_id": "2",
+                    "radio_score": "0",
+                    "pass_type": "1",
+                    "pass_score": "45",
+                    "passrate": "0",
+                    "checkbox_score": "0",
+                    "judgment_score": "0",
+                    "avg_score": "0",
+                    "max_score": "107",
+                    "exam_num": "401",
+                    "person_num": "505",
+                    "avg_time": "65.4",
+                    "is_right": "0",
+                    "chapter_name": null,
+                    "single_score": 0,
+                    "index": 4,
+                    "belong_page": 1,
+                    "like": 0,
+                    "user_answer": [],
+                    "answer_imgs": [],
+                    "result": 0,
+                    "other_type_name": "qanda",
+                    "show_son": 0
+                },
+                {
+                    "every_score": "25",
+                    "rank": "5",
+                    "correlation_time": "0",
+                    "question_id": "177939",
+                    "difficulty_id": "3",
+                    "question_title": "<p>阅读以下关于 Web 应用设计开发的描述，在答题纸上回答问题 1 至问题 3。</p><p>某公司拟开发一个网络约车调度服务平台，实现基于互联网的出租车预约与管理。公司的系统分析师王工首先进行了需求分析，得到的系统需求列举如下：</p><p>系统的参与者包括乘客、出租车司机和平台管理员三类；</p><p>系统能够实现对乘客和出租车司机的信息注册与身份认证等功能，并对乘客的信用信息进行管理，对出租车司机的违章情况进行审核；</p><p>系统需要与后端的银行支付系统对接，完成支付信息审核、支付信息更新与在线支付等功能；</p><p>针对乘客发起的每一笔订单，系统需要实现订单发起、提交、跟踪、撤销、支付、完成等业务过程的处理：</p><p>系统需要以短信、微信和电子邮件多种方式分别为系统中的用户进行事件提醒。</p><p>【问题1】（9分）</p><p>请说明微服务架构的优点和缺点。</p><p>【问题2】（8分）</p><p>识别并设计微服务是系统开发过程中的一个重要步骤，请对题干需求进行分析，对微服务的种类和包含的业务功能进行归类，完成表1-1中的（1）～（4）。</p><p>表1-1 &nbsp;微服务名称及所包含业务功能</p><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/20191030/1572415003339811.jpg\" title=\"1572415003339811.jpg\" alt=\"2.jpg\"/><p>【问题3】（8分）答对4条即可</p><p>应用网关是实现微服务的主要技术之一，请简述应用网关的作用。</p>",
+                    "option": "[]",
+                    "answer": [
+                        "见解析<br/>"
+                    ],
+                    "knowledge": "系统架构设计师",
+                    "analyze": "【问题1】<br/><p>微服务优点：<br/>（1）每个微服务都很小，这样能聚焦一个指定的业务功能或业务需求。&nbsp;<br/>（2）微服务能够被小团队单独开发，这个小团队是2到5人的开发人员组成。&nbsp;<br/>（3）微服务是松耦合的，是有功能意义的服务，无论是在开发阶段或部署阶段都是独立的。&nbsp;<br/>（4）微服务能使用不同的语言开发。&nbsp;<br/>（5）去中心化。每个微服务都有自己的存储能力，可以有自己的数据库。也可以有统一数据库。&nbsp;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;微服务缺点：<br/>（1）很难在不采用分布式事务的情况下跨服务实现功能<br/>（2）测试工作更加困难<br/>（3）跨服务实现要求功能要求团队之间的紧密协作<br/>（4）部署复杂</p>【问题2】<br/><p>（1）支付信息审核（2）支付信息更新（3）在线支付（4）订单管理</p>【问题3】<br/><p>1、提供统一入口</p><p>2、可以进行权限身份认证等安全管理</p><p>3、可以根据流量进行限流</p><p>4、数据缓存</p><p>5、性能监控等</p><p>6、异常重试</p><p>7、服务降级</p>",
+                    "question_type": "5",
+                    "material_text": "",
+                    "answer_type": "5",
+                    "score_rule": "",
+                    "new_parent_id": "177939",
+                    "sort_son": "0",
+                    "creater_name": "试题账号",
+                    "create_time": "1572415007",
+                    "review_status": "1",
+                    "parent_id": "0",
+                    "first_id": "554",
+                    "second_id": "227",
+                    "three_id": "240",
+                    "show_type_name": "问答题",
+                    "examine_id": "7656",
+                    "type": "3",
+                    "title": "2019年11月系统架构设计师模拟题下午（一）",
+                    "len_time": "0",
+                    "submit_limit_num": "0",
+                    "platform_id": "2",
+                    "radio_score": "0",
+                    "pass_type": "1",
+                    "pass_score": "45",
+                    "passrate": "0",
+                    "checkbox_score": "0",
+                    "judgment_score": "0",
+                    "avg_score": "0",
+                    "max_score": "107",
+                    "exam_num": "401",
+                    "person_num": "505",
+                    "avg_time": "65.4",
+                    "is_right": "0",
+                    "chapter_name": null,
+                    "single_score": 0,
+                    "index": 5,
+                    "belong_page": 1,
+                    "like": 0,
+                    "user_answer": [],
+                    "answer_imgs": [],
+                    "result": 0,
+                    "other_type_name": "qanda",
+                    "show_son": 0
+                }
+            ],
+            "summary": {
+                "radio": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        1,
+                        9,
+                        11
+                    ]
+                },
+                "multiple": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        2,
+                        12
+                    ]
+                },
+                "budingxiang": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        7
+                    ]
+                },
+                "judge": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        3,
+                        13
+                    ]
+                },
+                "cloze": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        8
+                    ]
+                },
+                "fill": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        4
+                    ]
+                },
+                "qanda": {
+                    "total_question": 5,
+                    "total_score": 125,
+                    "question_types": [
+                        5,
+                        14
+                    ]
+                },
+                "program": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        6
+                    ]
+                },
+                "material": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        10
+                    ]
+                }
+            }
+        },
+        "pagination": {
+            "curPage": 1,
+            "pageSize": 250,
+            "total": 5,
+            "hasNextPage": false
+        },
+        "totalOrder": [
+            {
+                "index": 1,
+                "belong_page": 1,
+                "is_right": "0",
+                "user_answer": [],
+                "result": 0
+            },
+            {
+                "index": 2,
+                "belong_page": 1,
+                "is_right": "0",
+                "user_answer": [],
+                "result": 0
+            },
+            {
+                "index": 3,
+                "belong_page": 1,
+                "is_right": "0",
+                "user_answer": [],
+                "result": 0
+            },
+            {
+                "index": 4,
+                "belong_page": 1,
+                "is_right": "0",
+                "user_answer": [],
+                "result": 0
+            },
+            {
+                "index": 5,
+                "belong_page": 1,
+                "is_right": "0",
+                "user_answer": [],
+                "result": 0
+            }
+        ]
+    }
+}

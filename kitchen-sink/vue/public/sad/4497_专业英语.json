@@ -1,0 +1,2101 @@
+{
+    "msg": "成功",
+    "status": 0,
+    "data": {
+        "data": {
+            "question": [
+                {
+                    "index": 1,
+                    "belong_page": 1,
+                    "question_id": 159258,
+                    "question_title": "Accelerated analysis approaches emphasize the construction of（请作答此空）to more rapidly identify business and user requirements for a new system. As an accelerated analysis technology，（ ）reads the program code and automatically generates the equivalent system model， and the code can be obtained from （ ）. All system analysis approaches require some form of（ ）which includes those techniques to be used to identify or extract system problems and solution &nbsp;requirements &nbsp;from user community. （ ）is a classical set of &nbsp;techniques used &nbsp;to collect information about system problems， opportunities， solution requirements， and priorities.",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 159258,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "无",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " object models ",
+                        " prototypes ",
+                        " use cases ",
+                        " components "
+                    ]
+                },
+                {
+                    "index": 2,
+                    "belong_page": 1,
+                    "question_id": 159259,
+                    "question_title": "Accelerated analysis approaches emphasize the construction of（ ）to more rapidly identify business and user requirements for a new system. As an accelerated analysis technology，（请作答此空）reads the program code and automatically generates the equivalent system model， and the code can be obtained from （ ）. All system analysis approaches require some form of（ ）which includes those techniques to be used to identify or extract system problems and solution &nbsp;requirements &nbsp;from user community. （ ）is a classical set of &nbsp;techniques used &nbsp;to collect information about system problems， opportunities， solution requirements， and priorities.",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 159259,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "无",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        " eXtreme programming ",
+                        " model driven ",
+                        " reverse engineering ",
+                        " agile Method "
+                    ]
+                },
+                {
+                    "index": 3,
+                    "belong_page": 1,
+                    "question_id": 159260,
+                    "question_title": "Accelerated analysis approaches emphasize the construction of（ ）to more rapidly identify business and user requirements for a new system. As an accelerated analysis technology，（ ）reads the program code and automatically generates the equivalent system model， and the code can be obtained from （请作答此空）. All system analysis approaches require some form of（ ）which includes those techniques to be used to identify or extract system problems and solution &nbsp;requirements &nbsp;from user community. （ ）is a classical set of &nbsp;techniques used &nbsp;to collect information about system problems， opportunities， solution requirements， and priorities.",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 159260,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "无",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        " existing database and application program ",
+                        " application program and user interface ",
+                        " existing database and user interface ",
+                        " existing database，application program and user interface "
+                    ]
+                },
+                {
+                    "index": 4,
+                    "belong_page": 1,
+                    "question_id": 159261,
+                    "question_title": "Accelerated analysis approaches emphasize the construction of（ ）to more rapidly identify business and user requirements for a new system. As an accelerated analysis technology，（ ）reads the program code and automatically generates the equivalent system model， and the code can be obtained from （ ）. All system analysis approaches require some form of（请作答此空）which includes those techniques to be used to identify or extract system problems and solution &nbsp;requirements &nbsp;from user community. （ ）is a classical set of &nbsp;techniques used &nbsp;to collect information about system problems， opportunities， solution requirements， and priorities.",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 159261,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "无",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        " requirement discovery ",
+                        " business process redesign ",
+                        " cause-and-effect analysis ",
+                        " total quality management "
+                    ]
+                },
+                {
+                    "index": 5,
+                    "belong_page": 1,
+                    "question_id": 159263,
+                    "question_title": "Accelerated analysis approaches emphasize the construction of（ ）to more rapidly identify business and user requirements for a new system. As an accelerated analysis technology，（ ）reads the program code and automatically generates the equivalent system model， and the code can be obtained from （ ）. All system analysis approaches require some form of（ ）which includes those techniques to be used to identify or extract system problems and solution &nbsp;requirements &nbsp;from user community. （请作答此空）is a classical set of &nbsp;techniques used &nbsp;to collect information about system problems， opportunities， solution requirements， and priorities.",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": null,
+                    "new_parent_id": 159263,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "0",
+                    "analyze": "无",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        " Continuous process improvement ",
+                        " Joint Requirements planning ",
+                        " Fact-finding ",
+                        " Structured engineering "
+                    ]
+                },
+                {
+                    "index": 6,
+                    "belong_page": 1,
+                    "question_id": 208464,
+                    "question_title": "An application architecture specifies the technologies to be used to implement one or more information systems. It serves as an outline for detailed design, construction, and implementation. Given the models and details, include （请作答此空）, we can distribute data and processes to create a general design of application architecture. The design will normally be constrained by architecture standards, project objectives, and （ ）. The first physical DFD to be drawn is the （ ）. The next step is to distribute data stores to different processors. Data（ ）are two types of distributed data which most RDBMSs support. There are many distribution options used in data distribution. In the case of （ ）, we should record each table as a data store on the physical DFD and connect each to the appropriate server.",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 208464,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "应用架构说明了实现一个或多个信息系统所使用的技术，它作为详细设计、构造和实现的一个大纲。给定了包括逻辑数据流图和实体联系图在内的模型和详细资料，我们可以分配数据和过程以创建应用架构的一个概要设计。概要设计通常会受到架构标准、项目目标和所使用技术的可行性的制约。需要绘制的第一个物理数据流图是网络架构数据流图。接下来是分配数据存储到不同的处理器。数据分区和复制是大多数关系型数据库支持的两种分布式数据形式。有许多分配方法用于数据分布。在不同服务器上存储特定表的情况下，我们应该将每个表记为物理数据流图中的一个数据存储，并将其连接到相应的服务器。",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        " logical DFDs and ERD ",
+                        " ideal object model and analysis class model ",
+                        " use case models and interface prototypes ",
+                        " physical DFDs and database schema "
+                    ]
+                },
+                {
+                    "index": 7,
+                    "belong_page": 1,
+                    "question_id": 208465,
+                    "question_title": "An application architecture specifies the technologies to be used to implement one or more information systems. It serves as an outline for detailed design, construction, and implementation. Given the models and details, include （ ）, we can distribute data and processes to create a general design of application architecture. The design will normally be constrained by architecture standards, project objectives, and （请作答此空）. The first physical DFD to be drawn is the （ ）. The next step is to distribute data stores to different processors. Data（ ）are two types of distributed data which most RDBMSs support. There are many distribution options used in data distribution. In the case of （ ）, we should record each table as a data store on the physical DFD and connect each to the appropriate server.",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 208465,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "应用架构说明了实现一个或多个信息系统所使用的技术，它作为详细设计、构造和实现的一个大纲。给定了包括逻辑数据流图和实体联系图在内的模型和详细资料，我们可以分配数据和过程以创建应用架构的一个概要设计。概要设计通常会受到架构标准、项目目标和所使用技术的可行性的制约。需要绘制的第一个物理数据流图是网络架构数据流图。接下来是分配数据存储到不同的处理器。数据分区和复制是大多数关系型数据库支持的两种分布式数据形式。有许多分配方法用于数据分布。在不同服务器上存储特定表的情况下，我们应该将每个表记为物理数据流图中的一个数据存储，并将其连接到相应的服务器。",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " the database management system ",
+                        " the feasibility of techniques used ",
+                        " the network topology and technology ",
+                        " the user interface and process methods "
+                    ]
+                },
+                {
+                    "index": 8,
+                    "belong_page": 1,
+                    "question_id": 208466,
+                    "question_title": "An application architecture specifies the technologies to be used to implement one or more information systems. It serves as an outline for detailed design, construction, and implementation. Given the models and details, include （ ）, we can distribute data and processes to create a general design of application architecture. The design will normally be constrained by architecture standards, project objectives, and （ ）. The first physical DFD to be drawn is the （请作答此空）. The next step is to distribute data stores to different processors. Data（ ）are two types of distributed data which most RDBMSs support. There are many distribution options used in data distribution. In the case of （ ）, we should record each table as a data store on the physical DFD and connect each to the appropriate server.",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 208466,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "应用架构说明了实现一个或多个信息系统所使用的技术，它作为详细设计、构造和实现的一个大纲。给定了包括逻辑数据流图和实体联系图在内的模型和详细资料，我们可以分配数据和过程以创建应用架构的一个概要设计。概要设计通常会受到架构标准、项目目标和所使用技术的可行性的制约。需要绘制的第一个物理数据流图是网络架构数据流图。接下来是分配数据存储到不同的处理器。数据分区和复制是大多数关系型数据库支持的两种分布式数据形式。有许多分配方法用于数据分布。在不同服务器上存储特定表的情况下，我们应该将每个表记为物理数据流图中的一个数据存储，并将其连接到相应的服务器。",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        " context DFD ",
+                        " system DFD ",
+                        " network architecture DFD ",
+                        " event-response DFD "
+                    ]
+                },
+                {
+                    "index": 9,
+                    "belong_page": 1,
+                    "question_id": 208467,
+                    "question_title": "An application architecture specifies the technologies to be used to implement one or more information systems. It serves as an outline for detailed design, construction, and implementation. Given the models and details, include （ ）, we can distribute data and processes to create a general design of application architecture. The design will normally be constrained by architecture standards, project objectives, and （ ）. The first physical DFD to be drawn is the （ ）. The next step is to distribute data stores to different processors. Data（请作答此空）are two types of distributed data which most RDBMSs support. There are many distribution options used in data distribution. In the case of （ ）, we should record each table as a data store on the physical DFD and connect each to the appropriate server.",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 208467,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "应用架构说明了实现一个或多个信息系统所使用的技术，它作为详细设计、构造和实现的一个大纲。给定了包括逻辑数据流图和实体联系图在内的模型和详细资料，我们可以分配数据和过程以创建应用架构的一个概要设计。概要设计通常会受到架构标准、项目目标和所使用技术的可行性的制约。需要绘制的第一个物理数据流图是网络架构数据流图。接下来是分配数据存储到不同的处理器。数据分区和复制是大多数关系型数据库支持的两种分布式数据形式。有许多分配方法用于数据分布。在不同服务器上存储特定表的情况下，我们应该将每个表记为物理数据流图中的一个数据存储，并将其连接到相应的服务器。",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        " vertical partitioning and horizontal replication ",
+                        " vertical replication and horizontal partitioning ",
+                        " integration and distribution ",
+                        " partitioning and replication "
+                    ]
+                },
+                {
+                    "index": 10,
+                    "belong_page": 1,
+                    "question_id": 208468,
+                    "question_title": "An application architecture specifies the technologies to be used to implement one or more information systems. It serves as an outline for detailed design, construction, and implementation. Given the models and details, include （ ）, we can distribute data and processes to create a general design of application architecture. The design will normally be constrained by architecture standards, project objectives, and （ ）. The first physical DFD to be drawn is the （ ）. The next step is to distribute data stores to different processors. Data（ ）are two types of distributed data which most RDBMSs support. There are many distribution options used in data distribution. In the case of （请作答此空）, we should record each table as a data store on the physical DFD and connect each to the appropriate server.",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 208468,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "应用架构说明了实现一个或多个信息系统所使用的技术，它作为详细设计、构造和实现的一个大纲。给定了包括逻辑数据流图和实体联系图在内的模型和详细资料，我们可以分配数据和过程以创建应用架构的一个概要设计。概要设计通常会受到架构标准、项目目标和所使用技术的可行性的制约。需要绘制的第一个物理数据流图是网络架构数据流图。接下来是分配数据存储到不同的处理器。数据分区和复制是大多数关系型数据库支持的两种分布式数据形式。有许多分配方法用于数据分布。在不同服务器上存储特定表的情况下，我们应该将每个表记为物理数据流图中的一个数据存储，并将其连接到相应的服务器。",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " storing all data on a single server ",
+                        " storing specific tables on different servers ",
+                        " storing subsets of specific tables on different servers ",
+                        " duplicating specific tables or subsets on different servers "
+                    ]
+                },
+                {
+                    "index": 11,
+                    "belong_page": 1,
+                    "question_id": 208539,
+                    "question_title": "A system&#39;s architecture is a representation of a system in which there is a mapping of （请作答此空） onto hardware and software components, a mapping of the （ ） onto the hardware architecture, and a concern for the human interaction with these components. That is, system architecture is concerned with a total system, including hardware, software, and humans. Software architectural structures can be divided into three major categories, depending on the broad nature of the elements they show. 1)（ ） embody decisions as a set of code or data units that have to be constructed or procured. 2)（ ） embody decisions as to how the system is to be structured as set of elements that have runtime behavior and interactions. 3)（ ）embody decisions as to how the system will relate to nonsoflware structures in its environment (such as CPUs, file systems, networks, development teams, etc.).",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 208539,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "系统架构是一个系统的一种表示，包含了功能到软硬件构件的映射、软件架构到硬件架构的映射以及对于这些组件人机交互的关注。也就是说，系统架构关注于整个系统，包括硬件、软件和使用者。软件架构结构根据其所展示元素的广义性质，可以被分为三个主要类别。①模块结构将决策体现为一组需要被构建或采购的代码或数据单元。②构件连接器结构将决策体现为系统如何被结构化为一组具有运行时行为和交互的元素。③分配结构将决策体现为系统如何在其环境中关联到非软件结构，如CPU、文件系统、网络、开发团队等。",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        " attributes ",
+                        " constraint ",
+                        " functionality ",
+                        " requirements "
+                    ]
+                },
+                {
+                    "index": 12,
+                    "belong_page": 1,
+                    "question_id": 208540,
+                    "question_title": "A system&#39;s architecture is a representation of a system in which there is a mapping of （ ） onto hardware and software components, a mapping of the （请作答此空） onto the hardware architecture, and a concern for the human interaction with these components. That is, system architecture is concerned with a total system, including hardware, software, and humans. Software architectural structures can be divided into three major categories, depending on the broad nature of the elements they show. 1)（ ） embody decisions as a set of code or data units that have to be constructed or procured. 2)（ ） embody decisions as to how the system is to be structured as set of elements that have runtime behavior and interactions. 3)（ ）embody decisions as to how the system will relate to nonsoflware structures in its environment (such as CPUs, file systems, networks, development teams, etc.).",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 208540,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "系统架构是一个系统的一种表示，包含了功能到软硬件构件的映射、软件架构到硬件架构的映射以及对于这些组件人机交互的关注。也就是说，系统架构关注于整个系统，包括硬件、软件和使用者。软件架构结构根据其所展示元素的广义性质，可以被分为三个主要类别。①模块结构将决策体现为一组需要被构建或采购的代码或数据单元。②构件连接器结构将决策体现为系统如何被结构化为一组具有运行时行为和交互的元素。③分配结构将决策体现为系统如何在其环境中关联到非软件结构，如CPU、文件系统、网络、开发团队等。",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        " physical components ",
+                        " network architecture ",
+                        " software architecture ",
+                        " interface architecture "
+                    ]
+                },
+                {
+                    "index": 13,
+                    "belong_page": 1,
+                    "question_id": 208541,
+                    "question_title": "A system&#39;s architecture is a representation of a system in which there is a mapping of （ ） onto hardware and software components, a mapping of the （ ） onto the hardware architecture, and a concern for the human interaction with these components. That is, system architecture is concerned with a total system, including hardware, software, and humans. Software architectural structures can be divided into three major categories, depending on the broad nature of the elements they show. 1)（请作答此空） embody decisions as a set of code or data units that have to be constructed or procured. 2)（ ） embody decisions as to how the system is to be structured as set of elements that have runtime behavior and interactions. 3)（ ）embody decisions as to how the system will relate to nonsoflware structures in its environment (such as CPUs, file systems, networks, development teams, etc.).",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 208541,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "系统架构是一个系统的一种表示，包含了功能到软硬件构件的映射、软件架构到硬件架构的映射以及对于这些组件人机交互的关注。也就是说，系统架构关注于整个系统，包括硬件、软件和使用者。软件架构结构根据其所展示元素的广义性质，可以被分为三个主要类别。①模块结构将决策体现为一组需要被构建或采购的代码或数据单元。②构件连接器结构将决策体现为系统如何被结构化为一组具有运行时行为和交互的元素。③分配结构将决策体现为系统如何在其环境中关联到非软件结构，如CPU、文件系统、网络、开发团队等。",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " Service structures ",
+                        " Module structures ",
+                        " Deployment structures ",
+                        " Work assignment structures "
+                    ]
+                },
+                {
+                    "index": 14,
+                    "belong_page": 1,
+                    "question_id": 208542,
+                    "question_title": "A system&#39;s architecture is a representation of a system in which there is a mapping of （ ） onto hardware and software components, a mapping of the （ ） onto the hardware architecture, and a concern for the human interaction with these components. That is, system architecture is concerned with a total system, including hardware, software, and humans. Software architectural structures can be divided into three major categories, depending on the broad nature of the elements they show. 1)（ ） embody decisions as a set of code or data units that have to be constructed or procured. 2)（请作答此空） embody decisions as to how the system is to be structured as set of elements that have runtime behavior and interactions. 3)（ ）embody decisions as to how the system will relate to nonsoflware structures in its environment (such as CPUs, file systems, networks, development teams, etc.).",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 208542,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "系统架构是一个系统的一种表示，包含了功能到软硬件构件的映射、软件架构到硬件架构的映射以及对于这些组件人机交互的关注。也就是说，系统架构关注于整个系统，包括硬件、软件和使用者。软件架构结构根据其所展示元素的广义性质，可以被分为三个主要类别。①模块结构将决策体现为一组需要被构建或采购的代码或数据单元。②构件连接器结构将决策体现为系统如何被结构化为一组具有运行时行为和交互的元素。③分配结构将决策体现为系统如何在其环境中关联到非软件结构，如CPU、文件系统、网络、开发团队等。",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        " Decompostion structures ",
+                        " Layer structures ",
+                        " Implementation structures ",
+                        " Component-and-connector structures "
+                    ]
+                },
+                {
+                    "index": 15,
+                    "belong_page": 1,
+                    "question_id": 208543,
+                    "question_title": "<p>A system&#39;s architecture is a representation of a system in which there is a mapping of （ ） onto hardware and software components, a mapping of the （ ） onto the hardware architecture, and a concern for the human interaction with these components. That is, system architecture is concerned with a total system, including hardware, software, and humans. Software architectural structures can be divided into three major categories, depending on the broad nature of the elements they show. 1)（ ） embody decisions as a set of code or data units that have to be constructed or procured. 2)（ ） embody decisions as to how the system is to be structured as set of elements that have runtime behavior and interactions. 3)（请作答此空）embody decisions as to how the system will relate to nonsoftware structures in its environment (such as CPUs, file systems, networks, development teams, etc.).</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 208543,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "<p>系统架构是一个系统的一种表示，包含了功能到软硬件构件的映射、软件架构到硬件架构的映射以及对于这些组件人机交互的关注。也就是说，系统架构关注于整个系统，包括硬件、软件和使用者。软件架构结构根据其所展示元素的广义性质，可以被分为三个主要类别。①模块结构将决策体现为一组需要被构建或采购的代码或数据单元。②构件连接器结构将决策体现为系统如何被结构化为一组具有运行时行为和交互的元素。③分配结构将决策体现为系统如何在其环境中关联到非软件结构，如CPU、文件系统、网络、开发团队等。</p>",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        " Allocation structures ",
+                        " Class structures ",
+                        " Concurrency structures ",
+                        " Uses structures "
+                    ]
+                },
+                {
+                    "index": 16,
+                    "belong_page": 1,
+                    "question_id": 281192,
+                    "question_title": "<p>Many of the activities performed during the preliminary investigation are still being conducted in （ ）, but in much greater depth than before. During this phase, the analyst must become fully aware of the （ ） and must develop enough knowledge about the （ ） and the existing systems to enable an effective solution to be proposed and implemented. Besides the （ ） for process and data of current system, the deliverable from this phase also includes the （ ） for the proposed system.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 281191,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "1",
+                    "analyze": "无",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        "analysis phase",
+                        "design phase",
+                        "implementation phase",
+                        "maintenance phase"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "belong_page": 1,
+                    "question_id": 281193,
+                    "question_title": "<p>Many of the activities performed during the preliminary investigation are still being conducted in （ ）, but in much greater depth than before. During this phase, the analyst must become fully aware of the （ ） and must develop enough knowledge about the （ ） and the existing systems to enable an effective solution to be proposed and implemented. Besides the （ ） for process and data of current system, the deliverable from this phase also includes the （ ） for the proposed system.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 281191,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "2",
+                    "analyze": "无",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        "main symptom",
+                        "root problem",
+                        "final blueprint",
+                        "data specification"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "belong_page": 1,
+                    "question_id": 281194,
+                    "question_title": "<p>Many of the activities performed during the preliminary investigation are still being conducted in （ ）, but in much greater depth than before. During this phase, the analyst must become fully aware of the （ ） and must develop enough knowledge about the （ ） and the existing systems to enable an effective solution to be proposed and implemented. Besides the （ ） for process and data of current system, the deliverable from this phase also includes the （ ） for the proposed system.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 281191,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "3",
+                    "analyze": "无",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        "hardware environment",
+                        "testing environment",
+                        "software environment",
+                        "business environment"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "belong_page": 1,
+                    "question_id": 281195,
+                    "question_title": "<p>Many of the activities performed during the preliminary investigation are still being conducted in （ ）, but in much greater depth than before. During this phase, the analyst must become fully aware of the （ ） and must develop enough knowledge about the （ ） and the existing systems to enable an effective solution to be proposed and implemented. Besides the （ ） for process and data of current system, the deliverable from this phase also includes the （ ） for the proposed system.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 281191,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "4",
+                    "analyze": "无",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        "logical models",
+                        "physical models",
+                        "design models",
+                        "implementation models"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "belong_page": 1,
+                    "question_id": 281196,
+                    "question_title": "<p>Many of the activities performed during the preliminary investigation are still being conducted in （ ）, but in much greater depth than before. During this phase, the analyst must become fully aware of the （ ） and must develop enough knowledge about the （ ） and the existing systems to enable an effective solution to be proposed and implemented. Besides the （ ） for process and data of current system, the deliverable from this phase also includes the （ ） for the proposed system.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 281191,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "5",
+                    "analyze": "无",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        "hardware and software specification",
+                        "system performance specification",
+                        "formal requirements definition",
+                        "general problem statement"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "belong_page": 1,
+                    "question_id": 284728,
+                    "question_title": "<p>Many of the activities performed during the preliminary investigation are still being conducted in（71）, but in much greater depth than before. During this phase, the analyst must become &nbsp;fully aware of the（72） and must develop enough knowledge about the（73） and the existing systems to enable an effective solution to be proposed and implemented. Besides the（74） for process and data of current system, the deliverable from this phase also includes the（75） for the proposed system.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 284727,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "1",
+                    "analyze": "略",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        "analysis phase",
+                        "design phase",
+                        "implementation phase",
+                        "maintenance phase"
+                    ]
+                },
+                {
+                    "index": 22,
+                    "belong_page": 1,
+                    "question_id": 284729,
+                    "question_title": "<p>Many of the activities performed during the preliminary investigation are still being conducted in（71）, but in much greater depth than before. During this phase, the analyst must become &nbsp;fully aware of the（72） and must develop enough knowledge about the（73） and the existing systems to enable an effective solution to be proposed and implemented. Besides the（74） for process and data of current system, the deliverable from this phase also includes the（75） for the proposed system.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 284727,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "2",
+                    "analyze": "略",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        "main symptom",
+                        "root problem",
+                        "final blueprint",
+                        "data specification"
+                    ]
+                },
+                {
+                    "index": 23,
+                    "belong_page": 1,
+                    "question_id": 284730,
+                    "question_title": "<p>Many of the activities performed during the preliminary investigation are still being conducted in（71）, but in much greater depth than before. During this phase, the analyst must become &nbsp;fully aware of the（72） and must develop enough knowledge about the（73） and the existing systems to enable an effective solution to be proposed and implemented. Besides the（74） for process and data of current system, the deliverable from this phase also includes the（75） for the proposed system.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 284727,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "3",
+                    "analyze": "略",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        "hardware environment",
+                        "testing environment",
+                        "software environment",
+                        "business environment"
+                    ]
+                },
+                {
+                    "index": 24,
+                    "belong_page": 1,
+                    "question_id": 284731,
+                    "question_title": "<p>Many of the activities performed during the preliminary investigation are still being conducted in（71）, but in much greater depth than before. During this phase, the analyst must become &nbsp;fully aware of the（72） and must develop enough knowledge about the（73） and the existing systems to enable an effective solution to be proposed and implemented. Besides the（74） for process and data of current system, the deliverable from this phase also includes the（75） for the proposed system.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 284727,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "4",
+                    "analyze": "略",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        "logical models",
+                        "physical models",
+                        "design models",
+                        "implementation models"
+                    ]
+                },
+                {
+                    "index": 25,
+                    "belong_page": 1,
+                    "question_id": 284732,
+                    "question_title": "<p>Many of the activities performed during the preliminary investigation are still being conducted in（71）, but in much greater depth than before. During this phase, the analyst must become &nbsp;fully aware of the（72） and must develop enough knowledge about the（73） and the existing systems to enable an effective solution to be proposed and implemented. Besides the（74） for process and data of current system, the deliverable from this phase also includes the（75） for the proposed system.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 284727,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "5",
+                    "analyze": "略",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        "hardware and software specification",
+                        "system performance specification",
+                        "formal requirements definition",
+                        "general problem statement"
+                    ]
+                },
+                {
+                    "index": 26,
+                    "belong_page": 1,
+                    "question_id": 303714,
+                    "question_title": "<p>During the systems analysis phase, you must decide how data will be organized, stored, and managed. A &nbsp;（71） &nbsp;is a framework for organizing, storing, and managing data. Each file or table contains data about people, places, things, or events. One of the potential problems existing in a file processing environment is &nbsp;（72） , which means that data common to two or more information systems is stored in several places.</p><p>In a DBMS, the linked tables form a unified data structure that greatly improves data quality and access. A(n) &nbsp;（73） &nbsp;is a model that shows the logical relationships and interaction among system entities. It provides an overall view of the system and a blueprint for creating the physical data structures. &nbsp;（74） &nbsp;is the process of creating table designs by assigning specific fields or attributes to each table in the database. A table design specifies the fields and identifies the primary key in a particular table or file. The three normal forms constitute a progression in which &nbsp;（75） &nbsp;represents the best design. Most business-related databases must be designed in that form.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 303713,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "1",
+                    "analyze": "<p>在系统分析阶段，必须决定如何组织、存储和管理数据。数据结构是组织、存储和管理数据的一个框架。每个文件或表都包含有关人物、地点、事物或事件的数据。文件处理环境中存在的潜在问题之一是数据冗余，这意味着两个或多个信息系统共用的数据存储在多个不同位置。</p><p>在数据库管理系统(DBMS)中，相互连接的表形成了一个统一的数据结构，极大地提高了数据质量和访问能力。实体关系图是显示系统实体之间的逻辑关系和交互的模型。它提供了系统的总体视图和用于创建物理数据结构的蓝图。规范化是通过为数据库中的每个表分配特定字段或属性来创建表设计的过程。表设计指定字段并标识特定表或文件中的主键。三种范式构成了一个渐进过程，其中第三范式代表了好的设计。大部分与业务相关的数据库都必须以这种形式设计。</p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        "data entity",
+                        "data structure",
+                        "file collection",
+                        "data definition"
+                    ]
+                },
+                {
+                    "index": 27,
+                    "belong_page": 1,
+                    "question_id": 303715,
+                    "question_title": "<p>During the systems analysis phase, you must decide how data will be organized, stored, and managed. A &nbsp;（71） &nbsp;is a framework for organizing, storing, and managing data. Each file or table contains data about people, places, things, or events. One of the potential problems existing in a file processing environment is &nbsp;（72） , which means that data common to two or more information systems is stored in several places.</p><p>In a DBMS, the linked tables form a unified data structure that greatly improves data quality and access. A(n) &nbsp;（73） &nbsp;is a model that shows the logical relationships and interaction among system entities. It provides an overall view of the system and a blueprint for creating the physical data structures. &nbsp;（74） &nbsp;is the process of creating table designs by assigning specific fields or attributes to each table in the database. A table design specifies the fields and identifies the primary key in a particular table or file. The three normal forms constitute a progression in which &nbsp;（75） &nbsp;represents the best design. Most business-related databases must be designed in that form.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 303713,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "2",
+                    "analyze": "<p>在系统分析阶段，必须决定如何组织、存储和管理数据。数据结构是组织、存储和管理数据的一个框架。每个文件或表都包含有关人物、地点、事物或事件的数据。文件处理环境中存在的潜在问题之一是数据冗余，这意味着两个或多个信息系统共用的数据存储在多个不同位置。</p><p>在数据库管理系统(DBMS)中，相互连接的表形成了一个统一的数据结构，极大地提高了数据质量和访问能力。实体关系图是显示系统实体之间的逻辑关系和交互的模型。它提供了系统的总体视图和用于创建物理数据结构的蓝图。规范化是通过为数据库中的每个表分配特定字段或属性来创建表设计的过程。表设计指定字段并标识特定表或文件中的主键。三种范式构成了一个渐进过程，其中第三范式代表了好的设计。大部分与业务相关的数据库都必须以这种形式设计。</p>",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        "data integrity",
+                        "the rigid data structure",
+                        "data redundancy",
+                        "the many-to-many relationship"
+                    ]
+                },
+                {
+                    "index": 28,
+                    "belong_page": 1,
+                    "question_id": 303716,
+                    "question_title": "<p>During the systems analysis phase, you must decide how data will be organized, stored, and managed. A &nbsp;（71） &nbsp;is a framework for organizing, storing, and managing data. Each file or table contains data about people, places, things, or events. One of the potential problems existing in a file processing environment is &nbsp;（72） , which means that data common to two or more information systems is stored in several places.</p><p>In a DBMS, the linked tables form a unified data structure that greatly improves data quality and access. A(n) &nbsp;（73） &nbsp;is a model that shows the logical relationships and interaction among system entities. It provides an overall view of the system and a blueprint for creating the physical data structures. &nbsp;（74） &nbsp;is the process of creating table designs by assigning specific fields or attributes to each table in the database. A table design specifies the fields and identifies the primary key in a particular table or file. The three normal forms constitute a progression in which &nbsp;（75） &nbsp;represents the best design. Most business-related databases must be designed in that form.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 303713,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "3",
+                    "analyze": "<p>在系统分析阶段，必须决定如何组织、存储和管理数据。数据结构是组织、存储和管理数据的一个框架。每个文件或表都包含有关人物、地点、事物或事件的数据。文件处理环境中存在的潜在问题之一是数据冗余，这意味着两个或多个信息系统共用的数据存储在多个不同位置。</p><p>在数据库管理系统(DBMS)中，相互连接的表形成了一个统一的数据结构，极大地提高了数据质量和访问能力。实体关系图是显示系统实体之间的逻辑关系和交互的模型。它提供了系统的总体视图和用于创建物理数据结构的蓝图。规范化是通过为数据库中的每个表分配特定字段或属性来创建表设计的过程。表设计指定字段并标识特定表或文件中的主键。三种范式构成了一个渐进过程，其中第三范式代表了好的设计。大部分与业务相关的数据库都必须以这种形式设计。</p>",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        "entity-relationship diagram",
+                        "data dictionary",
+                        "database schema",
+                        "physical database model"
+                    ]
+                },
+                {
+                    "index": 29,
+                    "belong_page": 1,
+                    "question_id": 303717,
+                    "question_title": "<p>During the systems analysis phase, you must decide how data will be organized, stored, and managed. A &nbsp;（71） &nbsp;is a framework for organizing, storing, and managing data. Each file or table contains data about people, places, things, or events. One of the potential problems existing in a file processing environment is &nbsp;（72） , which means that data common to two or more information systems is stored in several places.</p><p>In a DBMS, the linked tables form a unified data structure that greatly improves data quality and access. A(n) &nbsp;（73） &nbsp;is a model that shows the logical relationships and interaction among system entities. It provides an overall view of the system and a blueprint for creating the physical data structures. &nbsp;（74） &nbsp;is the process of creating table designs by assigning specific fields or attributes to each table in the database. A table design specifies the fields and identifies the primary key in a particular table or file. The three normal forms constitute a progression in which &nbsp;（75） &nbsp;represents the best design. Most business-related databases must be designed in that form.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 303713,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "4",
+                    "analyze": "<p>在系统分析阶段，必须决定如何组织、存储和管理数据。数据结构是组织、存储和管理数据的一个框架。每个文件或表都包含有关人物、地点、事物或事件的数据。文件处理环境中存在的潜在问题之一是数据冗余，这意味着两个或多个信息系统共用的数据存储在多个不同位置。</p><p>在数据库管理系统(DBMS)中，相互连接的表形成了一个统一的数据结构，极大地提高了数据质量和访问能力。实体关系图是显示系统实体之间的逻辑关系和交互的模型。它提供了系统的总体视图和用于创建物理数据结构的蓝图。规范化是通过为数据库中的每个表分配特定字段或属性来创建表设计的过程。表设计指定字段并标识特定表或文件中的主键。三种范式构成了一个渐进过程，其中第三范式代表了好的设计。大部分与业务相关的数据库都必须以这种形式设计。</p>",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        "Normalization",
+                        "Replication",
+                        "Partitioning",
+                        "Optimization"
+                    ]
+                },
+                {
+                    "index": 30,
+                    "belong_page": 1,
+                    "question_id": 303718,
+                    "question_title": "<p>During the systems analysis phase, you must decide how data will be organized, stored, and managed. A &nbsp;（71） &nbsp;is a framework for organizing, storing, and managing data. Each file or table contains data about people, places, things, or events. One of the potential problems existing in a file processing environment is &nbsp;（72） , which means that data common to two or more information systems is stored in several places.</p><p>In a DBMS, the linked tables form a unified data structure that greatly improves data quality and access. A(n) &nbsp;（73） &nbsp;is a model that shows the logical relationships and interaction among system entities. It provides an overall view of the system and a blueprint for creating the physical data structures. &nbsp;（74） &nbsp;is the process of creating table designs by assigning specific fields or attributes to each table in the database. A table design specifies the fields and identifies the primary key in a particular table or file. The three normal forms constitute a progression in which &nbsp;（75） &nbsp;represents the best design. Most business-related databases must be designed in that form.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 303713,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "5",
+                    "analyze": "<p>在系统分析阶段，必须决定如何组织、存储和管理数据。数据结构是组织、存储和管理数据的一个框架。每个文件或表都包含有关人物、地点、事物或事件的数据。文件处理环境中存在的潜在问题之一是数据冗余，这意味着两个或多个信息系统共用的数据存储在多个不同位置。</p><p>在数据库管理系统(DBMS)中，相互连接的表形成了一个统一的数据结构，极大地提高了数据质量和访问能力。实体关系图是显示系统实体之间的逻辑关系和交互的模型。它提供了系统的总体视图和用于创建物理数据结构的蓝图。规范化是通过为数据库中的每个表分配特定字段或属性来创建表设计的过程。表设计指定字段并标识特定表或文件中的主键。三种范式构成了一个渐进过程，其中第三范式代表了好的设计。大部分与业务相关的数据库都必须以这种形式设计。</p>",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        "standard notation form",
+                        "first normal form",
+                        "second normal form",
+                        "third normal form"
+                    ]
+                },
+                {
+                    "index": 31,
+                    "belong_page": 1,
+                    "question_id": 310914,
+                    "question_title": "Complex software systems are typically composed of subsystems and/or （71）, some of which may themselves be complete software systems. These components must seamlessly integrate into the larger system. Architectural design addresses this challenge by determining what the components are and how they integrate and communicate with each other. The following are some considerations (factors) that influence system architecture decisions: performance, availability, security, and （72）. These requirements typically do not synchronize with each other, so （73） will be necessary. Two issues of paramount importance in architectural design are resource sharing and system control. There are four approaches to resource sharing: the Repository Model, the Client-Server Model, the Abstract Machine Model, and the （74）; and two approaches that you should be familiar with - （75） and event-based control",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 310913,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "1",
+                    "analyze": "无",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        "components",
+                        "modules",
+                        "classes",
+                        "documents"
+                    ]
+                },
+                {
+                    "index": 32,
+                    "belong_page": 1,
+                    "question_id": 310915,
+                    "question_title": "Complex software systems are typically composed of subsystems and/or （71）, some of which may themselves be complete software systems. These components must seamlessly integrate into the larger system. Architectural design addresses this challenge by determining what the components are and how they integrate and communicate with each other. The following are some considerations (factors) that influence system architecture decisions: performance, availability, security, and （72）. These requirements typically do not synchronize with each other, so （73） will be necessary. Two issues of paramount importance in architectural design are resource sharing and system control. There are four approaches to resource sharing: the Repository Model, the Client-Server Model, the Abstract Machine Model, and the （74）; and two approaches that you should be familiar with - （75） and event-based control",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 310913,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "2",
+                    "analyze": "无",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        "testability",
+                        "modularity",
+                        "maintainablity",
+                        "reliability"
+                    ]
+                },
+                {
+                    "index": 33,
+                    "belong_page": 1,
+                    "question_id": 310916,
+                    "question_title": "Complex software systems are typically composed of subsystems and/or （71）, some of which may themselves be complete software systems. These components must seamlessly integrate into the larger system. Architectural design addresses this challenge by determining what the components are and how they integrate and communicate with each other. The following are some considerations (factors) that influence system architecture decisions: performance, availability, security, and （72）. These requirements typically do not synchronize with each other, so （73） will be necessary. Two issues of paramount importance in architectural design are resource sharing and system control. There are four approaches to resource sharing: the Repository Model, the Client-Server Model, the Abstract Machine Model, and the （74）; and two approaches that you should be familiar with - （75） and event-based control",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 310913,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "3",
+                    "analyze": "无",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        "selections",
+                        "transactions",
+                        "elections",
+                        "trade-offs"
+                    ]
+                },
+                {
+                    "index": 34,
+                    "belong_page": 1,
+                    "question_id": 310917,
+                    "question_title": "Complex software systems are typically composed of subsystems and/or （71）, some of which may themselves be complete software systems. These components must seamlessly integrate into the larger system. Architectural design addresses this challenge by determining what the components are and how they integrate and communicate with each other. The following are some considerations (factors) that influence system architecture decisions: performance, availability, security, and （72）. These requirements typically do not synchronize with each other, so （73） will be necessary. Two issues of paramount importance in architectural design are resource sharing and system control. There are four approaches to resource sharing: the Repository Model, the Client-Server Model, the Abstract Machine Model, and the （74）; and two approaches that you should be familiar with - （75） and event-based control",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 310913,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "4",
+                    "analyze": "无",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        "Database Model",
+                        "Layered Model",
+                        "Distributed Computing Model",
+                        "Component Model"
+                    ]
+                },
+                {
+                    "index": 35,
+                    "belong_page": 1,
+                    "question_id": 310918,
+                    "question_title": "Complex software systems are typically composed of subsystems and/or （71）, some of which may themselves be complete software systems. These components must seamlessly integrate into the larger system. Architectural design addresses this challenge by determining what the components are and how they integrate and communicate with each other. The following are some considerations (factors) that influence system architecture decisions: performance, availability, security, and （72）. These requirements typically do not synchronize with each other, so （73） will be necessary. Two issues of paramount importance in architectural design are resource sharing and system control. There are four approaches to resource sharing: the Repository Model, the Client-Server Model, the Abstract Machine Model, and the （74）; and two approaches that you should be familiar with - （75） and event-based control",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 310913,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "5",
+                    "analyze": "无",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        "centeralized control",
+                        "state control",
+                        "electrical control",
+                        "distributed control"
+                    ]
+                },
+                {
+                    "index": 36,
+                    "belong_page": 1,
+                    "question_id": 312990,
+                    "question_title": "System analysis is traditionally done top-down using structured analysis based on（ ）. Object-oriented analysis focuses on creation of models. The three types of theanalysis model are（ ）. There are two substages of object-oriented analysis.（ ）focuses on real-world things whose semantics the application captures. The object constructedin the requirement analysis shows the（ ）of the real-world system and organizes it intoworkable pieces.（ ）addresses the computer aspects of the application that are visible tousers. The objects are those which can be expected to vary from time to time quite rapidly.",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 312989,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "1",
+                    "analyze": "传统的系统分析以功能分解为基础，利用结构化分析自顶向下完成。面向对象分析关注于模型的创建。该分析模型有三种类型：类模型、交互模型和状态模型。面向对象分析有两个子阶段。领域分析侧重于现实世界中那些语义被应用程序获取的事物。在需求分析中所构造的对象说明了现实世界系统的静态结构并将其组织为可用的片段。应用分析处理应用系统中用户可见的计算机问题。所分析的对象可能会被预计时不时地发生较快的变化。",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        "functional decomposition",
+                        "object abstraction",
+                        "data inheritance",
+                        "information generalization"
+                    ]
+                },
+                {
+                    "index": 37,
+                    "belong_page": 1,
+                    "question_id": 312991,
+                    "question_title": "System analysis is traditionally done top-down using structured analysis based on（ ）. Object-oriented analysis focuses on creation of models. The three types of theanalysis model are（ ）. There are two substages of object-oriented analysis.（ ）focuses on real-world things whose semantics the application captures. The object constructedin the requirement analysis shows the（ ）of the real-world system and organizes it intoworkable pieces.（ ）addresses the computer aspects of the application that are visible tousers. The objects are those which can be expected to vary from time to time quite rapidly.",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 312989,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "2",
+                    "analyze": "传统的系统分析以功能分解为基础，利用结构化分析自顶向下完成。面向对象分析关注于模型的创建。该分析模型有三种类型：类模型、交互模型和状态模型。面向对象分析有两个子阶段。领域分析侧重于现实世界中那些语义被应用程序获取的事物。在需求分析中所构造的对象说明了现实世界系统的静态结构并将其组织为可用的片段。应用分析处理应用系统中用户可见的计算机问题。所分析的对象可能会被预计时不时地发生较快的变化。",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        "function model，class model and state model",
+                        "class model，interaction model and state model",
+                        "class model，interaction model and sequence model",
+                        "function model，interaction model and state model"
+                    ]
+                },
+                {
+                    "index": 38,
+                    "belong_page": 1,
+                    "question_id": 312992,
+                    "question_title": "System analysis is traditionally done top-down using structured analysis based on（ ）. Object-oriented analysis focuses on creation of models. The three types of theanalysis model are（ ）. There are two substages of object-oriented analysis.（ ）focuses on real-world things whose semantics the application captures. The object constructedin the requirement analysis shows the（ ）of the real-world system and organizes it intoworkable pieces.（ ）addresses the computer aspects of the application that are visible tousers. The objects are those which can be expected to vary from time to time quite rapidly.",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 312989,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "3",
+                    "analyze": "传统的系统分析以功能分解为基础，利用结构化分析自顶向下完成。面向对象分析关注于模型的创建。该分析模型有三种类型：类模型、交互模型和状态模型。面向对象分析有两个子阶段。领域分析侧重于现实世界中那些语义被应用程序获取的事物。在需求分析中所构造的对象说明了现实世界系统的静态结构并将其组织为可用的片段。应用分析处理应用系统中用户可见的计算机问题。所分析的对象可能会被预计时不时地发生较快的变化。",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        " Static analysis ",
+                        " Semantic analysis ",
+                        " Scope analysis ",
+                        " Domain analysis "
+                    ]
+                },
+                {
+                    "index": 39,
+                    "belong_page": 1,
+                    "question_id": 312993,
+                    "question_title": "System analysis is traditionally done top-down using structured analysis based on（ ）. Object-oriented analysis focuses on creation of models. The three types of theanalysis model are（ ）. There are two substages of object-oriented analysis.（ ）focuses on real-world things whose semantics the application captures. The object constructedin the requirement analysis shows the（ ）of the real-world system and organizes it intoworkable pieces.（ ）addresses the computer aspects of the application that are visible tousers. The objects are those which can be expected to vary from time to time quite rapidly.",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 312989,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "4",
+                    "analyze": "传统的系统分析以功能分解为基础，利用结构化分析自顶向下完成。面向对象分析关注于模型的创建。该分析模型有三种类型：类模型、交互模型和状态模型。面向对象分析有两个子阶段。领域分析侧重于现实世界中那些语义被应用程序获取的事物。在需求分析中所构造的对象说明了现实世界系统的静态结构并将其组织为可用的片段。应用分析处理应用系统中用户可见的计算机问题。所分析的对象可能会被预计时不时地发生较快的变化。",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        "static structure",
+                        "system components",
+                        "data flows",
+                        "program procedures"
+                    ]
+                },
+                {
+                    "index": 40,
+                    "belong_page": 1,
+                    "question_id": 312994,
+                    "question_title": "System analysis is traditionally done top-down using structured analysis based on（ ）. Object-oriented analysis focuses on creation of models. The three types of theanalysis model are（ ）. There are two substages of object-oriented analysis.（ ）focuses on real-world things whose semantics the application captures. The object constructedin the requirement analysis shows the（ ）of the real-world system and organizes it intoworkable pieces.（ ）addresses the computer aspects of the application that are visible tousers. The objects are those which can be expected to vary from time to time quite rapidly.",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 312989,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "5",
+                    "analyze": "传统的系统分析以功能分解为基础，利用结构化分析自顶向下完成。面向对象分析关注于模型的创建。该分析模型有三种类型：类模型、交互模型和状态模型。面向对象分析有两个子阶段。领域分析侧重于现实世界中那些语义被应用程序获取的事物。在需求分析中所构造的对象说明了现实世界系统的静态结构并将其组织为可用的片段。应用分析处理应用系统中用户可见的计算机问题。所分析的对象可能会被预计时不时地发生较快的变化。",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        "Program analysis",
+                        "Function requirement",
+                        "Application analysis",
+                        "Physical model"
+                    ]
+                },
+                {
+                    "index": 41,
+                    "belong_page": 1,
+                    "question_id": 315989,
+                    "question_title": "<p>The&nbsp;prevailing&nbsp;distributed&nbsp;computing&nbsp;model&nbsp;of&nbsp;the&nbsp;current&nbsp;era&nbsp;is&nbsp;called&nbsp;client/server&nbsp;computing.&nbsp;A&nbsp;（71）&nbsp;is&nbsp;a&nbsp;solution&nbsp;in&nbsp;which&nbsp;the&nbsp;presentation,presentation&nbsp;logic,application&nbsp;logic,data&nbsp;manipulation&nbsp;and&nbsp;data&nbsp;layers&nbsp;are&nbsp;distributed&nbsp;between&nbsp;client&nbsp;PCs&nbsp;and&nbsp;one&nbsp;or&nbsp;more&nbsp;servers.&nbsp;A&nbsp;（72）&nbsp;is&nbsp;a&nbsp;personal&nbsp;computer&nbsp;that&nbsp;does&nbsp;not&nbsp;have&nbsp;to&nbsp;be&nbsp;very&nbsp;powerful&nbsp;in&nbsp;terms&nbsp;of&nbsp;processor&nbsp;speed&nbsp;and&nbsp;memory&nbsp;because&nbsp;it&nbsp;only&nbsp;presents&nbsp;the&nbsp;interface&nbsp;to&nbsp;the&nbsp;user.&nbsp;A&nbsp;（73）&nbsp;is&nbsp;a&nbsp;personal&nbsp;computer,notebook&nbsp;computer,or&nbsp;workstation&nbsp;that&nbsp;is&nbsp;typically&nbsp;more&nbsp;powerful&nbsp;in&nbsp;terms&nbsp;of&nbsp;processor&nbsp;speed,memory,and&nbsp;storage&nbsp;capacity.&nbsp;A&nbsp;（74）&nbsp;hosts&nbsp;one&nbsp;or&nbsp;more&nbsp;shared&nbsp;database&nbsp;but&nbsp;also&nbsp;executes&nbsp;all&nbsp;database&nbsp;commands&nbsp;and&nbsp;services&nbsp;for&nbsp;information&nbsp;systems.&nbsp;A&nbsp;（n）（75）&nbsp;hosts&nbsp;Internet&nbsp;or&nbsp;intranet&nbsp;Web&nbsp;sites,it&nbsp;communicates&nbsp;with&nbsp;clients&nbsp;by&nbsp;returning&nbsp;to&nbsp;them&nbsp;documents&nbsp;and&nbsp;data.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 315988,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "1",
+                    "analyze": "<p>现在主流的分布式计算是客户/服务器计算模式。客户/服务器系统是一种解决方案，其中表示层、表示逻辑层、应用逻辑、数据操作、数据层分布在客户的PC端与一个或多个服务器端之间。瘦客户端指的是个人电脑在处理速度、内存方面无须很强大，因为它仅仅是展示接口给用户。胖客户端是指个人电脑、笔记本、工作站在处理速度、内存、存储容量方面都很强大的一类电脑。数据库服务器控制一个或多个共享数据库，同时也执行所有数据库命令以及服务于信息系统。web服务器控制互联网、信息平台，与客户端通信，返回给客户端文件与数据。</p>",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        "Client/Server system",
+                        "Client-side",
+                        "Serve-sider",
+                        "Database"
+                    ]
+                },
+                {
+                    "index": 42,
+                    "belong_page": 1,
+                    "question_id": 315990,
+                    "question_title": "<p>The&nbsp;prevailing&nbsp;distributed&nbsp;computing&nbsp;model&nbsp;of&nbsp;the&nbsp;current&nbsp;era&nbsp;is&nbsp;called&nbsp;client/server&nbsp;computing.&nbsp;A&nbsp;（71）&nbsp;is&nbsp;a&nbsp;solution&nbsp;in&nbsp;which&nbsp;the&nbsp;presentation,presentation&nbsp;logic,application&nbsp;logic,data&nbsp;manipulation&nbsp;and&nbsp;data&nbsp;layers&nbsp;are&nbsp;distributed&nbsp;between&nbsp;client&nbsp;PCs&nbsp;and&nbsp;one&nbsp;or&nbsp;more&nbsp;servers.&nbsp;A&nbsp;（72）&nbsp;is&nbsp;a&nbsp;personal&nbsp;computer&nbsp;that&nbsp;does&nbsp;not&nbsp;have&nbsp;to&nbsp;be&nbsp;very&nbsp;powerful&nbsp;in&nbsp;terms&nbsp;of&nbsp;processor&nbsp;speed&nbsp;and&nbsp;memory&nbsp;because&nbsp;it&nbsp;only&nbsp;presents&nbsp;the&nbsp;interface&nbsp;to&nbsp;the&nbsp;user.&nbsp;A&nbsp;（73）&nbsp;is&nbsp;a&nbsp;personal&nbsp;computer,notebook&nbsp;computer,or&nbsp;workstation&nbsp;that&nbsp;is&nbsp;typically&nbsp;more&nbsp;powerful&nbsp;in&nbsp;terms&nbsp;of&nbsp;processor&nbsp;speed,memory,and&nbsp;storage&nbsp;capacity.&nbsp;A&nbsp;（74）&nbsp;hosts&nbsp;one&nbsp;or&nbsp;more&nbsp;shared&nbsp;database&nbsp;but&nbsp;also&nbsp;executes&nbsp;all&nbsp;database&nbsp;commands&nbsp;and&nbsp;services&nbsp;for&nbsp;information&nbsp;systems.&nbsp;A&nbsp;（n）（75）&nbsp;hosts&nbsp;Internet&nbsp;or&nbsp;intranet&nbsp;Web&nbsp;sites,it&nbsp;communicates&nbsp;with&nbsp;clients&nbsp;by&nbsp;returning&nbsp;to&nbsp;them&nbsp;documents&nbsp;and&nbsp;data.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 315988,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "2",
+                    "analyze": "<p>现在主流的分布式计算是客户/服务器计算模式。客户/服务器系统是一种解决方案，其中表示层、表示逻辑层、应用逻辑、数据操作、数据层分布在客户的PC端与一个或多个服务器端之间。瘦客户端指的是个人电脑在处理速度、内存方面无须很强大，因为它仅仅是展示接口给用户。胖客户端是指个人电脑、笔记本、工作站在处理速度、内存、存储容量方面都很强大的一类电脑。数据库服务器控制一个或多个共享数据库，同时也执行所有数据库命令以及服务于信息系统。web服务器控制互联网、信息平台，与客户端通信，返回给客户端文件与数据。</p>",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        "Serve-sider",
+                        "Browser",
+                        "Fat client",
+                        "Thin client"
+                    ]
+                },
+                {
+                    "index": 43,
+                    "belong_page": 1,
+                    "question_id": 315991,
+                    "question_title": "<p>The&nbsp;prevailing&nbsp;distributed&nbsp;computing&nbsp;model&nbsp;of&nbsp;the&nbsp;current&nbsp;era&nbsp;is&nbsp;called&nbsp;client/server&nbsp;computing.&nbsp;A&nbsp;（71）&nbsp;is&nbsp;a&nbsp;solution&nbsp;in&nbsp;which&nbsp;the&nbsp;presentation,presentation&nbsp;logic,application&nbsp;logic,data&nbsp;manipulation&nbsp;and&nbsp;data&nbsp;layers&nbsp;are&nbsp;distributed&nbsp;between&nbsp;client&nbsp;PCs&nbsp;and&nbsp;one&nbsp;or&nbsp;more&nbsp;servers.&nbsp;A&nbsp;（72）&nbsp;is&nbsp;a&nbsp;personal&nbsp;computer&nbsp;that&nbsp;does&nbsp;not&nbsp;have&nbsp;to&nbsp;be&nbsp;very&nbsp;powerful&nbsp;in&nbsp;terms&nbsp;of&nbsp;processor&nbsp;speed&nbsp;and&nbsp;memory&nbsp;because&nbsp;it&nbsp;only&nbsp;presents&nbsp;the&nbsp;interface&nbsp;to&nbsp;the&nbsp;user.&nbsp;A&nbsp;（73）&nbsp;is&nbsp;a&nbsp;personal&nbsp;computer,notebook&nbsp;computer,or&nbsp;workstation&nbsp;that&nbsp;is&nbsp;typically&nbsp;more&nbsp;powerful&nbsp;in&nbsp;terms&nbsp;of&nbsp;processor&nbsp;speed,memory,and&nbsp;storage&nbsp;capacity.&nbsp;A&nbsp;（74）&nbsp;hosts&nbsp;one&nbsp;or&nbsp;more&nbsp;shared&nbsp;database&nbsp;but&nbsp;also&nbsp;executes&nbsp;all&nbsp;database&nbsp;commands&nbsp;and&nbsp;services&nbsp;for&nbsp;information&nbsp;systems.&nbsp;A&nbsp;（n）（75）&nbsp;hosts&nbsp;Internet&nbsp;or&nbsp;intranet&nbsp;Web&nbsp;sites,it&nbsp;communicates&nbsp;with&nbsp;clients&nbsp;by&nbsp;returning&nbsp;to&nbsp;them&nbsp;documents&nbsp;and&nbsp;data.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 315988,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "3",
+                    "analyze": "<p>现在主流的分布式计算是客户/服务器计算模式。客户/服务器系统是一种解决方案，其中表示层、表示逻辑层、应用逻辑、数据操作、数据层分布在客户的PC端与一个或多个服务器端之间。瘦客户端指的是个人电脑在处理速度、内存方面无须很强大，因为它仅仅是展示接口给用户。胖客户端是指个人电脑、笔记本、工作站在处理速度、内存、存储容量方面都很强大的一类电脑。数据库服务器控制一个或多个共享数据库，同时也执行所有数据库命令以及服务于信息系统。web服务器控制互联网、信息平台，与客户端通信，返回给客户端文件与数据。</p>",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        "Cloud platform",
+                        "Cluster system",
+                        "Fat client",
+                        "Thin client"
+                    ]
+                },
+                {
+                    "index": 44,
+                    "belong_page": 1,
+                    "question_id": 315992,
+                    "question_title": "<p>The&nbsp;prevailing&nbsp;distributed&nbsp;computing&nbsp;model&nbsp;of&nbsp;the&nbsp;current&nbsp;era&nbsp;is&nbsp;called&nbsp;client/server&nbsp;computing.&nbsp;A&nbsp;（71）&nbsp;is&nbsp;a&nbsp;solution&nbsp;in&nbsp;which&nbsp;the&nbsp;presentation,presentation&nbsp;logic,application&nbsp;logic,data&nbsp;manipulation&nbsp;and&nbsp;data&nbsp;layers&nbsp;are&nbsp;distributed&nbsp;between&nbsp;client&nbsp;PCs&nbsp;and&nbsp;one&nbsp;or&nbsp;more&nbsp;servers.&nbsp;A&nbsp;（72）&nbsp;is&nbsp;a&nbsp;personal&nbsp;computer&nbsp;that&nbsp;does&nbsp;not&nbsp;have&nbsp;to&nbsp;be&nbsp;very&nbsp;powerful&nbsp;in&nbsp;terms&nbsp;of&nbsp;processor&nbsp;speed&nbsp;and&nbsp;memory&nbsp;because&nbsp;it&nbsp;only&nbsp;presents&nbsp;the&nbsp;interface&nbsp;to&nbsp;the&nbsp;user.&nbsp;A&nbsp;（73）&nbsp;is&nbsp;a&nbsp;personal&nbsp;computer,notebook&nbsp;computer,or&nbsp;workstation&nbsp;that&nbsp;is&nbsp;typically&nbsp;more&nbsp;powerful&nbsp;in&nbsp;terms&nbsp;of&nbsp;processor&nbsp;speed,memory,and&nbsp;storage&nbsp;capacity.&nbsp;A&nbsp;（74）&nbsp;hosts&nbsp;one&nbsp;or&nbsp;more&nbsp;shared&nbsp;database&nbsp;but&nbsp;also&nbsp;executes&nbsp;all&nbsp;database&nbsp;commands&nbsp;and&nbsp;services&nbsp;for&nbsp;information&nbsp;systems.&nbsp;A&nbsp;（n）（75）&nbsp;hosts&nbsp;Internet&nbsp;or&nbsp;intranet&nbsp;Web&nbsp;sites,it&nbsp;communicates&nbsp;with&nbsp;clients&nbsp;by&nbsp;returning&nbsp;to&nbsp;them&nbsp;documents&nbsp;and&nbsp;data.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 315988,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "4",
+                    "analyze": "<p>现在主流的分布式计算是客户/服务器计算模式。客户/服务器系统是一种解决方案，其中表示层、表示逻辑层、应用逻辑、数据操作、数据层分布在客户的PC端与一个或多个服务器端之间。瘦客户端指的是个人电脑在处理速度、内存方面无须很强大，因为它仅仅是展示接口给用户。胖客户端是指个人电脑、笔记本、工作站在处理速度、内存、存储容量方面都很强大的一类电脑。数据库服务器控制一个或多个共享数据库，同时也执行所有数据库命令以及服务于信息系统。web服务器控制互联网、信息平台，与客户端通信，返回给客户端文件与数据。</p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        "Transaction server",
+                        "Database serverer",
+                        "Application server",
+                        "Message server"
+                    ]
+                },
+                {
+                    "index": 45,
+                    "belong_page": 1,
+                    "question_id": 315993,
+                    "question_title": "<p>The&nbsp;prevailing&nbsp;distributed&nbsp;computing&nbsp;model&nbsp;of&nbsp;the&nbsp;current&nbsp;era&nbsp;is&nbsp;called&nbsp;client/server&nbsp;computing.&nbsp;A&nbsp;（71）&nbsp;is&nbsp;a&nbsp;solution&nbsp;in&nbsp;which&nbsp;the&nbsp;presentation,presentation&nbsp;logic,application&nbsp;logic,data&nbsp;manipulation&nbsp;and&nbsp;data&nbsp;layers&nbsp;are&nbsp;distributed&nbsp;between&nbsp;client&nbsp;PCs&nbsp;and&nbsp;one&nbsp;or&nbsp;more&nbsp;servers.&nbsp;A&nbsp;（72）&nbsp;is&nbsp;a&nbsp;personal&nbsp;computer&nbsp;that&nbsp;does&nbsp;not&nbsp;have&nbsp;to&nbsp;be&nbsp;very&nbsp;powerful&nbsp;in&nbsp;terms&nbsp;of&nbsp;processor&nbsp;speed&nbsp;and&nbsp;memory&nbsp;because&nbsp;it&nbsp;only&nbsp;presents&nbsp;the&nbsp;interface&nbsp;to&nbsp;the&nbsp;user.&nbsp;A&nbsp;（73）&nbsp;is&nbsp;a&nbsp;personal&nbsp;computer,notebook&nbsp;computer,or&nbsp;workstation&nbsp;that&nbsp;is&nbsp;typically&nbsp;more&nbsp;powerful&nbsp;in&nbsp;terms&nbsp;of&nbsp;processor&nbsp;speed,memory,and&nbsp;storage&nbsp;capacity.&nbsp;A&nbsp;（74）&nbsp;hosts&nbsp;one&nbsp;or&nbsp;more&nbsp;shared&nbsp;database&nbsp;but&nbsp;also&nbsp;executes&nbsp;all&nbsp;database&nbsp;commands&nbsp;and&nbsp;services&nbsp;for&nbsp;information&nbsp;systems.&nbsp;A&nbsp;（n）（75）&nbsp;hosts&nbsp;Internet&nbsp;or&nbsp;intranet&nbsp;Web&nbsp;sites,it&nbsp;communicates&nbsp;with&nbsp;clients&nbsp;by&nbsp;returning&nbsp;to&nbsp;them&nbsp;documents&nbsp;and&nbsp;data.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 315988,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "5",
+                    "analyze": "<p>现在主流的分布式计算是客户/服务器计算模式。客户/服务器系统是一种解决方案，其中表示层、表示逻辑层、应用逻辑、数据操作、数据层分布在客户的PC端与一个或多个服务器端之间。瘦客户端指的是个人电脑在处理速度、内存方面无须很强大，因为它仅仅是展示接口给用户。胖客户端是指个人电脑、笔记本、工作站在处理速度、内存、存储容量方面都很强大的一类电脑。数据库服务器控制一个或多个共享数据库，同时也执行所有数据库命令以及服务于信息系统。web服务器控制互联网、信息平台，与客户端通信，返回给客户端文件与数据。</p>",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        "Database server",
+                        "Message server&nbsp;",
+                        "Web server",
+                        "Application server"
+                    ]
+                },
+                {
+                    "index": 46,
+                    "belong_page": 1,
+                    "question_id": 350369,
+                    "question_title": "<p>&nbsp; The objective of &nbsp;（71） &nbsp;is to determine what parts of the application software will be assigned to what hardware. The major software components of the system being developed have to be identified and then allocated to the various hardware components on which the system will operate. All software systems can be divided into four basic functions. The first is &nbsp;（72）&nbsp;.&nbsp;Most information systems require data to be stored and retrieved, whether a small file,such as a memo produced by a word processor, or a large database, such as one that stores an organization’s accounting records.The second function is the &nbsp;（73） , the processing required to access data, which often means database queries in Structured Query Language. The third function is the &nbsp;（74） , which is the logic documented in the DFDs, use cases,and functional requirements.The fourth function is the presentation logic,&nbsp;the display of information to the user and the acceptance of the user’s commands.The three primary hardware components of a system are &nbsp;（75） .</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 350368,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "1",
+                    "analyze": "<p>（71）的目标是确定应用软件的哪些部分将分配到何种硬件，识别出正在开发系统的主要软件构件并分配到系统将要运行的硬件构件。所有软件系统可分为 4 项基本功能，第 1 项是（72）。大多数信息系统需要数据进行存储并检索，不论是一个小文件，如一个字处理器产生的一个备忘录，还是一个大型数据库，如存储一个企业会计记录的数据库；第 2 项功能是（73），处理过程需要访问数据，这通常是指用SQL进行数据库查询；第 3 项功能是（74），这些逻辑通过数据流图， 用例和功能需求来记录；第 4 项功能是表示逻辑，为用户显示信息并接收用户命令。一个系统的3类主要硬件构件是（75）。</p><p>（71） A．架构设计 B．模块化设计C．物理设计D．分布式设计</p><p>（72） A．数据访问组件 B．数据库管理系统</p><p>C．数据存储 D．数据实体</p><p>（73） A．数据持久化B．数据访问对象C．数据库连接D．数据访问逻辑</p><p>（74） A．系统需求B．系统架构C．应用程序逻辑D．应用程序</p><p>（75） A．计算机、电缆和网络B．客户机、服务器和网络</p><p>C．CPU、存储器和 I/O 设备D．CPU、硬盘和 I/O 设备</p>",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        " architecture design ",
+                        " modular design ",
+                        " physical design ",
+                        " distribution design "
+                    ]
+                },
+                {
+                    "index": 47,
+                    "belong_page": 1,
+                    "question_id": 350370,
+                    "question_title": "<p>&nbsp; The objective of &nbsp;（71） &nbsp;is to determine what parts of the application software will be assigned to what hardware. The major software components of the system being developed have to be identified and then allocated to the various hardware components on which the system will operate. All software systems can be divided into four basic functions. The first is &nbsp;（72）&nbsp;.&nbsp;Most information systems require data to be stored and retrieved, whether a small file,such as a memo produced by a word processor, or a large database, such as one that stores an organization’s accounting records.The second function is the &nbsp;（73） , the processing required to access data, which often means database queries in Structured Query Language. The third function is the &nbsp;（74） , which is the logic documented in the DFDs, use cases,and functional requirements.The fourth function is the presentation logic,&nbsp;the display of information to the user and the acceptance of the user’s commands.The three primary hardware components of a system are &nbsp;（75） .</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 350368,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "2",
+                    "analyze": "<p>（71）的目标是确定应用软件的哪些部分将分配到何种硬件，识别出正在开发系统的主要软件构件并分配到系统将要运行的硬件构件。所有软件系统可分为 4 项基本功能，第 1 项是（72）。大多数信息系统需要数据进行存储并检索，不论是一个小文件，如一个字处理器产生的一个备忘录，还是一个大型数据库，如存储一个企业会计记录的数据库；第 2 项功能是（73），处理过程需要访问数据，这通常是指用SQL进行数据库查询；第 3 项功能是（74），这些逻辑通过数据流图， 用例和功能需求来记录；第 4 项功能是表示逻辑，为用户显示信息并接收用户命令。一个系统的3类主要硬件构件是（75）。</p><p>（71） A．架构设计 B．模块化设计C．物理设计D．分布式设计</p><p>（72） A．数据访问组件 B．数据库管理系统</p><p>C．数据存储 D．数据实体</p><p>（73） A．数据持久化B．数据访问对象C．数据库连接D．数据访问逻辑</p><p>（74） A．系统需求B．系统架构C．应用程序逻辑D．应用程序</p><p>（75） A．计算机、电缆和网络B．客户机、服务器和网络</p><p>C．CPU、存储器和 I/O 设备D．CPU、硬盘和 I/O 设备</p>",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        " data access components ",
+                        " database management system  <br/> ",
+                        " data storage  <br/> ",
+                        " data entities "
+                    ]
+                },
+                {
+                    "index": 48,
+                    "belong_page": 1,
+                    "question_id": 350371,
+                    "question_title": "<p>&nbsp; The objective of &nbsp;（71） &nbsp;is to determine what parts of the application software will be assigned to what hardware. The major software components of the system being developed have to be identified and then allocated to the various hardware components on which the system will operate. All software systems can be divided into four basic functions. The first is &nbsp;（72）&nbsp;.&nbsp;Most information systems require data to be stored and retrieved, whether a small file,such as a memo produced by a word processor, or a large database, such as one that stores an organization’s accounting records.The second function is the &nbsp;（73） , the processing required to access data, which often means database queries in Structured Query Language. The third function is the &nbsp;（74） , which is the logic documented in the DFDs, use cases,and functional requirements.The fourth function is the presentation logic,&nbsp;the display of information to the user and the acceptance of the user’s commands.The three primary hardware components of a system are &nbsp;（75） .</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 350368,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "3",
+                    "analyze": "<p>（71）的目标是确定应用软件的哪些部分将分配到何种硬件，识别出正在开发系统的主要软件构件并分配到系统将要运行的硬件构件。所有软件系统可分为 4 项基本功能，第 1 项是（72）。大多数信息系统需要数据进行存储并检索，不论是一个小文件，如一个字处理器产生的一个备忘录，还是一个大型数据库，如存储一个企业会计记录的数据库；第 2 项功能是（73），处理过程需要访问数据，这通常是指用SQL进行数据库查询；第 3 项功能是（74），这些逻辑通过数据流图， 用例和功能需求来记录；第 4 项功能是表示逻辑，为用户显示信息并接收用户命令。一个系统的3类主要硬件构件是（75）。</p><p>（71） A．架构设计 B．模块化设计 C．物理设计 D．分布式设计</p><p>（72） A．数据访问组件 B．数据库管理系统</p><p>C．数据存储 D．数据实体</p><p>（73） A．数据持久化 B．数据访问对象 C．数据库连接 D．数据访问逻辑</p><p>（74） A．系统需求 B．系统架构 C．应用程序逻辑 D．应用程序</p><p>（75） A．计算机、电缆和网络 B．客户机、服务器和网络</p><p>C．CPU、存储器和 I/O 设备 D．CPU、硬盘和 I/O 设备</p>",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        " data persistence ",
+                        " data access objects ",
+                        " database connection ",
+                        " data access logic "
+                    ]
+                },
+                {
+                    "index": 49,
+                    "belong_page": 1,
+                    "question_id": 350372,
+                    "question_title": "<p>&nbsp; The objective of &nbsp;（71） &nbsp;is to determine what parts of the application software will be assigned to what hardware. The major software components of the system being developed have to be identified and then allocated to the various hardware components on which the system will operate. All software systems can be divided into four basic functions. The first is &nbsp;（72）&nbsp;.&nbsp;Most information systems require data to be stored and retrieved, whether a small file,such as a memo produced by a word processor, or a large database, such as one that stores an organization’s accounting records.The second function is the &nbsp;（73） , the processing required to access data, which often means database queries in Structured Query Language. The third function is the &nbsp;（74） , which is the logic documented in the DFDs, use cases,and functional requirements.The fourth function is the presentation logic,&nbsp;the display of information to the user and the acceptance of the user’s commands.The three primary hardware components of a system are &nbsp;（75） .</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 350368,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "4",
+                    "analyze": "<p>（71）的目标是确定应用软件的哪些部分将分配到何种硬件，识别出正在开发系统的主要软件构件并分配到系统将要运行的硬件构件。所有软件系统可分为 4 项基本功能，第 1 项是（72）。大多数信息系统需要数据进行存储并检索，不论是一个小文件，如一个字处理器产生的一个备忘录，还是一个大型数据库，如存储一个企业会计记录的数据库；第 2 项功能是（73），处理过程需要访问数据，这通常是指用SQL进行数据库查询；第 3 项功能是（74），这些逻辑通过数据流图， 用例和功能需求来记录；第 4 项功能是表示逻辑，为用户显示信息并接收用户命令。一个系统的3类主要硬件构件是（75）。</p><p>（71） A．架构设计 B．模块化设计 C．物理设计 D．分布式设计</p><p>（72） A．数据访问组件 B．数据库管理系统</p><p>C．数据存储 D．数据实体</p><p>（73） A．数据持久化 B．数据访问对象 C．数据库连接 D．数据访问逻辑</p><p>（74） A．系统需求 B．系统架构 C．应用程序逻辑 D．应用程序</p><p>（75） A．计算机、电缆和网络 B．客户机、服务器和网络</p><p>C．CPU、存储器和 I/O 设备 D．CPU、硬盘和 I/O 设备</p>",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        " system requirements ",
+                        " system architecture ",
+                        " application logic ",
+                        " application program "
+                    ]
+                },
+                {
+                    "index": 50,
+                    "belong_page": 1,
+                    "question_id": 350373,
+                    "question_title": "<p>&nbsp; The objective of &nbsp;（71） &nbsp;is to determine what parts of the application software will be assigned to what hardware. The major software components of the system being developed have to be identified and then allocated to the various hardware components on which the system will operate. All software systems can be divided into four basic functions. The first is &nbsp;（72）&nbsp;.&nbsp;Most information systems require data to be stored and retrieved, whether a small file,such as a memo produced by a word processor, or a large database, such as one that stores an organization’s accounting records.The second function is the &nbsp;（73） , the processing required to access data, which often means database queries in Structured Query Language. The third function is the &nbsp;（74） , which is the logic documented in the DFDs, use cases,and functional requirements.The fourth function is the presentation logic,&nbsp;the display of information to the user and the acceptance of the user’s commands.The three primary hardware components of a system are &nbsp;（75） .</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 350368,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "5",
+                    "analyze": "<p>（71）的目标是确定应用软件的哪些部分将分配到何种硬件，识别出正在开发系统的主要软件构件并分配到系统将要运行的硬件构件。所有软件系统可分为 4 项基本功能，第 1 项是（72）。大多数信息系统需要数据进行存储并检索，不论是一个小文件，如一个字处理器产生的一个备忘录，还是一个大型数据库，如存储一个企业会计记录的数据库；第 2 项功能是（73），处理过程需要访问数据，这通常是指用SQL进行数据库查询；第 3 项功能是（74），这些逻辑通过数据流图， 用例和功能需求来记录；第 4 项功能是表示逻辑，为用户显示信息并接收用户命令。一个系统的3类主要硬件构件是（75）。</p><p>（71） A．架构设计 B．模块化设计 C．物理设计 D．分布式设计</p><p>（72） A．数据访问组件 B．数据库管理系统</p><p>C．数据存储 D．数据实体</p><p>（73） A．数据持久化 B．数据访问对象 C．数据库连接 D．数据访问逻辑</p><p>（74） A．系统需求 B．系统架构 C．应用程序逻辑 D．应用程序</p><p>（75） A．计算机、电缆和网络 B．客户机、服务器和网络</p><p>C．CPU、存储器和 I/O 设备 D．CPU、硬盘和 I/O 设备</p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " computers,cables and network ",
+                        " clients,servers,and network ",
+                        " CPUs,memories and I/O devices ",
+                        " CPUs,hard disks and I/O devices "
+                    ]
+                },
+                {
+                    "index": 51,
+                    "belong_page": 1,
+                    "question_id": 352330,
+                    "question_title": "<p>&nbsp;The architecture design specifies the overall architecture and the placement of software and hardware that will be used. Architecture design is a very complex process that is often left to experienced architecture designers and consultants. The first step is to refine the &nbsp;（71） &nbsp;into more detailed requirements that are then employed to help select the architecture to be used and the software components to be placed on each device. In a &nbsp;（72） , one also has to decide whether to use a two-tier, three-tier, or n-tier architecture. Then the requirements and the architecture design are used to develop the hardware and software specification. There are four primary types of nonfunctional requirements that can be important in designing the architecture. &nbsp;（73） &nbsp;specify the operating environment(s)&nbsp;in which the system must perform and how those may change over time. &nbsp;（74） &nbsp;focus on the nonfunctional requirements issues such as response time, capacity, and reliability. &nbsp;（75） &nbsp;are the abilities to protect the information system from disruption and data loss, whether caused by an intentional act. Cultural and political requirements are specific to the countries in which the system will be used.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 352329,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "1",
+                    "analyze": "<p>架构设计确定了整体架构及被使用的软件和硬件的布局。架构设计是一个非常复杂的过程，通常由经验丰富的架构设计师和顾问来完成。第一步是将非功能性需求细化为更详细的需求，然后用于帮助选择要使用的架构以及每个设备上部署的软件构件。在一个客户机-服务器架构中，还需要决定是使用两层、三层还是N层架构。然后，需求和架构设计被用来开发硬件和软件规格说明。在设计架构时主要有四类非功能需求比较重要：操作需求确定了系统执行所需的运行环境以及这些环境可能随时间发生哪些变化；性能需求主要关注如响应时间、容量和可靠性等非功能性需求问题；安全需求是保护信息系统免受无论是否是有意的行为而造成损毁和数据丢失的能力；文化和政治需求取决于系统将要被使用的国家。</p><p>（71） A．功能需求B．非功能需求</p><p>C．系统约束D．系统运行环境</p><p>（72） A．基于客户端的架构 B．基于服务器的体系结构</p><p>C．网络体系结构D．客户机/服务器体系结构</p><p>（73） A．操作要求B．速度要求</p><p>C．存取控制要求D．定制要求</p><p>（74） A．环境要求B．可维修性要求</p><p>C．性能要求D．病毒控制要求</p><p>（75） A．安全要求B．安全要求</p><p>C．数据管理要求D．系统要求</p><p><br/></p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " functional requirements  <br/> ",
+                        " nonfunctional requirements ",
+                        " system constraint ",
+                        " system operational environment "
+                    ]
+                },
+                {
+                    "index": 52,
+                    "belong_page": 1,
+                    "question_id": 352331,
+                    "question_title": "<p>&nbsp;The architecture design specifies the overall architecture and the placement of software and hardware that will be used. Architecture design is a very complex process that is often left to experienced architecture designers and consultants. The first step is to refine the &nbsp;（71） &nbsp;into more detailed requirements that are then employed to help select the architecture to be used and the software components to be placed on each device. In a &nbsp;（72） , one also has to decide whether to use a two-tier, three-tier, or n-tier architecture. Then the requirements and the architecture design are used to develop the hardware and software specification. There are four primary types of nonfunctional requirements that can be important in designing the architecture. &nbsp;（73） &nbsp;specify the operating environment(s)&nbsp;in which the system must perform and how those may change over time. &nbsp;（74） &nbsp;focus on the nonfunctional requirements issues such as response time, capacity, and reliability. &nbsp;（75） &nbsp;are the abilities to protect the information system from disruption and data loss, whether caused by an intentional act. Cultural and political requirements are specific to the countries in which the system will be used.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 352329,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "2",
+                    "analyze": "<p>架构设计确定了整体架构及被使用的软件和硬件的布局。架构设计是一个非常复杂的过程，通常由经验丰富的架构设计师和顾问来完成。第一步是将非功能性需求细化为更详细的需求，然后用于帮助选择要使用的架构以及每个设备上部署的软件构件。在一个客户机-服务器架构中，还需要决定是使用两层、三层还是N层架构。然后，需求和架构设计被用来开发硬件和软件规格说明。在设计架构时主要有四类非功能需求比较重要：操作需求确定了系统执行所需的运行环境以及这些环境可能随时间发生哪些变化；性能需求主要关注如响应时间、容量和可靠性等非功能性需求问题；安全需求是保护信息系统免受无论是否是有意的行为而造成损毁和数据丢失的能力；文化和政治需求取决于系统将要被使用的国家。</p><p>（71） A．功能需求B．非功能需求</p><p>C．系统约束D．系统运行环境</p><p>（72） A．基于客户端的架构 B．基于服务器的体系结构</p><p>C．网络体系结构D．客户机/服务器体系结构</p><p>（73） A．操作要求B．速度要求</p><p>C．存取控制要求D．定制要求</p><p>（74） A．环境要求B．可维修性要求</p><p>C．性能要求D．病毒控制要求</p><p>（75） A．安全要求B．安全要求</p><p>C．数据管理要求D．系统要求</p>",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        " client-based architecture ",
+                        " server-based architecture ",
+                        " network architecture ",
+                        " client-server architecture "
+                    ]
+                },
+                {
+                    "index": 53,
+                    "belong_page": 1,
+                    "question_id": 352332,
+                    "question_title": "<p>&nbsp;The architecture design specifies the overall architecture and the placement of software and hardware that will be used. Architecture design is a very complex process that is often left to experienced architecture designers and consultants. The first step is to refine the &nbsp;（71） &nbsp;into more detailed requirements that are then employed to help select the architecture to be used and the software components to be placed on each device. In a &nbsp;（72） , one also has to decide whether to use a two-tier, three-tier, or n-tier architecture. Then the requirements and the architecture design are used to develop the hardware and software specification. There are four primary types of nonfunctional requirements that can be important in designing the architecture. &nbsp;（73） &nbsp;specify the operating environment(s)&nbsp;in which the system must perform and how those may change over time. &nbsp;（74） &nbsp;focus on the nonfunctional requirements issues such as response time, capacity, and reliability. &nbsp;（75） &nbsp;are the abilities to protect the information system from disruption and data loss, whether caused by an intentional act. Cultural and political requirements are specific to the countries in which the system will be used.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 352329,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "3",
+                    "analyze": "架构设计确定了整体架构及被使用的软件和硬件的布局。架构设计是一个非常复杂的过程，通常由经验丰富的架构设计师和顾问来完成。第一步是将非功能性需求细化为更详细的需求，然后用于帮助选择要使用的架构以及每个设备上部署的软件构件。在一个客户机-服务器架构中，还需要决定是使用两层、三层还是N层架构。然后，需求和架构设计被用来开发硬件和软件规格说明。在设计架构时主要有四类非功能需求比较重要：操作需求确定了系统执行所需的运行环境以及这些环境可能随时间发生哪些变化；性能需求主要关注如响应时间、容量和可靠性等非功能性需求问题；安全需求是保护信息系统免受无论是否是有意的行为而造成损毁和数据丢失的能力；文化和政治需求取决于系统将要被使用的国家。<p>（71） A．功能需求B．非功能需求</p><p>C．系统约束D．系统运行环境</p><p>（72） A．基于客户端的架构 B．基于服务器的体系结构</p><p>C．网络体系结构D．客户机/服务器体系结构</p><p>（73） A．操作要求B．速度要求</p><p>C．存取控制要求D．定制要求</p><p>（74） A．环境要求B．可维修性要求</p><p>C．性能要求D．病毒控制要求</p><p>（75） A．安全要求B．安全要求</p><p>C．数据管理要求D．系统要求</p>",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        " Operational requirements ",
+                        " Speed requirement ",
+                        " Access control requirements ",
+                        " Customization requirements "
+                    ]
+                },
+                {
+                    "index": 54,
+                    "belong_page": 1,
+                    "question_id": 352333,
+                    "question_title": "<p>&nbsp;The architecture design specifies the overall architecture and the placement of software and hardware that will be used. Architecture design is a very complex process that is often left to experienced architecture designers and consultants. The first step is to refine the &nbsp;（71） &nbsp;into more detailed requirements that are then employed to help select the architecture to be used and the software components to be placed on each device. In a &nbsp;（72） , one also has to decide whether to use a two-tier, three-tier, or n-tier architecture. Then the requirements and the architecture design are used to develop the hardware and software specification. There are four primary types of nonfunctional requirements that can be important in designing the architecture. &nbsp;（73） &nbsp;specify the operating environment(s)&nbsp;in which the system must perform and how those may change over time. &nbsp;（74） &nbsp;focus on the nonfunctional requirements issues such as response time, capacity, and reliability. &nbsp;（75） &nbsp;are the abilities to protect the information system from disruption and data loss, whether caused by an intentional act. Cultural and political requirements are specific to the countries in which the system will be used.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 352329,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "4",
+                    "analyze": "<p>架构设计确定了整体架构及被使用的软件和硬件的布局。架构设计是一个非常复杂的过程，通常由经验丰富的架构设计师和顾问来完成。第一步是将非功能性需求细化为更详细的需求，然后用于帮助选择要使用的架构以及每个设备上部署的软件构件。在一个客户机-服务器架构中，还需要决定是使用两层、三层还是N层架构。然后，需求和架构设计被用来开发硬件和软件规格说明。在设计架构时主要有四类非功能需求比较重要：操作需求确定了系统执行所需的运行环境以及这些环境可能随时间发生哪些变化；性能需求主要关注如响应时间、容量和可靠性等非功能性需求问题；安全需求是保护信息系统免受无论是否是有意的行为而造成损毁和数据丢失的能力；文化和政治需求取决于系统将要被使用的国家。</p><p>（71） A．功能需求B．非功能需求</p><p>C．系统约束D．系统运行环境</p><p>（72） A．基于客户端的架构 B．基于服务器的体系结构</p><p>C．网络体系结构D．客户机/服务器体系结构</p><p>（73） A．操作要求B．速度要求</p><p>C．存取控制要求D．定制要求</p><p>（74） A．环境要求B．可维修性要求</p><p>C．性能要求D．病毒控制要求</p><p>（75） A．安全要求B．安全要求</p><p>C．数据管理要求D．系统要求</p>",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        " Environment requirements ",
+                        " Maintainability requirements ",
+                        " Performance requirements ",
+                        " Virus control requirements "
+                    ]
+                },
+                {
+                    "index": 55,
+                    "belong_page": 1,
+                    "question_id": 352334,
+                    "question_title": "<p>&nbsp;The architecture design specifies the overall architecture and the placement of software and hardware that will be used. Architecture design is a very complex process that is often left to experienced architecture designers and consultants. The first step is to refine the &nbsp;（71） &nbsp;into more detailed requirements that are then employed to help select the architecture to be used and the software components to be placed on each device. In a &nbsp;（72） , one also has to decide whether to use a two-tier, three-tier, or n-tier architecture. Then the requirements and the architecture design are used to develop the hardware and software specification. There are four primary types of nonfunctional requirements that can be important in designing the architecture. &nbsp;（73） &nbsp;specify the operating environment(s)&nbsp;in which the system must perform and how those may change over time. &nbsp;（74） &nbsp;focus on the nonfunctional requirements issues such as response time, capacity, and reliability. &nbsp;（75） &nbsp;are the abilities to protect the information system from disruption and data loss, whether caused by an intentional act. Cultural and political requirements are specific to the countries in which the system will be used.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 352329,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "5",
+                    "analyze": "<p>架构设计确定了整体架构及被使用的软件和硬件的布局。架构设计是一个非常复杂的过程，通常由经验丰富的架构设计师和顾问来完成。第一步是将非功能性需求细化为更详细的需求，然后用于帮助选择要使用的架构以及每个设备上部署的软件构件。在一个客户机-服务器架构中，还需要决定是使用两层、三层还是N层架构。然后，需求和架构设计被用来开发硬件和软件规格说明。在设计架构时主要有四类非功能需求比较重要：操作需求确定了系统执行所需的运行环境以及这些环境可能随时间发生哪些变化；性能需求主要关注如响应时间、容量和可靠性等非功能性需求问题；安全需求是保护信息系统免受无论是否是有意的行为而造成损毁和数据丢失的能力；文化和政治需求取决于系统将要被使用的国家。</p><p>（71） A．功能需求B．非功能需求</p><p>C．系统约束D．系统运行环境</p><p>（72） A．基于客户端的架构 B．基于服务器的体系结构</p><p>C．网络体系结构D．客户机/服务器体系结构</p><p>（73） A．操作要求B．速度要求</p><p>C．存取控制要求D．定制要求</p><p>（74） A．环境要求B．可维修性要求</p><p>C．性能要求D．病毒控制要求</p><p>（75） A．安全要求B．安全要求</p><p>C．数据管理要求D．系统要求</p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " Safety requirements ",
+                        " Security requirements ",
+                        " Data management requirements ",
+                        " System requirements "
+                    ]
+                },
+                {
+                    "index": 56,
+                    "belong_page": 1,
+                    "question_id": 352440,
+                    "question_title": "<p>2019 年我国将在多地展开5 试点,届时将在人口密集区为用户提供( )bps的用户体验速率。</p>",
+                    "question_type": 1,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 352440,
+                    "score_rule": "",
+                    "material_text": "",
+                    "sort_son": "0",
+                    "analyze": "2019年5G试点可为用户提供的体验速率是1G，这个速率比4G快了10倍，但并非5G的极限速率。5G的理论极限速率可达10G。",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " 100M ",
+                        " 1G ",
+                        " 10G ",
+                        " 1T "
+                    ]
+                },
+                {
+                    "index": 57,
+                    "belong_page": 1,
+                    "question_id": 352442,
+                    "question_title": "<p>&nbsp;&nbsp;An application architecture specifies the technologies to be used to implement one or more information systems. It serves as an outline for detailed design, construction, and implementation. Given the models and details, include （71）, we can distribute data and processes to create a general design of application architecture. The design will normally be constrained by architecture standards, project objectives, and （72）. The first physical DFD to be drawn is the （73）. The next step is to distribute data stores to different processors. Data（74）are two types of distributed data which most RDBMSs support. There are many distribution options used in data distribution. In the case of （75）, we should record each table as a data store on the physical DFD and connect each to the appropriate server.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 352441,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "1",
+                    "analyze": "<p>应用架构说明了实现一个或多个信息系统所使用的技术，它作为详细设计、构造和实现的一个大纲。给定了包括逻辑数据流图和实体联系图在内的模型和详细资料，我们可以分配数据和过程以创建应用架构的一个概要设计。概要设计通常会受到架构标准、项目目标和所使用技术的可行性的制约。需要绘制的第一个物理数据流图是网络架构数据流图。接下来是分配数据存储到不同的处理器。数据分区和复制是大多数关系型数据库支持的两种分布式数据形式。有许多分配方法用于数据分布。在不同服务器上存储特定表的情况下，我们应该将每个表记为物理数据流图中的一个数据存储，并将其连接到相应的服务器。</p>",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        " &nbsp;logical DFDs and ERD ",
+                        " ideal object model and analysis class model ",
+                        " &nbsp;use case models and interface prototypes ",
+                        " physical DFDs and database schema "
+                    ]
+                },
+                {
+                    "index": 58,
+                    "belong_page": 1,
+                    "question_id": 352443,
+                    "question_title": "<p>&nbsp;&nbsp;An application architecture specifies the technologies to be used to implement one or more information systems. It serves as an outline for detailed design, construction, and implementation. Given the models and details, include （71）, we can distribute data and processes to create a general design of application architecture. The design will normally be constrained by architecture standards, project objectives, and （72）. The first physical DFD to be drawn is the （73）. The next step is to distribute data stores to different processors. Data（74）are two types of distributed data which most RDBMSs support. There are many distribution options used in data distribution. In the case of （75）, we should record each table as a data store on the physical DFD and connect each to the appropriate server.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 352441,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "2",
+                    "analyze": "<p>应用架构说明了实现一个或多个信息系统所使用的技术，它作为详细设计、构造和实现的一个大纲。给定了包括逻辑数据流图和实体联系图在内的模型和详细资料，我们可以分配数据和过程以创建应用架构的一个概要设计。概要设计通常会受到架构标准、项目目标和所使用技术的可行性的制约。需要绘制的第一个物理数据流图是网络架构数据流图。接下来是分配数据存储到不同的处理器。数据分区和复制是大多数关系型数据库支持的两种分布式数据形式。有许多分配方法用于数据分布。在不同服务器上存储特定表的情况下，我们应该将每个表记为物理数据流图中的一个数据存储，并将其连接到相应的服务器。</p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " the database management system ",
+                        " the feasibility of techniques used ",
+                        " the network topology and technology ",
+                        " the user interface and process methods "
+                    ]
+                },
+                {
+                    "index": 59,
+                    "belong_page": 1,
+                    "question_id": 352444,
+                    "question_title": "<p>&nbsp;&nbsp;An application architecture specifies the technologies to be used to implement one or more information systems. It serves as an outline for detailed design, construction, and implementation. Given the models and details, include （71）, we can distribute data and processes to create a general design of application architecture. The design will normally be constrained by architecture standards, project objectives, and （72）. The first physical DFD to be drawn is the （73）. The next step is to distribute data stores to different processors. Data（74）are two types of distributed data which most RDBMSs support. There are many distribution options used in data distribution. In the case of （75）, we should record each table as a data store on the physical DFD and connect each to the appropriate server.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 352441,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "3",
+                    "analyze": "<p>应用架构说明了实现一个或多个信息系统所使用的技术，它作为详细设计、构造和实现的一个大纲。给定了包括逻辑数据流图和实体联系图在内的模型和详细资料，我们可以分配数据和过程以创建应用架构的一个概要设计。概要设计通常会受到架构标准、项目目标和所使用技术的可行性的制约。需要绘制的第一个物理数据流图是网络架构数据流图。接下来是分配数据存储到不同的处理器。数据分区和复制是大多数关系型数据库支持的两种分布式数据形式。有许多分配方法用于数据分布。在不同服务器上存储特定表的情况下，我们应该将每个表记为物理数据流图中的一个数据存储，并将其连接到相应的服务器。</p>",
+                    "like": 0,
+                    "answer": [
+                        "C"
+                    ],
+                    "option": [
+                        " context DFD&nbsp; &nbsp; ",
+                        " system DFD ",
+                        " network architecture DFD&nbsp; ",
+                        " event-response DFD "
+                    ]
+                },
+                {
+                    "index": 60,
+                    "belong_page": 1,
+                    "question_id": 352445,
+                    "question_title": "<p>&nbsp;&nbsp;An application architecture specifies the technologies to be used to implement one or more information systems. It serves as an outline for detailed design, construction, and implementation. Given the models and details, include （71）, we can distribute data and processes to create a general design of application architecture. The design will normally be constrained by architecture standards, project objectives, and （72）. The first physical DFD to be drawn is the （73）. The next step is to distribute data stores to different processors. Data（74）are two types of distributed data which most RDBMSs support. There are many distribution options used in data distribution. In the case of （75）, we should record each table as a data store on the physical DFD and connect each to the appropriate server.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 352441,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "4",
+                    "analyze": "<p>应用架构说明了实现一个或多个信息系统所使用的技术，它作为详细设计、构造和实现的一个大纲。给定了包括逻辑数据流图和实体联系图在内的模型和详细资料，我们可以分配数据和过程以创建应用架构的一个概要设计。概要设计通常会受到架构标准、项目目标和所使用技术的可行性的制约。需要绘制的第一个物理数据流图是网络架构数据流图。接下来是分配数据存储到不同的处理器。数据分区和复制是大多数关系型数据库支持的两种分布式数据形式。有许多分配方法用于数据分布。在不同服务器上存储特定表的情况下，我们应该将每个表记为物理数据流图中的一个数据存储，并将其连接到相应的服务器。</p>",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        " vertical partitioning and horizontal replication ",
+                        " vertical replication and horizontal partitioning ",
+                        " integration and distribution ",
+                        " partitioning and replication "
+                    ]
+                },
+                {
+                    "index": 61,
+                    "belong_page": 1,
+                    "question_id": 352446,
+                    "question_title": "<p>&nbsp;&nbsp;An application architecture specifies the technologies to be used to implement one or more information systems. It serves as an outline for detailed design, construction, and implementation. Given the models and details, include （71）, we can distribute data and processes to create a general design of application architecture. The design will normally be constrained by architecture standards, project objectives, and （72）. The first physical DFD to be drawn is the （73）. The next step is to distribute data stores to different processors. Data（74）are two types of distributed data which most RDBMSs support. There are many distribution options used in data distribution. In the case of （75）, we should record each table as a data store on the physical DFD and connect each to the appropriate server.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 352441,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "5",
+                    "analyze": "<p>应用架构说明了实现一个或多个信息系统所使用的技术，它作为详细设计、构造和实现的一个大纲。给定了包括逻辑数据流图和实体联系图在内的模型和详细资料，我们可以分配数据和过程以创建应用架构的一个概要设计。概要设计通常会受到架构标准、项目目标和所使用技术的可行性的制约。需要绘制的第一个物理数据流图是网络架构数据流图。接下来是分配数据存储到不同的处理器。数据分区和复制是大多数关系型数据库支持的两种分布式数据形式。有许多分配方法用于数据分布。在不同服务器上存储特定表的情况下，我们应该将每个表记为物理数据流图中的一个数据存储，并将其连接到相应的服务器。</p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " storing all data on a single server ",
+                        " storing specific tables on different servers ",
+                        " storing subsets of specific tables on different servers ",
+                        " duplicating specific tables or subsets on different servers "
+                    ]
+                },
+                {
+                    "index": 62,
+                    "belong_page": 1,
+                    "question_id": 356267,
+                    "question_title": "<p>Micro-service is a software development technology, which advocates dividing a single application into a group of small services, which coordinates and cooperates with each other to provide ultimate value for users.The micro-service&nbsp;（71） has many important benefits.First,it solves the problem of business complexity. It decomposes the original huge single application into a group of services. Although the total amount of functions remains the same, the application has been decomposed into manageable services.The development speed of a single service is much faster, and it is easier to understand and&nbsp;（72）. Second, this architecture allows each service to be （73 ） &nbsp;independently by a team. Developers are free to choose any appropriate technology. Third, the micro-service architecture mode enables each service to be&nbsp;（74 ） independently. Developers never need to coordinate the deployment of local changes to their services. These types of changes can be deployed immediately after testing. Finally, the micro-service architecture enables each service to （75 ） independently.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 356266,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "1",
+                    "analyze": "<p>微服务是一种软件开发技术，它主张将单个应用程序划分为一组小服务，相互协调合作，为用户提供终极价值。微服务架构有许多重要的好处。首先，它解决了业务复杂性的问题。它将原来庞大的单个应用程序分解为一组服务，尽管功能的总数保持不变，但应用程序已被分解为可管理的服务。单个服务的开发速度要快得多，而且更容易理解和维护；其次，这种架构允许每个服务由一个团队独立开发，开发人员可以自由选择任何适当的技术；再次，微服务架构模式允许各个服务独立部署，开发人员永远不需要协调对其服务的本地更改的部署，这些类型的更改可以在测试后立即部署；最后，微服务架构允许每个服务独立扩展。</p><p>参考答案：（71）&nbsp;A（72）&nbsp;B（73）&nbsp;B（74）&nbsp;D（75）&nbsp;D</p>",
+                    "like": 0,
+                    "answer": [
+                        "A"
+                    ],
+                    "option": [
+                        " architecture ",
+                        " software ",
+                        " application ",
+                        " technology "
+                    ]
+                },
+                {
+                    "index": 63,
+                    "belong_page": 1,
+                    "question_id": 356268,
+                    "question_title": "<p>Micro-service is a software development technology, which advocates dividing a single application into a group of small services, which coordinates and cooperates with each other to provide ultimate value for users.The micro-service&nbsp;（71） has many important benefits.First,it solves the problem of business complexity. It decomposes the original huge single application into a group of services. Although the total amount of functions remains the same, the application has been decomposed into manageable services.The development speed of a single service is much faster, and it is easier to understand and&nbsp;（72）. Second, this architecture allows each service to be （73 ） &nbsp;independently by a team. Developers are free to choose any appropriate technology. Third, the micro-service architecture mode enables each service to be&nbsp;（74 ） independently. Developers never need to coordinate the deployment of local changes to their services. These types of changes can be deployed immediately after testing. Finally, the micro-service architecture enables each service to （75 ） independently.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 356266,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "2",
+                    "analyze": "<p>微服务是一种软件开发技术，它主张将单个应用程序划分为一组小服务，相互协调合作，为用户提供终极价值。微服务架构有许多重要的好处。首先，它解决了业务复杂性的问题。它将原来庞大的单个应用程序分解为一组服务，尽管功能的总数保持不变，但应用程序已被分解为可管理的服务。单个服务的开发速度要快得多，而且更容易理解和维护；其次，这种架构允许每个服务由一个团队独立开发，开发人员可以自由选择任何适当的技术；再次，微服务架构模式允许各个服务独立部署，开发人员永远不需要协调对其服务的本地更改的部署，这些类型的更改可以在测试后立即部署；最后，微服务架构允许每个服务独立扩展。</p><p>参考答案：（71）&nbsp;A（72）&nbsp;B（73）&nbsp;B（74）&nbsp;D（75）&nbsp;D</p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " develop ",
+                        " maintain ",
+                        " utilized ",
+                        " deploy "
+                    ]
+                },
+                {
+                    "index": 64,
+                    "belong_page": 1,
+                    "question_id": 356270,
+                    "question_title": "<p>Micro-service is a software development technology, which advocates dividing a single application into a group of small services, which coordinates and cooperates with each other to provide ultimate value for users.The micro-service&nbsp;（71） has many important benefits.First,it solves the problem of business complexity. It decomposes the original huge single application into a group of services. Although the total amount of functions remains the same, the application has been decomposed into manageable services.The development speed of a single service is much faster, and it is easier to understand and&nbsp;（72）. Second, this architecture allows each service to be （73 ） &nbsp;independently by a team. Developers are free to choose any appropriate technology. Third, the micro-service architecture mode enables each service to be&nbsp;（74 ） independently. Developers never need to coordinate the deployment of local changes to their services. These types of changes can be deployed immediately after testing. Finally, the micro-service architecture enables each service to （75 ） independently.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 356269,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "3",
+                    "analyze": "<p>微服务是一种软件开发技术，它主张将单个应用程序划分为一组小服务，相互协调合作，为用户提供终极价值。微服务架构有许多重要的好处。首先，它解决了业务复杂性的问题。它将原来庞大的单个应用程序分解为一组服务，尽管功能的总数保持不变，但应用程序已被分解为可管理的服务。单个服务的开发速度要快得多，而且更容易理解和维护；其次，这种架构允许每个服务由一个团队独立开发，开发人员可以自由选择任何适当的技术；再次，微服务架构模式允许各个服务独立部署，开发人员永远不需要协调对其服务的本地更改的部署，这些类型的更改可以在测试后立即部署；最后，微服务架构允许每个服务独立扩展。</p><p>参考答案：（71）&nbsp;A（72）&nbsp;B（73）&nbsp;B（74）&nbsp;D（75）&nbsp;D</p><p><br/></p>",
+                    "like": 0,
+                    "answer": [
+                        "B"
+                    ],
+                    "option": [
+                        " planned ",
+                        " developed ",
+                        " utilized ",
+                        " deployed "
+                    ]
+                },
+                {
+                    "index": 65,
+                    "belong_page": 1,
+                    "question_id": 356271,
+                    "question_title": "<p>Micro-service is a software development technology, which advocates dividing a single application into a group of small services, which coordinates and cooperates with each other to provide ultimate value for users.The micro-service&nbsp;（71） has many important benefits.First,it solves the problem of business complexity. It decomposes the original huge single application into a group of services. Although the total amount of functions remains the same, the application has been decomposed into manageable services.The development speed of a single service is much faster, and it is easier to understand and&nbsp;（72）. Second, this architecture allows each service to be （73 ） &nbsp;independently by a team. Developers are free to choose any appropriate technology. Third, the micro-service architecture mode enables each service to be&nbsp;（74 ） independently. Developers never need to coordinate the deployment of local changes to their services. These types of changes can be deployed immediately after testing. Finally, the micro-service architecture enables each service to （75 ） independently.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 356269,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "4",
+                    "analyze": "<p>微服务是一种软件开发技术，它主张将单个应用程序划分为一组小服务，相互协调合作，为用户提供终极价值。微服务架构有许多重要的好处。首先，它解决了业务复杂性的问题。它将原来庞大的单个应用程序分解为一组服务，尽管功能的总数保持不变，但应用程序已被分解为可管理的服务。单个服务的开发速度要快得多，而且更容易理解和维护；其次，这种架构允许每个服务由一个团队独立开发，开发人员可以自由选择任何适当的技术；再次，微服务架构模式允许各个服务独立部署，开发人员永远不需要协调对其服务的本地更改的部署，这些类型的更改可以在测试后立即部署；最后，微服务架构允许每个服务独立扩展。</p><p>参考答案：（71）&nbsp;A（72）&nbsp;B（73）&nbsp;B（74）&nbsp;D（75）&nbsp;D</p><p>&nbsp;</p>",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        " utilized ",
+                        " developed ",
+                        " tested ",
+                        " deployed "
+                    ]
+                },
+                {
+                    "index": 66,
+                    "belong_page": 1,
+                    "question_id": 356272,
+                    "question_title": "<p>Micro-service is a software development technology, which advocates dividing a single application into a group of small services, which coordinates and cooperates with each other to provide ultimate value for users.The micro-service&nbsp;（71） has many important benefits.First,it solves the problem of business complexity. It decomposes the original huge single application into a group of services. Although the total amount of functions remains the same, the application has been decomposed into manageable services.The development speed of a single service is much faster, and it is easier to understand and&nbsp;（72）. Second, this architecture allows each service to be （73 ） &nbsp;independently by a team. Developers are free to choose any appropriate technology. Third, the micro-service architecture mode enables each service to be&nbsp;（74 ） independently. Developers never need to coordinate the deployment of local changes to their services. These types of changes can be deployed immediately after testing. Finally, the micro-service architecture enables each service to （75 ） independently.</p>",
+                    "question_type": 9,
+                    "answer_type": 1,
+                    "show_type_name": "单选题",
+                    "new_parent_id": 356269,
+                    "score_rule": "",
+                    "material_text": null,
+                    "sort_son": "5",
+                    "analyze": "<p>微服务是一种软件开发技术，它主张将单个应用程序划分为一组小服务，相互协调合作，为用户提供终极价值。微服务架构有许多重要的好处。首先，它解决了业务复杂性的问题。它将原来庞大的单个应用程序分解为一组服务，尽管功能的总数保持不变，但应用程序已被分解为可管理的服务。单个服务的开发速度要快得多，而且更容易理解和维护；其次，这种架构允许每个服务由一个团队独立开发，开发人员可以自由选择任何适当的技术；再次，微服务架构模式允许各个服务独立部署，开发人员永远不需要协调对其服务的本地更改的部署，这些类型的更改可以在测试后立即部署；最后，微服务架构允许每个服务独立扩展。</p><p>参考答案：（71）&nbsp;A（72）&nbsp;B（73）&nbsp;B（74）&nbsp;D（75）&nbsp;D</p><p>&nbsp;</p>",
+                    "like": 0,
+                    "answer": [
+                        "D"
+                    ],
+                    "option": [
+                        " analyze ",
+                        " use ",
+                        " design ",
+                        " expand "
+                    ]
+                }
+            ],
+            "total_question": 66,
+            "summary": {
+                "radio": {
+                    "total_question": 66,
+                    "total_score": 0
+                },
+                "multiple": {
+                    "total_question": 0,
+                    "total_score": 0
+                },
+                "fill": {
+                    "total_question": 0,
+                    "total_score": 0
+                },
+                "program": {
+                    "total_question": 0,
+                    "total_score": 0
+                },
+                "qanda": {
+                    "total_question": 0,
+                    "total_score": 0
+                },
+                "cloze": {
+                    "total_question": 0,
+                    "total_score": 0
+                },
+                "budingxiang": {
+                    "total_question": 0,
+                    "total_score": 0
+                },
+                "material": {
+                    "total_question": 0,
+                    "total_score": 0
+                }
+            },
+            "title": "专业英语"
+        },
+        "pagination": {
+            "curPage": 1,
+            "pageSize": 1000,
+            "total": 66,
+            "hasNextPage": false
+        },
+        "totalOrder": [
+            {
+                "index": 1,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "159258",
+                "answer_type": 1
+            },
+            {
+                "index": 2,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "159259",
+                "answer_type": 1
+            },
+            {
+                "index": 3,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "159260",
+                "answer_type": 1
+            },
+            {
+                "index": 4,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "159261",
+                "answer_type": 1
+            },
+            {
+                "index": 5,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "159263",
+                "answer_type": 1
+            },
+            {
+                "index": 6,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "208464",
+                "answer_type": 1
+            },
+            {
+                "index": 7,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "208465",
+                "answer_type": 1
+            },
+            {
+                "index": 8,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "208466",
+                "answer_type": 1
+            },
+            {
+                "index": 9,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "208467",
+                "answer_type": 1
+            },
+            {
+                "index": 10,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "208468",
+                "answer_type": 1
+            },
+            {
+                "index": 11,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "208539",
+                "answer_type": 1
+            },
+            {
+                "index": 12,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "208540",
+                "answer_type": 1
+            },
+            {
+                "index": 13,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "208541",
+                "answer_type": 1
+            },
+            {
+                "index": 14,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "208542",
+                "answer_type": 1
+            },
+            {
+                "index": 15,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "208543",
+                "answer_type": 1
+            },
+            {
+                "index": 16,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "281192",
+                "answer_type": 1
+            },
+            {
+                "index": 17,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "281193",
+                "answer_type": 1
+            },
+            {
+                "index": 18,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "281194",
+                "answer_type": 1
+            },
+            {
+                "index": 19,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "281195",
+                "answer_type": 1
+            },
+            {
+                "index": 20,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "281196",
+                "answer_type": 1
+            },
+            {
+                "index": 21,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "284728",
+                "answer_type": 1
+            },
+            {
+                "index": 22,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "284729",
+                "answer_type": 1
+            },
+            {
+                "index": 23,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "284730",
+                "answer_type": 1
+            },
+            {
+                "index": 24,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "284731",
+                "answer_type": 1
+            },
+            {
+                "index": 25,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "284732",
+                "answer_type": 1
+            },
+            {
+                "index": 26,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "303714",
+                "answer_type": 1
+            },
+            {
+                "index": 27,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "303715",
+                "answer_type": 1
+            },
+            {
+                "index": 28,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "303716",
+                "answer_type": 1
+            },
+            {
+                "index": 29,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "303717",
+                "answer_type": 1
+            },
+            {
+                "index": 30,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "303718",
+                "answer_type": 1
+            },
+            {
+                "index": 31,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "310914",
+                "answer_type": 1
+            },
+            {
+                "index": 32,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "310915",
+                "answer_type": 1
+            },
+            {
+                "index": 33,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "310916",
+                "answer_type": 1
+            },
+            {
+                "index": 34,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "310917",
+                "answer_type": 1
+            },
+            {
+                "index": 35,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "310918",
+                "answer_type": 1
+            },
+            {
+                "index": 36,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "312990",
+                "answer_type": 1
+            },
+            {
+                "index": 37,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "312991",
+                "answer_type": 1
+            },
+            {
+                "index": 38,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "312992",
+                "answer_type": 1
+            },
+            {
+                "index": 39,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "312993",
+                "answer_type": 1
+            },
+            {
+                "index": 40,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "312994",
+                "answer_type": 1
+            },
+            {
+                "index": 41,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "315989",
+                "answer_type": 1
+            },
+            {
+                "index": 42,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "315990",
+                "answer_type": 1
+            },
+            {
+                "index": 43,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "315991",
+                "answer_type": 1
+            },
+            {
+                "index": 44,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "315992",
+                "answer_type": 1
+            },
+            {
+                "index": 45,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "315993",
+                "answer_type": 1
+            },
+            {
+                "index": 46,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "350369",
+                "answer_type": 1
+            },
+            {
+                "index": 47,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "350370",
+                "answer_type": 1
+            },
+            {
+                "index": 48,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "350371",
+                "answer_type": 1
+            },
+            {
+                "index": 49,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "350372",
+                "answer_type": 1
+            },
+            {
+                "index": 50,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "350373",
+                "answer_type": 1
+            },
+            {
+                "index": 51,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "352330",
+                "answer_type": 1
+            },
+            {
+                "index": 52,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "352331",
+                "answer_type": 1
+            },
+            {
+                "index": 53,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "352332",
+                "answer_type": 1
+            },
+            {
+                "index": 54,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "352333",
+                "answer_type": 1
+            },
+            {
+                "index": 55,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "352334",
+                "answer_type": 1
+            },
+            {
+                "index": 56,
+                "question_type": "1",
+                "belong_page": 1,
+                "question_id": "352440",
+                "answer_type": 1
+            },
+            {
+                "index": 57,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "352442",
+                "answer_type": 1
+            },
+            {
+                "index": 58,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "352443",
+                "answer_type": 1
+            },
+            {
+                "index": 59,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "352444",
+                "answer_type": 1
+            },
+            {
+                "index": 60,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "352445",
+                "answer_type": 1
+            },
+            {
+                "index": 61,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "352446",
+                "answer_type": 1
+            },
+            {
+                "index": 62,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "356267",
+                "answer_type": 1
+            },
+            {
+                "index": 63,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "356268",
+                "answer_type": 1
+            },
+            {
+                "index": 64,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "356270",
+                "answer_type": 1
+            },
+            {
+                "index": 65,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "356271",
+                "answer_type": 1
+            },
+            {
+                "index": 66,
+                "question_type": "9",
+                "belong_page": 1,
+                "question_id": "356272",
+                "answer_type": 1
+            }
+        ],
+        "progress": []
+    }
+}

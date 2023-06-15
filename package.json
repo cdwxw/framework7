@@ -26,7 +26,7 @@
     "react:watch": "cross-env-shell NODE_ENV=development CORE_BUILD_ONLY_MODULES=true  \"gulp watch-react\"",
     "react": "npm run react:dev && concurrently --kill-others \"vite kitchen-sink/react\" \"npm run react:watch\"",
     "/*============ Run KS Vue ============*/": "============",
-    "vue:dev": "cross-env-shell NODE_ENV=development CORE_BUILD_ONLY_MODULES=true  \"gulp build-core && gulp build-vue\"",
+    "vue:dev": "cross-env-shell NODE_ENV=development CORE_BUILD_ONLY_MODULES=true  \"gulp build-vue\"",
     "vue:watch": "cross-env-shell NODE_ENV=development CORE_BUILD_ONLY_MODULES=true  \"gulp watch-vue\"",
     "vue": "npm run vue:dev && concurrently --kill-others \"vite kitchen-sink/vue\" \"npm run vue:watch\"",
     "/*============ Run KS Svelte ============*/": "============",

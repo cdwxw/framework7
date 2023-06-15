@@ -1,0 +1,427 @@
+{
+    "msg": "成功",
+    "status": 0,
+    "data": {
+        "data": {
+            "examine": {
+                "examine_id": 8042,
+                "answer_id": "3939994",
+                "title": "2019年11月系统架构设计师模拟题下午题",
+                "len_time": 0,
+                "total_score": "125",
+                "get_score": "0",
+                "total_question": 5,
+                "proposal": "",
+                "proposalList": [
+                    {
+                        "proposal": "",
+                        "comment_time": "0",
+                        "log_id": "8588576"
+                    }
+                ],
+                "platform_id": "2",
+                "submit_limit_num": "0",
+                "version_id": "0",
+                "version_year": "0",
+                "mark_question_ids": []
+            },
+            "question": [
+                {
+                    "every_score": "25",
+                    "rank": "1",
+                    "correlation_time": "0",
+                    "question_id": "177935",
+                    "difficulty_id": "3",
+                    "question_title": "<p>阅读以下关于软件架构评估的说明，回答下列问题。</p><p style=\"margin-top: 5px;text-indent: 28px\">【说明】</p><p>某软件公司拟为某市级公安机关开发一套特种车辆管理与监控系统，以提高特种车辆管理的效率和准确性。在系统需求分析与架构设计阶段，用户提出的部分需求和关键质量属性场景如下：</p><p>&nbsp;&nbsp; &nbsp;(a)系统用户分为管理员、分管领导和普通民警等三类；</p><p>&nbsp;&nbsp; &nbsp;(b)正常负载情况下，系统必须在0.5秒内对用户的车辆查询请求进行响应；</p><p>&nbsp;&nbsp; &nbsp;(c)系统能够抵御99.999%的黑客攻击；</p><p>&nbsp;&nbsp; &nbsp;(d)系统的用户名必须以字母开头，长度不少于5个字符；</p><p>&nbsp;&nbsp; &nbsp;(e)对查询请求处理时间的要求将影响系统的数据传输协议和处理过程的设计；</p><p>&nbsp;&nbsp; &nbsp;(f)网络失效后，系统需要在2分钟内发现并启用备用网络系统；</p><p>&nbsp;&nbsp; &nbsp;(g)在系统升级时，需要保证在1个月内添加一个新的消息处理中间件；</p><p>&nbsp;&nbsp; &nbsp;(h)查询过程中涉及到的车辆实时视频传输必须保证20帧/秒的速率，且画面具有600×480的分辨率；</p><p>&nbsp;&nbsp; &nbsp;(i)更改系统加密的级别将对安全性和性能产生影响；</p><p>&nbsp;&nbsp; &nbsp;(j)系统主站点断电后，需要在3秒内将请求重定向到备用站点；</p><p>&nbsp;&nbsp; &nbsp;(k)假设每秒中用户查询请求的数量是10个，处理请求的时间为30毫秒，则“在1秒内完成用户的查询请求”这一要求是可以实现的；</p><p>&nbsp;&nbsp; &nbsp;(l)对用户信息数据的授权访问必须保证99.999%的安全性；</p><p>&nbsp;&nbsp; &nbsp;(m)目前对“车辆信息实时监控”业务逻辑的描述尚未达成共识，这可能导致部分业务功能模块的重复，影响系统的可修改性；</p><p>&nbsp;&nbsp; &nbsp;(n)更改系统的Web界面接口必须在1周内完成；</p><p>&nbsp;&nbsp; &nbsp;(o)系统需要提供远程调试接口，并支持系统的远程调试。</p><p>&nbsp;&nbsp; &nbsp;在对系统需求和质量属性场景进行分析的基础上，系统的架构师给出了三个候选的架构设计方案。公司目前正在组织系统开发的相关人员对系统架构进行评估。</p><p>【问题1】（12分）</p><p>在架构评估过程中，质量属性效用树(utility tree)是对系统质量属性进行识别和优先级排序的重要工具。请给出合适的质量属性，填入图1中(1)、(2)空白处；并选择题干描述中的(a)～(o)，将恰当的序号填入(3)～(6)空白处，完成该系统的效用树。<br/><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/20191030/1572414442382162.jpg\" title=\"1572414442382162.jpg\" alt=\"2.jpg\"/><br/></p><p>【问题2】（3分）</p><p>在架构评估过程中，需要正确识别系统的架构风险、敏感点和权衡点请从题干描述中的(a)～(o)各选出1个属于系统架构风险、敏感点和权衡点的描述。</p><p>【问题3】（10分）</p><p>该项目的四种质量属性分别用什么设计策略实现？（每种举例2个，只写名词即可）</p><p><br/></p>",
+                    "option": "[]",
+                    "answer": [
+                        "见解析<br/>"
+                    ],
+                    "knowledge": "系统架构设计师",
+                    "analyze": "<p>【问题1】<br/><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/20191030/1572414477104857.jpg\" title=\"1572414477104857.jpg\" alt=\"2.jpg\"/>【问题2】<br/></p><p>(m)描述的是系统架构风险；(e)描述的是敏感点；(i)描述的是权衡点。</p><p>【问题3】<br/><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/20191030/1572414517634155.jpg\" title=\"1572414517634155.jpg\" alt=\"2.jpg\"/></p><p><br/></p>",
+                    "question_type": "5",
+                    "material_text": "",
+                    "answer_type": "5",
+                    "score_rule": "",
+                    "new_parent_id": "177935",
+                    "sort_son": "0",
+                    "creater_name": "试题账号",
+                    "create_time": "1572414562",
+                    "review_status": "1",
+                    "parent_id": "0",
+                    "first_id": "554",
+                    "second_id": "227",
+                    "three_id": "240",
+                    "show_type_name": "问答题",
+                    "examine_id": "8042",
+                    "type": "3",
+                    "title": "2019年11月系统架构设计师模拟题下午题",
+                    "len_time": "0",
+                    "submit_limit_num": "0",
+                    "platform_id": "2",
+                    "radio_score": "0",
+                    "pass_type": "2",
+                    "pass_score": "75",
+                    "passrate": "60",
+                    "checkbox_score": "0",
+                    "judgment_score": "0",
+                    "avg_score": "0",
+                    "max_score": "0",
+                    "exam_num": "29",
+                    "person_num": "55",
+                    "avg_time": "17.1",
+                    "is_right": "0",
+                    "chapter_name": null,
+                    "single_score": 0,
+                    "index": 1,
+                    "belong_page": 1,
+                    "like": 0,
+                    "user_answer": [],
+                    "answer_imgs": [],
+                    "result": 0,
+                    "other_type_name": "qanda",
+                    "show_son": 0
+                },
+                {
+                    "every_score": "25",
+                    "rank": "1",
+                    "correlation_time": "0",
+                    "question_id": "208617",
+                    "difficulty_id": "3",
+                    "question_title": "<p>阅读以下关于分布式系统设计的叙述，回答问题。</p><p>【说明】</p><p>某软件公司拟开发一套电信领域的分布式系统，该系统后台多个功能模块同时运行时的计算负载较大，且需要控制不同的特定电信硬件设备，由于硬件体积和I/O端口冲突等原因，这些设备需要分散安装在多个不同计算机系统中。该系统上线运行后将为企业最终用户提供7×24小时的不间断服务，而用户的单次接入服务往往需要后台多个模块共同协作完成。基于上述原因，该系统后台软件模块需分布在局域网内的多台计算机上。</p><p>项目组决定基于ISO的开放分布进程(ODP)规范来进行系统架构的设计与开发，近期项目组召开了多次会议，对架构设计阶段的关键问题进行了讨论分析。</p><p>【问题1】</p><p>ODP从5个标准的视点组织分析系统的架构，这些视点描述了同一系统的不同重要方面，请根据图中不同视点所关注的核心内容，将备选的架构视点填入图中的(1)～(5)。</p><p><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/20191230/1577701552739961.jpg\" title=\"1577701552739961.jpg\" alt=\"1.jpg\"/></p><p>备选答案：技术选择架构、企业业务架构、分布式工程架构、计算接口架构、逻辑信息架构</p><p><span style=\"font-size: 16px;\">【问题2】</span><br/></p><p>在技术选择架构规划时，王工认为系统应基于现有分布式基础设施(分布式中间件)来构建，因为这样可以充分利用现有基础设施提供的各种支撑，在更短时间内构造出质量更高的分布式系统；而李工则认为可基于基本的进程间通信机制自主开发系统的支撑平台，这样可以避免对特定中间件的依赖，项目组经过认真讨论，最终采用了王工的方案。请用400字以内文字，从构件管理支持、互操作支持以及公共服务支持三个方面说明现有分布式基础设施为构建分布式系统所提供的基本支撑。</p><p><span style=\"font-size: 16px;\">【问题3】</span><br/></p><p>由于系统后台模块的分布式特性，后台分布式对象之间的互操作机制是需要考虑的核心问题之一。下图所示是当前分布式基础设施中支持分布式对象互操作的基本机制，请将相应部件名称填入图中(1)～(2)；基于图给出的结构，用300字以内文字说明完成一次分布式对象调用的详细步骤。<br/><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/20191230/1577701564929005.jpg\" title=\"1577701564929005.jpg\" alt=\"2.jpg\"/></p>",
+                    "option": "[]",
+                    "answer": [
+                        "<p>【问题1】答案：</p><p>(1)企业业务架构</p><p>(2)逻辑信息架构</p><p>(3)计算接口架构</p><p>(4)分布式工程架构</p><p>(5)技术选择架构</p><p><br/></p><p>【问题2】答案：</p><p>(1)构件管理支持：现有分布式基础设施一般通过构件容器为构件提供基本的运行环境；具体功能一般包括管理构件的实例及其生命周期、管理构件的元信息等。</p><p>(2)互操作支持：现有分布式基础设施均提供了高层通信协议以屏蔽节点的物理特性以及各节点在处理器、操作系统、程序设计语言等方面的异构性；基于互操作支持，开发人员在开发与调用分布式对象时，均不需自己编写处理底层通信的代码。</p><p>(3)公共服务支持：现有分布式基础设施通常将针对分布式软件的通用支持集成于一身，以公共服务的形式提供给应用程序；其提供的常见公共服务包括命名服务、事务服务、安全服务、持久性 &nbsp;服务等。&nbsp;</p><p><br/></p><p>【问题3】答案：</p><p>(1)存根/桩 (2)框架</p><p>或(1)代理 (2)存根</p><p>一次远程调用的过程如下：</p><p>①客户程序将调用请求发送给客户端桩，对于客户程序来说，桩就是服务程序在客户端的代理。</p><p>②客户端桩负责将远程调用请求进行编组并发送给通信总线。</p><p>③调用请求经通信总线传送到服务端框架。</p><p>④服务端框架将调用请求解组并分派给真正的远程对象实现(服务程序)。</p><p>⑤服务程序完成客户端的调用请求，将结果返回给服务端框架。</p><p>⑥服务端框架将调用结果编组并发送给通信总线。</p><p>⑦调用结果经通信总线传送到客户端桩。</p><p>⑧客户端桩将调用结果解组并返回给客户程序，客户程序得到调用结果。</p>"
+                    ],
+                    "knowledge": "系统架构设计师",
+                    "analyze": "<p>略</p>",
+                    "question_type": "5",
+                    "material_text": "",
+                    "answer_type": "5",
+                    "score_rule": "",
+                    "new_parent_id": "208617",
+                    "sort_son": "0",
+                    "creater_name": "试题账号",
+                    "create_time": "1577701627",
+                    "review_status": "1",
+                    "parent_id": "0",
+                    "first_id": "554",
+                    "second_id": "227",
+                    "three_id": "240",
+                    "show_type_name": "问答题",
+                    "examine_id": "8042",
+                    "type": "3",
+                    "title": "2019年11月系统架构设计师模拟题下午题",
+                    "len_time": "0",
+                    "submit_limit_num": "0",
+                    "platform_id": "2",
+                    "radio_score": "0",
+                    "pass_type": "2",
+                    "pass_score": "75",
+                    "passrate": "60",
+                    "checkbox_score": "0",
+                    "judgment_score": "0",
+                    "avg_score": "0",
+                    "max_score": "0",
+                    "exam_num": "29",
+                    "person_num": "55",
+                    "avg_time": "17.1",
+                    "is_right": "0",
+                    "chapter_name": [
+                        "案例分析"
+                    ],
+                    "single_score": 0,
+                    "index": 2,
+                    "belong_page": 1,
+                    "like": 0,
+                    "user_answer": [],
+                    "answer_imgs": [],
+                    "result": 0,
+                    "other_type_name": "qanda",
+                    "show_son": 0
+                },
+                {
+                    "every_score": "25",
+                    "rank": "1",
+                    "correlation_time": "0",
+                    "question_id": "177937",
+                    "difficulty_id": "3",
+                    "question_title": "<p>阅读以下关于某嵌入式实时系统的软件需求的叙述，回答问题1至问题3。某公司承担了一项嵌入式实时控制系统的软件开发任务，其内容是按系统要求的固定的时间序列采集、处理、输出数据，以实现对多个设备的综合控制。</p><p>系统由硬件和软件组成，硬件由处理机（采用PowerPC603e，主频133MHz）、存储器、定时器、中断控制器、双口存储器（空间大小1024KB）、4路422半双工串口接口（其中两路的频率115200Hz，另两路频率38400Hz）、两路A/D、D/A数模转换器和10路离散量接口组成。系统的软件需求如下（注：B：字节；s：秒；ms：毫秒）：</p><p>（1）系统要求以5ms为周期从双口存储器中采集1024KB的输入数据，处理任务的时间约为1ms；（称为5ms任务）（2）系统要求以20ms为周期从两路422接口（115200Hz）中采集一定格式的大小为64B的数据，在完成处理（处理时间约为4ms）任务后，分别输出大小为16B的控制命令；（称为20ms任务）</p><p>（3）系统要求以60ms为周期从两路422接口（38400Hz）中采集一定数据格式的大小为6B数据，从两路A/D接口采集28位数据，在完成处理（处理时间约为2ms）任务后，分别输出大小为2B的控制命令和一个28位D/A数据，输出8路离散量控制数据；（称为60ms任务）4）作为系统的安全监控保障，系统要求在每1s内对系统软硬件状态进行测试并完成系统工作的状态记录工作。该任务共需处理时间是5ms。（称为1s任务）</p><p>本公司课题组根据用户的硬件环境及软件的需求，就软件的实施方案展开了激烈的讨论，讨论的首要问题就是本系统中软件的运行平台是采用嵌入式实时操作系统还是在裸机上直接开发的方式，李工程师（简称李工）提出了为了保证系统的实时性，应该采用裸机上直接开发的方式，关键部分采用汇编语言编写，而王工程师（简称王工）提出，由于系统将由多种周期的处理任务组成，为了保证系统的可靠性，应该采用商用嵌入式实时操作系统作为本项目的开发基础，经过充分论证，最后李工接受了王工的建议，并申报课题组组长，课题组长同意采用了操作系统的方案，并指出必须尽快对需求的时间性能做出评估。</p><p>［问题1］（10分）</p><p>请用450字以内文字简要说明王工提出的采用嵌入式实时操作系统的理由或优点，并说明选择操作系统产品时需要重点考虑其哪些功能与性能？</p><p>［问题2］（10分）</p><p>李工和王工通过认真地对需求进行了分析，给出了时间性能评估报告，判定在上述硬件平台上可以满足系统要求。请用300字以内文字简要说明嵌入式实时操作系统中时间性能评估中主要考虑哪几项因素；针对本课题的具体数据，叙述系统的工作时序关系。</p><p>［问题3］（5分）</p><p>根据系统需求，请设计出系统的处理流程（按时序），说明所有任务的优先级分配策略，422接口、双口存储器、离散量接口和A/D（D/A）的数据输入／输出方法（中断或查询驱动）及理由。请用350字以内文字简要说明。</p>",
+                    "option": "[]",
+                    "answer": [
+                        "见解析"
+                    ],
+                    "knowledge": "系统架构设计师",
+                    "analyze": "<p>【问题1】</p><p>采用嵌入式实时操作系统的主要理由及优点:</p><p>操作系统提供的任务调度功能,可以有效地管理本系统多周期任务的调度,并且操作系统提供的事件、信号和间的通信机制,可以有效地解决本系统中资源共享中的互斥问题。</p><p>采用商品化的软件,可提高所开发软件的可靠性,还可简化软件开发成本,提高开发效率。</p><p>选择嵌入式实时操作系统,主要考虑操作系统以下功能和性能:</p><p>（1）任务的上下文切换时间越短越好、中断响应时间越快越好、内核代码占用空间比较小。</p><p>（2)操作系统提供的服务接口应较丰富,有利于灵活使用（接口的开放性）。</p><p>(3）操作系统对可靠性有较强的保障支持能力。</p><p>（4）使用简单,支撑环境配套好,可配置、可剪裁能力强。</p><p>【问题2】</p><p>嵌入式实时系统中时间性能评估主要考虑以下几个因素:</p><p>(1)系统（操作系统）时间开销,一般不大于整个控制系统运行时间总开销的20%。</p><p>(2)保证所有任务在规定的时间期限内完成（或进行可调度性评估）。</p><p>(3)任务的上下文切换时间和中断响应时间。</p><p>针对本题的具体数据,系统的工作时序关系应该是:</p><p>系统的最小时间节拍定义为5ms,系统最大工作周期为1s,在每个5ms起点,5ms任务首先运行,占1ms时间,完成后转入处理被终止的任务;如果这个时刻时间到达20ms的起点,则启动20ms任务运行,以此类推,确保在1s周期内所有任务按规定的时间序列执行。</p><p>【问题3]</p><p>优先级策略:小周期优先策略。</p><p>数据输入输出处理方式:422接口适合采用中断方式,主要因为处理机速度远远比数据传输速度快,在采集时不易消耗太多的时间,而查询方式由于存在等待数据时间,消耗处理机时间较大。双口存储器和离散量接口由于是直接访问存储器,采用查询较合适。AD、D/A存在数据的转换时间,应在等待时交出处理机时间（定时查询）。</p>",
+                    "question_type": "5",
+                    "material_text": "",
+                    "answer_type": "5",
+                    "score_rule": "",
+                    "new_parent_id": "177937",
+                    "sort_son": "0",
+                    "creater_name": "试题账号",
+                    "create_time": "1572414811",
+                    "review_status": "1",
+                    "parent_id": "0",
+                    "first_id": "554",
+                    "second_id": "227",
+                    "three_id": "240",
+                    "show_type_name": "问答题",
+                    "examine_id": "8042",
+                    "type": "3",
+                    "title": "2019年11月系统架构设计师模拟题下午题",
+                    "len_time": "0",
+                    "submit_limit_num": "0",
+                    "platform_id": "2",
+                    "radio_score": "0",
+                    "pass_type": "2",
+                    "pass_score": "75",
+                    "passrate": "60",
+                    "checkbox_score": "0",
+                    "judgment_score": "0",
+                    "avg_score": "0",
+                    "max_score": "0",
+                    "exam_num": "29",
+                    "person_num": "55",
+                    "avg_time": "17.1",
+                    "is_right": "0",
+                    "chapter_name": null,
+                    "single_score": 0,
+                    "index": 3,
+                    "belong_page": 1,
+                    "like": 0,
+                    "user_answer": [],
+                    "answer_imgs": [],
+                    "result": 0,
+                    "other_type_name": "qanda",
+                    "show_son": 0
+                },
+                {
+                    "every_score": "25",
+                    "rank": "1",
+                    "correlation_time": "0",
+                    "question_id": "177938",
+                    "difficulty_id": "3",
+                    "question_title": "<p>请详细阅读有关数据库方面的描述，回答问题。</p><p style=\"margin-top: 5px;text-indent: 28px\">【说明】</p><p>某软件公司欲开发一个基于Web 2.0的大型社交网络系统。就该系统的数据架构而言，李工决定采用公司熟悉的数据架构，使用通用的商用关系型数据库，系统内部数据采用中央集中方式存储。</p><p>该系统投入使用后，初期用户数量少，系统运行平稳。6个月后，用户数出现了爆炸式增长，系统暴露出诸多问题，集中表现在：</p><p>1.用户执行读写操作时，响应时间均变得很慢；</p><p>2.随着系统功能的扩充，原有数据格式发生变化，又出现新的数据格式，维护困难；</p><p>3.数据容量很快超过系统原有的设计上限，数据库扩容困难；</p><p>4.软件系统不断出现宕机，整个系统可用性较差。</p><p>经过多次会议讨论，公司的邹月平邹工建议采用NoSQL数据库来替代关系数据库，以解决上述问题。但薛大龙薛工指出NoSQL数据库出现时间不长，在使用上可能存在风险。公司技术人员对NoSQL数据库产品进行了认真测试，最终决定采用NoSQL数据库来替代现有的数据库系统。</p><p>【问题1】10分</p><p>请比较关系数据库与 NoSQL 数据的特点，如表 4-1 所示，以此来说明该系统更适合采用 NoSQL 数据库。请完成表 4-1 中的（1） ~ （5） 处空白。</p><p>表 4-1 关系数据库与 NoSQL 数据库特征比较<br/><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/20191030/1572414843713819.jpg\" title=\"1572414843713819.jpg\" alt=\"2.jpg\"/></p><p>【问题2】15分</p><p>公司最终决定采用邹工的方案，同时配合分布式缓存技术减轻数据库服务器压力，目前有Memcache和Redis两种方案，请从数据类型、持久化和分布式存储三个方面比较两种技术的区别。</p><p><br/></p>",
+                    "option": "[]",
+                    "answer": [
+                        "<p>见解析</p>"
+                    ],
+                    "knowledge": "系统架构设计师",
+                    "analyze": "<p>【问题1】<br/></p><p>（1）弱一致性（2）结构化数据（3）高（强）事务性（4）强（5）有限数据</p><p>【问题2】<br/></p><p>在数据类型方面：Memcache支持简单Key/Value类型，而Redis不仅仅支持简单的k/v类型的数据，同时还提供list，set，hash等数据结构的存储。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在持久化方面：Memcache不支持数据持久化，Redis支持支持数据持久化。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在分布式存储方面：Memcache服务器需要通过hash一致化来支撑主从结构，而Redis支持多种方式，主从、sentinel、cluster等。</p>",
+                    "question_type": "5",
+                    "material_text": "",
+                    "answer_type": "5",
+                    "score_rule": "",
+                    "new_parent_id": "177938",
+                    "sort_son": "0",
+                    "creater_name": "试题账号",
+                    "create_time": "1572414909",
+                    "review_status": "1",
+                    "parent_id": "0",
+                    "first_id": "554",
+                    "second_id": "227",
+                    "three_id": "240",
+                    "show_type_name": "问答题",
+                    "examine_id": "8042",
+                    "type": "3",
+                    "title": "2019年11月系统架构设计师模拟题下午题",
+                    "len_time": "0",
+                    "submit_limit_num": "0",
+                    "platform_id": "2",
+                    "radio_score": "0",
+                    "pass_type": "2",
+                    "pass_score": "75",
+                    "passrate": "60",
+                    "checkbox_score": "0",
+                    "judgment_score": "0",
+                    "avg_score": "0",
+                    "max_score": "0",
+                    "exam_num": "29",
+                    "person_num": "55",
+                    "avg_time": "17.1",
+                    "is_right": "0",
+                    "chapter_name": null,
+                    "single_score": 0,
+                    "index": 4,
+                    "belong_page": 1,
+                    "like": 0,
+                    "user_answer": [],
+                    "answer_imgs": [],
+                    "result": 0,
+                    "other_type_name": "qanda",
+                    "show_son": 0
+                },
+                {
+                    "every_score": "25",
+                    "rank": "1",
+                    "correlation_time": "0",
+                    "question_id": "177939",
+                    "difficulty_id": "3",
+                    "question_title": "<p>阅读以下关于 Web 应用设计开发的描述，在答题纸上回答问题 1 至问题 3。</p><p>某公司拟开发一个网络约车调度服务平台，实现基于互联网的出租车预约与管理。公司的系统分析师王工首先进行了需求分析，得到的系统需求列举如下：</p><p>系统的参与者包括乘客、出租车司机和平台管理员三类；</p><p>系统能够实现对乘客和出租车司机的信息注册与身份认证等功能，并对乘客的信用信息进行管理，对出租车司机的违章情况进行审核；</p><p>系统需要与后端的银行支付系统对接，完成支付信息审核、支付信息更新与在线支付等功能；</p><p>针对乘客发起的每一笔订单，系统需要实现订单发起、提交、跟踪、撤销、支付、完成等业务过程的处理：</p><p>系统需要以短信、微信和电子邮件多种方式分别为系统中的用户进行事件提醒。</p><p>【问题1】（9分）</p><p>请说明微服务架构的优点和缺点。</p><p>【问题2】（8分）</p><p>识别并设计微服务是系统开发过程中的一个重要步骤，请对题干需求进行分析，对微服务的种类和包含的业务功能进行归类，完成表1-1中的（1）～（4）。</p><p>表1-1 &nbsp;微服务名称及所包含业务功能</p><img style=\"max-width:100%;height:auto\"  src=\"https://s2.51cto.com/images/20191030/1572415003339811.jpg\" title=\"1572415003339811.jpg\" alt=\"2.jpg\"/><p>【问题3】（8分）答对4条即可</p><p>应用网关是实现微服务的主要技术之一，请简述应用网关的作用。</p>",
+                    "option": "[]",
+                    "answer": [
+                        "见解析<br/>"
+                    ],
+                    "knowledge": "系统架构设计师",
+                    "analyze": "【问题1】<br/><p>微服务优点：<br/>（1）每个微服务都很小，这样能聚焦一个指定的业务功能或业务需求。&nbsp;<br/>（2）微服务能够被小团队单独开发，这个小团队是2到5人的开发人员组成。&nbsp;<br/>（3）微服务是松耦合的，是有功能意义的服务，无论是在开发阶段或部署阶段都是独立的。&nbsp;<br/>（4）微服务能使用不同的语言开发。&nbsp;<br/>（5）去中心化。每个微服务都有自己的存储能力，可以有自己的数据库。也可以有统一数据库。&nbsp;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;微服务缺点：<br/>（1）很难在不采用分布式事务的情况下跨服务实现功能<br/>（2）测试工作更加困难<br/>（3）跨服务实现要求功能要求团队之间的紧密协作<br/>（4）部署复杂</p>【问题2】<br/><p>（1）支付信息审核（2）支付信息更新（3）在线支付（4）订单管理</p>【问题3】<br/><p>1、提供统一入口</p><p>2、可以进行权限身份认证等安全管理</p><p>3、可以根据流量进行限流</p><p>4、数据缓存</p><p>5、性能监控等</p><p>6、异常重试</p><p>7、服务降级</p>",
+                    "question_type": "5",
+                    "material_text": "",
+                    "answer_type": "5",
+                    "score_rule": "",
+                    "new_parent_id": "177939",
+                    "sort_son": "0",
+                    "creater_name": "试题账号",
+                    "create_time": "1572415007",
+                    "review_status": "1",
+                    "parent_id": "0",
+                    "first_id": "554",
+                    "second_id": "227",
+                    "three_id": "240",
+                    "show_type_name": "问答题",
+                    "examine_id": "8042",
+                    "type": "3",
+                    "title": "2019年11月系统架构设计师模拟题下午题",
+                    "len_time": "0",
+                    "submit_limit_num": "0",
+                    "platform_id": "2",
+                    "radio_score": "0",
+                    "pass_type": "2",
+                    "pass_score": "75",
+                    "passrate": "60",
+                    "checkbox_score": "0",
+                    "judgment_score": "0",
+                    "avg_score": "0",
+                    "max_score": "0",
+                    "exam_num": "29",
+                    "person_num": "55",
+                    "avg_time": "17.1",
+                    "is_right": "0",
+                    "chapter_name": null,
+                    "single_score": 0,
+                    "index": 5,
+                    "belong_page": 1,
+                    "like": 0,
+                    "user_answer": [],
+                    "answer_imgs": [],
+                    "result": 0,
+                    "other_type_name": "qanda",
+                    "show_son": 0
+                }
+            ],
+            "summary": {
+                "radio": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        1,
+                        9,
+                        11
+                    ]
+                },
+                "multiple": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        2,
+                        12
+                    ]
+                },
+                "budingxiang": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        7
+                    ]
+                },
+                "judge": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        3,
+                        13
+                    ]
+                },
+                "cloze": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        8
+                    ]
+                },
+                "fill": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        4
+                    ]
+                },
+                "qanda": {
+                    "total_question": 5,
+                    "total_score": 125,
+                    "question_types": [
+                        5,
+                        14
+                    ]
+                },
+                "program": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        6
+                    ]
+                },
+                "material": {
+                    "total_question": 0,
+                    "total_score": 0,
+                    "question_types": [
+                        10
+                    ]
+                }
+            }
+        },
+        "pagination": {
+            "curPage": 1,
+            "pageSize": 250,
+            "total": 5,
+            "hasNextPage": false
+        },
+        "totalOrder": [
+            {
+                "index": 1,
+                "belong_page": 1,
+                "is_right": "0",
+                "user_answer": [],
+                "result": 0
+            },
+            {
+                "index": 2,
+                "belong_page": 1,
+                "is_right": "0",
+                "user_answer": [],
+                "result": 0
+            },
+            {
+                "index": 3,
+                "belong_page": 1,
+                "is_right": "0",
+                "user_answer": [],
+                "result": 0
+            },
+            {
+                "index": 4,
+                "belong_page": 1,
+                "is_right": "0",
+                "user_answer": [],
+                "result": 0
+            },
+            {
+                "index": 5,
+                "belong_page": 1,
+                "is_right": "0",
+                "user_answer": [],
+                "result": 0
+            }
+        ]
+    }
+}
