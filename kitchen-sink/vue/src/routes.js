@@ -24,6 +24,11 @@ import Sad_1791 from './pages/1791.vue';
 import Sad_202201 from './pages/202201.vue';
 import Sad_202202 from './pages/202202.vue';
 import Sad_202203 from './pages/202203.vue';
+import Sad_202101 from './pages/202101.vue';
+import Sad_202102 from './pages/202102.vue';
+import Sad_202103 from './pages/202103.vue';
+import Sad_202001 from './pages/202001.vue';
+import Sad_202002 from './pages/202002.vue';
 import Accordion from './pages/accordion.vue';
 import ActionSheet from './pages/action-sheet.vue';
 import Appbar from './pages/appbar.vue';
@@ -300,6 +305,26 @@ export default [
   {
     path: '/202203/',
     component: Sad_202203,
+  },
+  {
+    path: '/202101/',
+    component: Sad_202101,
+  },
+  {
+    path: '/202102/',
+    component: Sad_202102,
+  },
+  {
+    path: '/202103/',
+    component: Sad_202103,
+  },
+  {
+    path: '/202001/',
+    component: Sad_202001,
+  },
+  {
+    path: '/202002/',
+    component: Sad_202002,
   },
   {
     path: '/accordion/',

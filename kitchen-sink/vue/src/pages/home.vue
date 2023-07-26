@@ -195,6 +195,31 @@
                 <f7-icon f7="doc_on_clipboard_fill" color="blue"></f7-icon>
               </template>
             </f7-list-item>
+            <f7-list-item reload-detail link="/202101/" title="2021年11月 系统架构设计师上午题">
+              <template #media>
+                <f7-icon f7="doc_on_clipboard_fill" color="blue"></f7-icon>
+              </template>
+            </f7-list-item>
+            <f7-list-item reload-detail link="/202102/" title="2021年11月 系统架构设计师下午题">
+              <template #media>
+                <f7-icon f7="doc_on_clipboard_fill" color="blue"></f7-icon>
+              </template>
+            </f7-list-item>
+            <f7-list-item reload-detail link="/202103/" title="2021年11月 系统架构设计师论文题">
+              <template #media>
+                <f7-icon f7="doc_on_clipboard_fill" color="blue"></f7-icon>
+              </template>
+            </f7-list-item>
+            <f7-list-item reload-detail link="/202001/" title="2020系统架构设计师拟真试卷上午（限时解析）">
+              <template #media>
+                <f7-icon f7="doc_on_clipboard_fill" color="blue"></f7-icon>
+              </template>
+            </f7-list-item>
+            <f7-list-item reload-detail link="/202002/" title="2020系统架构设计师拟真试卷下午（限时解析）">
+              <template #media>
+                <f7-icon f7="doc_on_clipboard_fill" color="blue"></f7-icon>
+              </template>
+            </f7-list-item>
           </f7-list>
         </f7-accordion-content>
       </f7-list-item>
