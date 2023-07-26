@@ -55,8 +55,7 @@
             </div>
           </f7-card-content>
           <f7-card-footer>
-            <f7-link @click="showAnswer(item.answer.join(''))">答案</f7-link>
-            <f7-link @click="showAnalyze(item.analyze)">解析</f7-link>
+            <f7-link @click="showAnalyze(item.answer.join(''), item.analyze)">解析</f7-link>
           </f7-card-footer>
         </f7-card>
       </f7-list-item>
@@ -80,6 +79,7 @@ import {
   f7Chip,
   theme,
 } from 'framework7-vue';
+import $ from 'dom7';
 
 export default {
   components: {
@@ -103,25 +103,32 @@ export default {
     };
   },
   methods: {
-    showAnswer(text) {
+    showAnalyze(answer, analyze) {
       const self = this;
-      self.notificationWithButton = f7.notification.create({
-        icon: '<i class="icon icon-f7"></i>',
-        title: '答案',
-        text: self.replaceOption(text),
-        closeButton: true,
+      // Create sheet modal
+      self.sheet = f7.sheet.create({
+        content: `
+            <div class="sheet-modal sheet-modal-bottom" style="height:300px;">
+              <div class="toolbar">
+                <div class="toolbar-inner justify-content-flex-end">
+                  <a href="#" class="link sheet-close">Close</a>
+                </div>
+              </div>
+              <div class="sheet-modal-inner">
+                <div class="page-content">
+                  <div class="block">
+                    <p><b>【答案】</b></p>${self.replaceOption(answer)}
+                    <p><b>【解析】</b></p>${self.replaceOption(analyze)}
+                  </div>
+                </div>
+              </div>
+            </div>
+          `.trim(),
       });
-      self.notificationWithButton.open();
-    },
-    showAnalyze(text) {
-      const self = this;
-      self.notificationWithButton = f7.notification.create({
-        icon: '<i class="icon icon-f7"></i>',
-        title: '解析',
-        text: self.replaceOption(text),
-        closeButton: true,
-      });
-      self.notificationWithButton.open();
+      // Close inline sheet
+      if ($('.modal-in').length > 0) f7.sheet.close('.modal-in');
+      // Open it
+      self.sheet.open();
     },
     replaceTitle(item, index) {
       let chip;
@@ -169,12 +176,13 @@ export default {
       });
     },
     onPageBeforeOut() {
-      f7.notification.close();
+      // Close opened sheets on page out
+      f7.sheet.close();
     },
     onPageBeforeRemove() {
       const self = this;
-      // Destroy toasts when page removed
-      if (self.notificationWithButton) self.notificationWithButton.destroy();
+      // Destroy sheet modal when page removed
+      if (self.sheet) self.sheet.destroy();
     },
   },
 };
