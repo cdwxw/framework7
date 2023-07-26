@@ -123,6 +123,26 @@
                 <f7-icon f7="doc_on_clipboard_fill" color="blue"></f7-icon>
               </template>
             </f7-list-item>
+            <f7-list-item reload-detail link="/4497/" title="4497_专业英语">
+              <template #media>
+                <f7-icon f7="doc_on_clipboard_fill" color="blue"></f7-icon>
+              </template>
+            </f7-list-item>
+            <f7-list-item reload-detail link="/8350/" title="8350_法律法规">
+              <template #media>
+                <f7-icon f7="doc_on_clipboard_fill" color="blue"></f7-icon>
+              </template>
+            </f7-list-item>
+            <f7-list-item reload-detail link="/8366/" title="8366_嵌入式系统分析与设计">
+              <template #media>
+                <f7-icon f7="doc_on_clipboard_fill" color="blue"></f7-icon>
+              </template>
+            </f7-list-item>
+            <f7-list-item reload-detail link="/8555/" title="8555_新技术">
+              <template #media>
+                <f7-icon f7="doc_on_clipboard_fill" color="blue"></f7-icon>
+              </template>
+            </f7-list-item>
           </f7-list>
         </f7-accordion-content>
       </f7-list-item>
@@ -147,6 +167,30 @@
         <f7-accordion-content>
           <f7-list>
             <f7-list-item reload-detail link="/1791/" title="1791_论文">
+              <template #media>
+                <f7-icon f7="doc_on_clipboard_fill" color="blue"></f7-icon>
+              </template>
+            </f7-list-item>
+          </f7-list>
+        </f7-accordion-content>
+      </f7-list-item>
+      <f7-list-item accordion-item title="真题">
+        <template #media>
+          <f7-icon f7="folder_fill_badge_plus" color="blue"></f7-icon>
+        </template>
+        <f7-accordion-content>
+          <f7-list>
+            <f7-list-item reload-detail link="/202201/" title="2022年11月 系统架构设计师上午题">
+              <template #media>
+                <f7-icon f7="doc_on_clipboard_fill" color="blue"></f7-icon>
+              </template>
+            </f7-list-item>
+            <f7-list-item reload-detail link="/202202/" title="2022年11月 系统架构设计师下午题">
+              <template #media>
+                <f7-icon f7="doc_on_clipboard_fill" color="blue"></f7-icon>
+              </template>
+            </f7-list-item>
+            <f7-list-item reload-detail link="/202203/" title="2022年11月 系统架构设计师论文题">
               <template #media>
                 <f7-icon f7="doc_on_clipboard_fill" color="blue"></f7-icon>
               </template>

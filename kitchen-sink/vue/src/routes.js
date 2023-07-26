@@ -15,8 +15,15 @@ import Sad_1044 from './pages/1044.vue';
 import Sad_1045 from './pages/1045.vue';
 import Sad_1046 from './pages/1046.vue';
 import Sad_1047 from './pages/1047.vue';
+import Sad_4497 from './pages/4497.vue';
+import Sad_8350 from './pages/8350.vue';
+import Sad_8366 from './pages/8366.vue';
+import Sad_8555 from './pages/8555.vue';
 import Sad_1669 from './pages/1669.vue';
 import Sad_1791 from './pages/1791.vue';
+import Sad_202201 from './pages/202201.vue';
+import Sad_202202 from './pages/202202.vue';
+import Sad_202203 from './pages/202203.vue';
 import Accordion from './pages/accordion.vue';
 import ActionSheet from './pages/action-sheet.vue';
 import Appbar from './pages/appbar.vue';
@@ -259,12 +266,40 @@ export default [
     component: Sad_1047,
   },
   {
+    path: '/4497/',
+    component: Sad_4497,
+  },
+  {
+    path: '/8350/',
+    component: Sad_8350,
+  },
+  {
+    path: '/8366/',
+    component: Sad_8366,
+  },
+  {
+    path: '/8555/',
+    component: Sad_8555,
+  },
+  {
     path: '/1669/',
     component: Sad_1669,
   },
   {
     path: '/1791/',
     component: Sad_1791,
+  },
+  {
+    path: '/202201/',
+    component: Sad_202201,
+  },
+  {
+    path: '/202202/',
+    component: Sad_202202,
+  },
+  {
+    path: '/202203/',
+    component: Sad_202203,
   },
   {
     path: '/accordion/',
