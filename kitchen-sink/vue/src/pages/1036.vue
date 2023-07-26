@@ -105,23 +105,23 @@ export default {
   methods: {
     showAnswer(text) {
       const self = this;
-      self.notificationCloseOnClick = f7.notification.create({
+      self.notificationWithButton = f7.notification.create({
         icon: '<i class="icon icon-f7"></i>',
         title: '答案',
         text: self.replaceOption(text),
-        closeOnClick: true,
+        closeButton: true,
       });
-      self.notificationCloseOnClick.open();
+      self.notificationWithButton.open();
     },
     showAnalyze(text) {
       const self = this;
-      self.notificationCloseOnClick = f7.notification.create({
+      self.notificationWithButton = f7.notification.create({
         icon: '<i class="icon icon-f7"></i>',
         title: '解析',
         text: self.replaceOption(text),
-        closeOnClick: true,
+        closeButton: true,
       });
-      self.notificationCloseOnClick.open();
+      self.notificationWithButton.open();
     },
     replaceTitle(item, index) {
       let chip;
@@ -174,7 +174,7 @@ export default {
     onPageBeforeRemove() {
       const self = this;
       // Destroy toasts when page removed
-      if (self.notificationCloseOnClick) self.notificationCloseOnClick.destroy();
+      if (self.notificationWithButton) self.notificationWithButton.destroy();
     },
   },
 };
